@@ -1,0 +1,1 @@
+- Hayar la forma de referenciar los capitulos a un archivo exterior y no en el mismo .tex

@@ -1,5 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1421158454 "medieninformatik-arbeit.tex" "medieninformatik-arbeit.pdf" "medieninformatik-arbeit" 1421158455
+["bibtex medieninformatik-arbeit"] 1422281904 "medieninformatik-arbeit.aux" "medieninformatik-arbeit.bbl" "medieninformatik-arbeit" 1422281906
+  "/usr/local/texlive/2014/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
+  "intro.aux" 1422281905 710 6e62fe15e1fe9e8a89e4778c273dc02b ""
+  "ma-thesis.bib" 1422279704 875 9b31eb637522dfa2bf02af51f13e87e5 ""
+  "medieninformatik-arbeit.aux" 1422281905 2668 ab8147d83e5ea87b94c14bd4c311e93c ""
+  "medieninformatik-arbeit.bcf" 0 -1 0 ""
+  (generated)
+  "medieninformatik-arbeit.bbl"
+  "medieninformatik-arbeit.blg"
+["pdflatex"] 1422281904 "medieninformatik-arbeit.tex" "medieninformatik-arbeit.pdf" "medieninformatik-arbeit" 1422281906
   "/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf" 1367878877 6963 2e0cb3d93aa64508bdb0db58ae900d97 ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/babel-german/ngerman.ldf" 1387148483 2191 7a0dfd37af0c5803abe716556a97f948 ""
@@ -48,13 +57,17 @@
   "/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd" 1137110629 329 aee7226812ba4138ac67a018466b488d ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd" 1137110629 774 61d7da1e9f9e74989b196d147e623736 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "medieninformatik-arbeit.aux" 1421158455 2638 93b7ab2c3bd95558ed52e134b9dfd332 ""
-  "medieninformatik-arbeit.out" 1421158455 517 9d831fac1cdbe292fd4de8aca5e3449d ""
-  "medieninformatik-arbeit.tex" 1421158451 7714 de91d1998c0e2ded4d715b6020688827 ""
-  "medieninformatik-arbeit.toc" 1421158455 802 9f2ddeed1295e1cbdfc69402bdae0044 ""
+  "intro.aux" 1422281905 710 6e62fe15e1fe9e8a89e4778c273dc02b ""
+  "intro.tex" 1422281900 80 d709795c949734e3d23af98371196890 ""
+  "medieninformatik-arbeit.aux" 1422281905 2668 ab8147d83e5ea87b94c14bd4c311e93c ""
+  "medieninformatik-arbeit.bbl" 1422281904 370 196b5ed946574e4b16f5f65e1f87c44a "bibtex medieninformatik-arbeit"
+  "medieninformatik-arbeit.out" 1422281905 562 148e96f5e84a0bb74d83c8ac64d0f5a9 ""
+  "medieninformatik-arbeit.tex" 1422281855 7263 f74683f55e1c8ecdf6ad393c27339bab ""
+  "medieninformatik-arbeit.toc" 1422281905 868 2e13405085d2e8c1d7dbf0505766303d ""
   (generated)
   "medieninformatik-arbeit.pdf"
-  "medieninformatik-arbeit.out"
   "medieninformatik-arbeit.toc"
-  "medieninformatik-arbeit.log"
   "medieninformatik-arbeit.aux"
+  "medieninformatik-arbeit.log"
+  "intro.aux"
+  "medieninformatik-arbeit.out"

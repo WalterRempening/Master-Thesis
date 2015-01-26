@@ -3,10 +3,11 @@
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \contentsline {section}{\numberline {2}Hauptteil}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Medien}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Informatik}{3}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Medieninformatik}{3}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Was Sie schon immer wissen wollten, aber nie zu fragen wagten}{3}{subsubsection.2.3.1}
-\contentsline {paragraph}{\"Uberschrift}{3}{section*.5}
-\contentsline {subsubsection}{\numberline {2.3.2}Was Sie nicht wissen wollten}{3}{subsubsection.2.3.2}
-\contentsline {section}{\numberline {3}Zusammenfassung}{5}{section.3}
+\contentsline {section}{\numberline {3}Inspiration}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Medien}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Informatik}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Medieninformatik}{5}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Was Sie schon immer wissen wollten, aber nie zu fragen wagten}{5}{subsubsection.3.3.1}
+\contentsline {paragraph}{\"Uberschrift}{5}{section*.5}
+\contentsline {subsubsection}{\numberline {3.3.2}Was Sie nicht wissen wollten}{5}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Zusammenfassung}{7}{section.4}

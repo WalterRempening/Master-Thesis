@@ -9,7 +9,7 @@
 \usepackage[ngerman,english]{babel} % deutsche Trennregeln, "Inhaltsverzeichnis" etc.
 %\usepackage{ngerman} % Alternative zum Babel-Paket oben
 \usepackage{mathptmx} % Times-Roman-Schrift (auch für mathematische Formeln)
-
+%\usepackage{natbib} % Cross references
 % Zum Setzen von URLs
 \usepackage{color}
 \definecolor{darkred}{rgb}{.25,0,0}
@@ -161,9 +161,11 @@ Oh Mann, noch \emph{so} viele Seiten zu füllen...\\
   \label{fig:beispielbild}
 \end{figure}
 
+\include{intro}
+
 
 Siehe Abbildung \ref{fig:beispielbild} oder einschlägige Literatur, z.B.
-\cite[Seite 6]{Ivory01} oder \cite{NielsenAlertbox}.
+\cite{ahu61} oder \cite{ab94}
 
 \bigskip % Größerer Abstand zum vorherigen Absatz
 \textbf{Hinweis:} Die Verweise im generierten PDF (HTTP-Links, Verweise auf Kapitel oder Bilder) sind leicht eingefärbt. Wer das nicht will, z.B. weil es die Druckkosten erhöht, kann am Anfang des Dokuments \texttt{linkcolor} usw. auf ``black'' setzen.
@@ -222,24 +224,8 @@ Text text textextext\footnote{Oder so ähnlich}.
 %______________________________________________________________________
 
 \cleardoublepage
-\begin{thebibliography}{99}
 
-\bibitem{Ivory01}
-
-  M.\ Y.\ Ivory, M.\ Hearts:
-  \href{http://www.ischool.washington.edu/myivory/thesis/thesis.pdf}{%
-    An Empirical Foundation for Automated Web Interface Evaluation}.
-  Ph.D. thesis, University of California at Berkeley, 2001
-
-
-\cleardoublepage
-\hspace{-\leftmargin}{\Large\bfseries Web-Referenzen} % Wüster Hack %-|
-
-\bibitem{NielsenAlertbox}
-
-  J.\ Nielsen: Alertbox: Current Issues in Web Usability
-  \url{http://useit.com/alertbox/}, accessed April~24, 2005.
-
-\end{thebibliography}
+\bibliographystyle{abbrv}
+\bibliography{ma-thesis}
 
 \end{document}
