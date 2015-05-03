@@ -1,1 +1,107 @@
-- Hayar la forma de referenciar los capitulos a un archivo exterior y no en el mismo .tex
+Survey Questions
+
+
+Demographics:
+	-Age
+	-Gender
+
+
+========================= Configurators =================================
+
+Describe the type of experience you have with 3D modeling software
+	-None
+	-Low
+	-Intermediate
+	-Advanced
+	-Pro
+
+Have you used a web configurator in an e-shop?
+	-Yes
+	-No
+
+If yes, did you find customizing your product added more value to it?
+	-Yes
+	-No	
+
+How would you describe your experience while using web configurators?
+	-Frustrating (I never really achieve what I intend)
+	-Complicated (The configurators layou is confusing and it takes me a while to get it)
+	-Neutral (It wasn'nt bad but it didn't get me exited)
+	-Interesting (Customizing the product with the configurator helped me understand more the product)
+	-Enjoyable (This thing is awesome I really liked using it and would definetly try it again)
+
+Do you think products that can be customized tend to be expensiver?
+	-Yes
+	-No
+
+
+================== Daily Activity and Activity Trackers ==========================
+
+Are you mindful/aware of your daily activity, i.e. have exercise goals like the recommended 10000 daily steps
+	-I don't have any physical activity goals
+	-I exercise sporadically 
+	-I exercise a few times a week
+	-I exercise daily
+
+Do you use a tracking device?
+	-Yes
+	-No
+
+	If yes, what tracking brand do you use:
+		-Jawbone
+		-Withings
+		-Fitbit
+		-Polar
+		-Nike Fuel
+		-Other
+
+	Has the tracking device influenced your activity
+		-Yes
+		-Slightly
+		-No
+
+	If no, Have you considered using a tracking device
+		-Yes
+		-No
+
+
+====================== Sculptures ================================ 
+
+
+Which style did you find the most attractive?
+	-Normal (low-poly)
+	-Interpolated
+	-Wire-frame
+	-Wire-frame + Interpolated
+
+The sculpture was aesthetically appealing 
+	-range 1 - 5
+
+I felt attached to the sculpture in some way
+	-range 1 - 5
+
+It was interesting to see my activity data visualized in a sculpture
+	-range 1 - 5	
+
+I would use it regularly to visualize my data
+	-range 1 - 5
+
+I would 3D print a sculpture and put it in a visible place for everyone in my house	
+	-range 1 - 5
+
+I would ware my sculpture if it could be adapted to earrings, necklaces, rings, smart-phone cases, key chains, 
+	-range 1 - 5
+
+
+====================== Configurator ===================================
+
+(All range questions)
+I found it helpful to see a summary of all my activity in the dashboard 
+A gallery of my sculptures is helpful as it allows me to collect my sculptures over time
+The configurator was easy to use
+Each label clearly described the functionality of the slider or toggle control
+It was always clear what each slider and toggle did to the sculpture
+The available configuration options where enough for me
+It was helpful to see the sculpture update instantly after changing a slider or toggle value
+I would have liked to see a visualization that represented the data more acurately
+I would have liked to have different sculptures to choose from

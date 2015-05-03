@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper,twoside]{article}
-
+\synctex=1
 % LaTeX-Umsetzung der "Richtlinien für Projekt- und Diplomarbeiten"
 % der LFE Medieninformatik, LMU München. (Autor: Richard Atterer, 27.9.2006, 23.10.2007), Bug-Fixing Mark Kaczkowski (23.6.2008)
 
@@ -13,7 +13,7 @@
 % Zum Setzen von URLs
 \usepackage{color}
 \definecolor{darkred}{rgb}{.25,0,0}
-\definecolor{darkgreen}{rgb}{0,.2,0}
+\definecolor{darkgreen}{rgb}{0,0.2,0}
 \definecolor{darkmagenta}{rgb}{.2,0,.2}
 \definecolor{darkcyan}{rgb}{0,.15,.15}
 \usepackage[plainpages=false,bookmarks=true,bookmarksopen=true,colorlinks=true,
@@ -69,7 +69,8 @@ Prof.\ Dr.\ Heinrich Hußmann
 
 {\LARGE \LaTeX-Vorlage für Projekt- und Diplomarbeiten}\vspace{1cm}
 
-{\large Walter Rempening Diaz}\\\href{mailto:name@example.org}{name@example.org}
+{\large Walter Rempening
+  Diaz}\\\href{mailto:name@example.org}{w.rempening@campus.lmu.de}
 
 \end{center}
 \vfill
@@ -135,8 +136,6 @@ sowie alle benutzten Quellen und Hilfsmittel angegeben habe.
 
 \section{Einleitung}
 
-Oh Mann, noch \emph{so} viele Seiten zu füllen...\\
-...und wieso muss bei diesem Format so viel auf eine Seite passen!?
 %______________________________________________________________________
 
 % Der Befehl \cleardoublepage erscheint nur vor \section, nicht vor
@@ -161,14 +160,11 @@ Oh Mann, noch \emph{so} viele Seiten zu füllen...\\
   \label{fig:beispielbild}
 \end{figure}
 
-\include{intro}
+\include{Introduction/intro}
 
-
-Siehe Abbildung \ref{fig:beispielbild} oder einschlägige Literatur, z.B.
-\cite{ahu61} oder \cite{ab94}
-
+Siehe was cooles~\ref{fig:beispielbild} oder einschlägige Literatur, z.B.
+\cite{ahu61} oder \cite{ab94} oh ja ziemlich geil das ding
 \bigskip % Größerer Abstand zum vorherigen Absatz
-\textbf{Hinweis:} Die Verweise im generierten PDF (HTTP-Links, Verweise auf Kapitel oder Bilder) sind leicht eingefärbt. Wer das nicht will, z.B. weil es die Druckkosten erhöht, kann am Anfang des Dokuments \texttt{linkcolor} usw. auf ``black'' setzen.
 
 
 \subsection{Medien}
