@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  2 MAY 2015 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  6 MAY 2015 23:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -233,7 +233,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \f@ncyO@erf=\skip50
 \f@ncyO@olf=\skip51
 \f@ncyO@orf=\skip52
-) (./medieninformatik-arbeit.aux (./Introduction/intro.aux))
+) (./medieninformatik-arbeit.aux (./Introduction/intro.aux) (./RelatedWork/content.aux) (./Prototype/proto.aux) (./Configurator/conf.aux) (./UserStudy/study.aux) (./Conclusion/content.aux) (./FutureWork/content.aux))
 \openout1 = `medieninformatik-arbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -298,32 +298,26 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 68.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 78.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 70.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 78.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 78.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 70.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 78.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 78.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -334,251 +328,111 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 87.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 97.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 97.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 97.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 97.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
 [2
 
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 114.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 114.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 114.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 114.
-[3
+] [3
 
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 114.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 114.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 114.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 114.
-[4
+] [4
+
+] [5] [6
 
 ] (./medieninformatik-arbeit.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
 )
 \tf@toc=\write4
 \openout4 = `medieninformatik-arbeit.toc'.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 127.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 127.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 127.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 127.
-[1]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 127.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 127.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 127.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 127.
-[2
+[1] [2
 
 ]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 137.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 137.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 143.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 143.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 143.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 143.
-[1]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 143.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 143.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 143.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 143.
-[2
+\openout2 = `./Introduction/intro.aux'.
+
+(./Introduction/intro.tex) [1
+
+
+] [2
+
 
 ]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 144.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 144.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 163.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 163.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 163.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 163.
-[3]
-\openout2 = `Introduction/intro.aux'.
+\openout2 = `RelatedWork/content.aux'.
 
-(./Introduction/intro.tex
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 4.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 4.
+(./RelatedWork/content.tex) [3
+
+] [4
+
+
+]
+\openout2 = `Prototype/proto.aux'.
+
+(./Prototype/proto.tex) [5
+
+] [6
+
+
+]
+\openout2 = `Configurator/conf.aux'.
+
+(./Configurator/conf.tex) [7
+
+] [8
+
+
+]
+\openout2 = `UserStudy/study.aux'.
+
+(./UserStudy/study.tex) [9
+
+] [10
+
+
+]
+\openout2 = `Conclusion/content.aux'.
+
+(./Conclusion/content.tex) [11
+
+] [12
+
+
+]
+\openout2 = `FutureWork/content.aux'.
+
+(./FutureWork/content.tex) [13
+
+] [14
+
+
+] [15] [16
+
+] (./medieninformatik-arbeit.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
 )
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 163.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 163.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 163.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 163.
-[4
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 170.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 170.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 179.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 179.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 184.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 184.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 187.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 187.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 196.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 196.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 201.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 201.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 207.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 207.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 207.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 207.
-[5
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 207.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 207.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 207.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 207.
-[6
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 208.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 208.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 217.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 217.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 217.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 217.
-[7]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 217.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 217.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 217.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 217.
-[8
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 222.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 222.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 222.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 222.
-[9]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 222.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 222.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 222.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 222.
-[10
-
-] (./medieninformatik-arbeit.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 227.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 227.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 227.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 227.
-[11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
-(./medieninformatik-arbeit.aux (./Introduction/intro.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+(./medieninformatik-arbeit.aux (./Introduction/intro.aux) (./RelatedWork/content.aux) (./Prototype/proto.aux) (./Configurator/conf.aux) (./UserStudy/study.aux) (./Conclusion/content.aux) (./FutureWork/content.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `medieninformatik-arbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 148E96F5E84A0BB74D83C8AC64D0F5A9;562.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
+(rerunfilecheck)             Checksum: 7933C508FD58CCD36DCD401147B61A73;323.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 6198 strings out of 493117
- 90702 string characters out of 6135432
- 176576 words of memory out of 5000000
- 9517 multiletter control sequences out of 15000+600000
- 63805 words of font info for 94 fonts, out of 8000000 for 9000
+ 6173 strings out of 493117
+ 90442 string characters out of 6135432
+ 177471 words of memory out of 5000000
+ 9454 multiletter control sequences out of 15000+600000
+ 36274 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,47p,281b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on medieninformatik-arbeit.pdf (17 pages, 60143 bytes).
+ 29i,11n,47p,281b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on medieninformatik-arbeit.pdf (25 pages, 41333 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
+ 177 PDF objects out of 1000 (max. 8388607)
  146 compressed objects within 2 object streams
  40 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

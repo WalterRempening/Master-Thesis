@@ -58,54 +58,51 @@
 \pagenumbering{alph} % Unsichtbare alphabetische Nummerierung
 
 \begin{center}
-\textsc{Ludwig-Maximilians-Universität München}\\
-Department ``Institut für Informatik''\\
-Lehr- und Forschungseinheit Medieninformatik\\
-Prof.\ Dr.\ Heinrich Hußmann
+  \textsc{University of Munich}\\
+  Department ``Institute for Informatics''\\
+  Education and Research Units Media Informatics\\
+  Prof.\ Dr.\ Heinrich Hußmann
 
 
 \vspace{5cm}
-{\large\textbf{Projektarbeit}}\vspace{.5cm}
+{\large\textbf{Master Thesis}}\vspace{.5cm}
 
-{\LARGE \LaTeX-Vorlage für Projekt- und Diplomarbeiten}\vspace{1cm}
+{\LARGE Web-Based Creator for Activity Sculptures}\vspace{1cm}
 
 {\large Walter Rempening
-  Diaz}\\\href{mailto:name@example.org}{w.rempening@campus.lmu.de}
+  Diaz}\\\href{mailto:name@example.org}{w.rempeningd@gmail.com}
 
 \end{center}
 \vfill
 
 \begin{tabular}{ll}
-Bearbeitungszeitraum: & 1. 12. 2014 bis 1. 6. 2015\\
-Betreuer: & Ludwig Lehrstuhlmitarbeiter\\
-%Externer Betreuer: & Manfred Manager\\
-Verantw. Hochschullehrer: & Prof. Butz ODER Prof. Hußmann
+  Working Time: & 1. 12. 2014 bis 1. 6. 2015\\
+  Supervisor: & Simon Stusak\\
+  Responsible Professor: & Prof. Dr. Andreas Butz
 \end{tabular}
 %______________________________________________________________________
 
 \clearpage
-\section*{Zusammenfassung}
+\section*{Acknowledgements}
 
+\clearpage
+\section*{Zusammenfassung}
 Kurzzusammenfassung der Arbeit, maximal 250 Wörter.
 
 \selectlanguage{english}
 \section*{Abstract}
-
 Short abstract of the work, maximum of 250 words.
 
-\selectlanguage{ngerman}
-\clearpage
-\section*{Aufgabenstellung}
-
+\cleardoublepage
+\section*{Task Definition}
 Kopie der Original-Aufgabenstellung
 
 \vfill % Sorgt dafür, dass das Folgende an das Seitenende rutscht
 
-\noindent Ich erkläre hiermit, dass ich die vorliegende Arbeit
-selbstständig angefertigt, alle Zitate als solche kenntlich gemacht
-sowie alle benutzten Quellen und Hilfsmittel angegeben habe.
-
-\bigskip\noindent München, \today
+\noindent I confirm that I indepently prepared the thesis and that I used only
+the references and auxiliary means indicated in the thesis. 
+\bigskip\noindent 
+\\Munich, \today
 
 \vspace{4ex}\noindent\makebox[7cm]{\dotfill}
 
@@ -134,85 +131,36 @@ sowie alle benutzten Quellen und Hilfsmittel angegeben habe.
 \fancyhead[LO,RE]{\leftmark}
 \fancyfoot[LE,RO]{\thepage}
 
-\section{Einleitung}
-
 %______________________________________________________________________
 
-% Der Befehl \cleardoublepage erscheint nur vor \section, nicht vor
-% den "kleineren" Gliederungsbefehlen wie \subsection!
-\cleardoublepage % Neue rechte Seite anfangen
-\section{Hauptteil}
-
-\begin{figure}%[btph]
-  %% Datei ``beispielbild.eps'' oder ``beispielbild.png'', zentriert
-  %\begin{center}\includegraphics{beispielbild}\end{center}
-
-  %% Datei auf 8cm Breite verkleinert/vergrößert
-  %\includegraphics[width=8cm]{beispielbild}
-  %% Datei auf ganze Breite des Texts vergrößert
-  %\includegraphics[width=\columnwidth]{beispielbild}
-  %% Datei auf 60% der Textbreite verkleinert/vergrößert
-  %\includegraphics[width=.6\columnwidth]{beispielbild}
-  %% Weitere Optionen (Ausschnitt, drehen etc.) in der Doku zum graphicx-Paket
-
-  \begin{center}\LARGE [BILD]\end{center}
-  \caption{Bildunterschrift}
-  \label{fig:beispielbild}
-\end{figure}
-
-\include{Introduction/intro}
-
-Siehe was cooles~\ref{fig:beispielbild} oder einschlägige Literatur, z.B.
-\cite{ahu61} oder \cite{ab94} oh ja ziemlich geil das ding
-\bigskip % Größerer Abstand zum vorherigen Absatz
-
-
-\subsection{Medien}
-
-\begin{figure}
-  \begin{center}\LARGE [BILD]\end{center}
-  \caption{Noch ein Bild}
-  \label{fig:beispielbild2}
-\end{figure}
-
-\begin{itemize}
-  \item Gesellschaftliche Medien
-  \item Technische Medien
-\end{itemize}
-
-
-\subsection{Informatik}
-
-
-\subsection{Medieninformatik}
-
-\begin{description}
-  \item[Medienwirkung:] Ein Spezialfach der Kommunikationswissenschaft. Für das erfolgreiche Studium des Anwendungsfachs Mediengestaltung ist eine künstlerische Begabung erforderlich.
-  \item[Medienwirtschaft:] Ein Spezialfach der Betriebswirtschaftslehre
-  \item[Mediengestaltung:] Ein Spezialfach der Kunstwissenschaft
-\end{description}
-
-\subsubsection{Was Sie schon immer wissen wollten, aber nie zu fragen
-  wagten}
-
-\paragraph{Überschrift}
-Diese Überschrift erscheint fettgedruckt am Anfang des Absatzes.
-
-\subsubsection{Was Sie nicht wissen wollten}
-
-Text text textextext\footnote{Oder so ähnlich}.
-
+\cleardoublepage 
+\include{./Introduction/intro}
 %\_____________________________________________________________________
 
 \cleardoublepage
-\section{Zusammenfassung}
-
-\begin{figure}
-  \begin{center}\LARGE [BILD]\end{center}
-  \caption{Bild}
-  \label{fig:beispielbild3}
-\end{figure}
+\include{RelatedWork/content}
 %______________________________________________________________________
+
+\cleardoublepage
+\include{Prototype/proto}
+%______________________________________________________________________
+
+\cleardoublepage
+\include{Configurator/conf}
+%______________________________________________________________________
+
+\cleardoublepage
+\include{UserStudy/study}
+%______________________________________________________________________
+
+\cleardoublepage
+\include{Conclusion/content}
+%______________________________________________________________________
+
+\cleardoublepage
+\include{FutureWork/content}
+%______________________________________________________________________
+
 
 \cleardoublepage
 \fancyhead[LE,RO,LO,RE]{} % Keine Kopfzeile mehr oben auf jeder Seite
