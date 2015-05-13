@@ -26,28 +26,27 @@
 \BOOKMARK [2][]{subsection.4.1}{Requirements}{section.4}% 26
 \BOOKMARK [2][]{subsection.4.2}{Technology Stack}{section.4}% 27
 \BOOKMARK [2][]{subsection.4.3}{Configurator Architecture}{section.4}% 28
-\BOOKMARK [3][]{subsubsection.4.3.1}{Withings API Integration}{subsection.4.3}% 29
-\BOOKMARK [3][]{subsubsection.4.3.2}{Data Modeling}{subsection.4.3}% 30
-\BOOKMARK [3][]{subsubsection.4.3.3}{Data Disposition}{subsection.4.3}% 31
-\BOOKMARK [3][]{subsubsection.4.3.4}{Real Time Single Page Applications}{subsection.4.3}% 32
-\BOOKMARK [3][]{subsubsection.4.3.5}{Sculpture Generation \046 Rendering}{subsection.4.3}% 33
-\BOOKMARK [2][]{subsection.4.4}{Summary}{section.4}% 34
-\BOOKMARK [1][]{section.5}{User Study}{}% 35
-\BOOKMARK [2][]{subsection.5.1}{Study Design}{section.5}% 36
-\BOOKMARK [2][]{subsection.5.2}{Questionnaire}{section.5}% 37
-\BOOKMARK [2][]{subsection.5.3}{Participants}{section.5}% 38
-\BOOKMARK [2][]{subsection.5.4}{Procedure}{section.5}% 39
-\BOOKMARK [2][]{subsection.5.5}{Limitations}{section.5}% 40
-\BOOKMARK [2][]{subsection.5.6}{Results}{section.5}% 41
-\BOOKMARK [1][]{section.6}{Conclusion}{}% 42
-\BOOKMARK [1][]{section.7}{Future Work}{}% 43
-\BOOKMARK [1][]{section.7}{Appendix}{}% 44
-\BOOKMARK [1][]{appendix.A}{Online Questionnaire}{}% 45
-\BOOKMARK [1][]{appendix.B}{User Study Results}{}% 46
-\BOOKMARK [2][]{subsection.B.1}{Questionnaire Results}{appendix.B}% 47
-\BOOKMARK [2][]{subsection.B.2}{Heat Map Images}{appendix.B}% 48
-\BOOKMARK [1][]{appendix.C}{Prototype Sketches}{}% 49
-\BOOKMARK [2][]{subsection.C.1}{Sculpture Prototypes}{appendix.C}% 50
-\BOOKMARK [2][]{subsection.C.2}{Web Configurator Prototypes}{appendix.C}% 51
-\BOOKMARK [1][]{appendix.D}{Code Snippets}{}% 52
-\BOOKMARK [1][]{appendix.D}{Contents of the enclosed CD}{}% 53
+\BOOKMARK [3][]{subsubsection.4.3.1}{Data Source}{subsection.4.3}% 29
+\BOOKMARK [3][]{subsubsection.4.3.2}{Withings API Integration}{subsection.4.3}% 30
+\BOOKMARK [3][]{subsubsection.4.3.3}{Sculpture Generation \046 Rendering}{subsection.4.3}% 31
+\BOOKMARK [2][]{subsection.4.4}{Summary}{section.4}% 32
+\BOOKMARK [1][]{section.5}{User Study}{}% 33
+\BOOKMARK [2][]{subsection.5.1}{Study Design}{section.5}% 34
+\BOOKMARK [2][]{subsection.5.2}{Questionnaire}{section.5}% 35
+\BOOKMARK [2][]{subsection.5.3}{Participants}{section.5}% 36
+\BOOKMARK [2][]{subsection.5.4}{Procedure}{section.5}% 37
+\BOOKMARK [2][]{subsection.5.5}{Limitations}{section.5}% 38
+\BOOKMARK [2][]{subsection.5.6}{Results}{section.5}% 39
+\BOOKMARK [2][]{subsection.5.7}{Summary}{section.5}% 40
+\BOOKMARK [1][]{section.6}{Conclusion}{}% 41
+\BOOKMARK [1][]{section.7}{Future Work}{}% 42
+\BOOKMARK [1][]{section.7}{Appendix}{}% 43
+\BOOKMARK [1][]{appendix.A}{Online Questionnaire}{}% 44
+\BOOKMARK [1][]{appendix.B}{User Study Results}{}% 45
+\BOOKMARK [2][]{subsection.B.1}{Questionnaire Results}{appendix.B}% 46
+\BOOKMARK [2][]{subsection.B.2}{Heat Map Images}{appendix.B}% 47
+\BOOKMARK [1][]{appendix.C}{Prototype Sketches}{}% 48
+\BOOKMARK [2][]{subsection.C.1}{Sculpture Prototypes}{appendix.C}% 49
+\BOOKMARK [2][]{subsection.C.2}{Web Configurator Prototypes}{appendix.C}% 50
+\BOOKMARK [1][]{appendix.D}{Code Snippets}{}% 51
+\BOOKMARK [1][]{appendix.D}{Contents of the enclosed CD}{}% 52
