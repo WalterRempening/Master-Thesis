@@ -1,5 +1,8 @@
 \select@language {english}
 \select@language {english}
+\contentsline {paragraph}{Possible research questions}{e}{section*.5}
+\contentsline {paragraph}{Tasks}{e}{section*.6}
+\contentsline {paragraph}{Requirements}{e}{section*.7}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Problem definition}{1}{subsection.1.2}
@@ -52,8 +55,8 @@
 \contentsline {subsection}{\numberline {C.2}Web Configurator Prototypes}{14}{subsection.C.2}
 \contentsline {section}{\numberline {D}Code Snippets}{14}{appendix.D}
 \contentsline {section}{Contents of the enclosed CD}{15}{appendix.D}
-\contentsline {paragraph}{Thesis}{15}{section*.8}
-\contentsline {paragraph}{Presentations}{15}{section*.9}
-\contentsline {paragraph}{Activity Sculpture Web Configurator}{15}{section*.10}
-\contentsline {paragraph}{Sculptures}{15}{section*.11}
-\contentsline {paragraph}{User Study}{15}{section*.12}
+\contentsline {paragraph}{Thesis}{15}{section*.11}
+\contentsline {paragraph}{Presentations}{15}{section*.12}
+\contentsline {paragraph}{Activity Sculpture Web Configurator}{15}{section*.13}
+\contentsline {paragraph}{Sculptures}{15}{section*.14}
+\contentsline {paragraph}{User Study}{15}{section*.15}

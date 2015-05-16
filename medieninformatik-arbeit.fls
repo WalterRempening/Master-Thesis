@@ -162,11 +162,14 @@ INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT medieninformatik-arbeit.toc
-INPUT medieninformatik-arbeit.toc
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT medieninformatik-arbeit.toc
+INPUT medieninformatik-arbeit.toc
 OUTPUT medieninformatik-arbeit.toc
 OUTPUT Introduction/intro.aux
 INPUT Introduction/intro.tex
@@ -189,9 +192,6 @@ INPUT Conclusion/content.tex
 OUTPUT FutureWork/content.aux
 INPUT FutureWork/content.tex
 INPUT FutureWork/content.tex
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
-INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
