@@ -1,8 +1,7 @@
-# Web Based Activity Sculpture Configurator #
-
-This is the repository for my master's thesis at the Munich University 
+# Web-Based Creator for Activity Sculptures #
 
 ![Configurator UI](configurator-ui.png)
+
 ## Abstract ##
 The recollection of personal activity data has been greatly facilitated by the
 increasing amount of applications and devices that encourage users to measure
