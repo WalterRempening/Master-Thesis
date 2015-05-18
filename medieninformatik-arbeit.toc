@@ -5,9 +5,8 @@
 \contentsline {paragraph}{Requirements}{e}{section*.7}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Problem definition}{1}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Goals}{1}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Content overview}{1}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.2}Goals}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Content overview}{1}{subsection.1.3}
 \contentsline {section}{\numberline {2}Background \& Related Work}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Interactive Product Visualization}{3}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Gates 3D Configurator}{3}{subsubsection.2.1.1}
@@ -15,10 +14,9 @@
 \contentsline {subsubsection}{\numberline {2.1.3}Twikit}{3}{subsubsection.2.1.3}
 \contentsline {subsection}{\numberline {2.2}Activity Sculptures}{3}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Sweet Atoms}{3}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Nike FuelBand Fibers}{3}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2}Mental Fabrications}{3}{subsubsection.2.2.2}
 \contentsline {subsection}{\numberline {2.3}Activity Data Sources}{3}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Fitness Tracker API}{3}{subsubsection.2.3.1}
-\contentsline {subsection}{\numberline {2.4}Summary}{3}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.3.1}Fitness Tracker APIs}{3}{subsubsection.2.3.1}
 \contentsline {section}{\numberline {3}Prototype Design}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Requirements}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Sculpture Design}{5}{subsection.3.2}
@@ -30,15 +28,16 @@
 \contentsline {subsection}{\numberline {3.3}Configurator Design}{5}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Ideation Process}{5}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Prototype Validation}{5}{subsubsection.3.3.2}
-\contentsline {subsection}{\numberline {3.4}Summary}{5}{subsection.3.4}
 \contentsline {section}{\numberline {4}Implementation}{7}{section.4}
 \contentsline {subsection}{\numberline {4.1}Requirements}{7}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Technology Stack}{7}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Configurator Architecture}{7}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Data Source}{7}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Withings API Integration}{7}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}Sculpture Generation \& Rendering}{7}{subsubsection.4.3.3}
-\contentsline {subsection}{\numberline {4.4}Summary}{7}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.2}Technology}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Architecture}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Configurator}{7}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Sculpture Manipulation}{7}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Sculpture Generation \& Rendering}{7}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Backend}{7}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Withings API Integration}{7}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Data Processing}{7}{subsubsection.4.5.2}
 \contentsline {section}{\numberline {5}User Study}{9}{section.5}
 \contentsline {subsection}{\numberline {5.1}Study Design}{9}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Questionnaire}{9}{subsection.5.2}
@@ -46,21 +45,19 @@
 \contentsline {subsection}{\numberline {5.4}Procedure}{9}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}Limitations}{9}{subsection.5.5}
 \contentsline {subsection}{\numberline {5.6}Results}{9}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Summary}{9}{subsection.5.7}
 \contentsline {section}{\numberline {6}Conclusion}{11}{section.6}
 \contentsline {section}{\numberline {7}Future Work}{13}{section.7}
-\contentsline {section}{Appendix}{14}{section.7}
-\contentsline {section}{\numberline {A}Online Questionnaire}{14}{appendix.A}
-\contentsline {section}{\numberline {B}User Study Results}{14}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Questionnaire Results}{14}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Heat Map Images}{14}{subsection.B.2}
-\contentsline {section}{\numberline {C}Prototype Sketches}{14}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}Sculpture Prototypes}{14}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}Web Configurator Prototypes}{14}{subsection.C.2}
-\contentsline {section}{\numberline {D}Code Snippets}{14}{appendix.D}
-\contentsline {section}{Contents of the enclosed CD}{15}{appendix.D}
-\contentsline {paragraph}{Thesis}{15}{section*.11}
-\contentsline {paragraph}{Presentations}{15}{section*.12}
-\contentsline {paragraph}{Activity Sculpture Web Configurator}{15}{section*.13}
-\contentsline {paragraph}{Sculptures}{15}{section*.14}
-\contentsline {paragraph}{User Study}{15}{section*.15}
+\contentsline {section}{Appendix}{19}{section*.10}
+\contentsline {section}{\numberline {A}Online Questionnaire}{19}{appendix.A}
+\contentsline {section}{\numberline {B}User Study Results}{19}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Questionnaire Results}{19}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Heat Map Images}{19}{subsection.B.2}
+\contentsline {section}{\numberline {C}Prototype Sketches}{19}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Sculpture Prototypes}{19}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}Web Configurator Prototypes}{19}{subsection.C.2}
+\contentsline {section}{Contents of the enclosed CD}{21}{subsection.C.2}
+\contentsline {paragraph}{Thesis}{21}{section*.13}
+\contentsline {paragraph}{Presentations}{21}{section*.14}
+\contentsline {paragraph}{Activity Sculpture Web Configurator}{21}{section*.15}
+\contentsline {paragraph}{Sculptures}{21}{section*.16}
+\contentsline {paragraph}{User Study}{21}{section*.17}

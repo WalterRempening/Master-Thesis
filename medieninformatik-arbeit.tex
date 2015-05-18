@@ -11,6 +11,31 @@
 \usepackage{mathptmx} % Times-Roman-Schrift (auch für mathematische Formeln)
 %\usepackage{natbib} % Cross references
 % Zum Setzen von URLs
+\usepackage{listings} % For displaying js source code
+\lstdefinelanguage{JavaScript} {
+	morekeywords={
+		break,const,continue,delete,do,while,export,for,in,function,
+		if,else,import,in,instanceOf,label,let,new,return,switch,this,
+		throw,try,catch,typeof,var,void,with,yield
+	},
+  sensitive=false,
+	morecomment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	morestring=[b]",
+	morestring=[d]'
+}
+% Code example
+%\begin{lstlisting}[language=JavaScript]
+%// create some nodes
+%var headline = document.createElement(¿h1¿);
+%var text = document.createTextNode(¿Dies ist eine Überschrift¿);
+%// "offline" node manipulation
+%headline.appendChild(text);
+%// adding node to DOM
+%document.getElementsByTagName("body")[0].appendChild(headline);
+%\end{lstlisting}
+
+
 \usepackage{color}
 \definecolor{darkred}{rgb}{.25,0,0}
 \definecolor{darkgreen}{rgb}{0,0.2,0}
@@ -131,7 +156,7 @@ with a high degree of variability for the data to be mapped on 4
 different sculpture prototypes were developed. For the validation of the
 configurator an online version was released and a user study was performed.
 User feedback showed that our prototype was easy to operate and that the
-obtained sculptures were appealing and meaningful to users.
+obtained sculptures were appealing and meaningful them.
 
 
 \cleardoublepage
@@ -185,9 +210,6 @@ the references and auxiliary means indicated in the thesis.
 % Inhaltsverzeichnis erzeugen
 \tableofcontents
 
-%Abbildungsverzeichnis erzeugen - normalerweise nicht nötig
-%\cleardoublepage
-%\listoffigures
 %______________________________________________________________________
 
 \cleardoublepage
@@ -231,6 +253,18 @@ the references and auxiliary means indicated in the thesis.
 \cleardoublepage
 \include{FutureWork/content}
 %______________________________________________________________________
+%Abbildungsverzeichnis erzeugen - normalerweise nicht nötig
+\cleardoublepage
+$%\pagestyle{plain}
+\listoffigures
+
+%______________________________________________________________________
+\cleardoublepage
+\bibliographystyle{abbrv}
+\bibliography{ma-thesis}
+
+%______________________________________________________________________
+\cleardoublepage
 \appendix
 \addcontentsline{toc}{section}{Appendix}
 \section*{Appendix}
@@ -238,14 +272,15 @@ the references and auxiliary means indicated in the thesis.
 \section{User Study Results} \label{App:results}
 \subsection{Questionnaire Results} \label{App:results-questions}
 \subsection{Heat Map Images} \label{App:results-heatimgs}
-\section{Prototype Sketches} 
+\section{Prototype Sketches} \label{App:prototypes} 
 \subsection{Sculpture Prototypes} \label{App:proto-sculptures}
 \subsection{Web Configurator Prototypes} \label{App:proto-config}
-\section{Code Snippets} \label{App:code}
 
+%______________________________________________________________________
 \cleardoublepage
 \fancyhead[LE,RO,LO,RE]{} % Keine Kopfzeile mehr oben auf jeder Seite
-
+\cleardoublepage
+\pagestyle{plain}
 \addcontentsline{toc}{section}{Contents of the enclosed CD}
 \section*{Contents of the enclosed CD}
 \paragraph{Thesis}
@@ -282,12 +317,5 @@ the references and auxiliary means indicated in the thesis.
     \item Results
     \item Heat map images
   \end{itemize}      
-
-%______________________________________________________________________
-
-\cleardoublepage
-
-\bibliographystyle{abbrv}
-\bibliography{ma-thesis}
 
 \end{document}
