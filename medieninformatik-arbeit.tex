@@ -1,5 +1,6 @@
 \documentclass[11pt,a4paper,twoside]{article}
 \synctex=1
+%! TEX root = "medieninformatik-arbeit.tex"
 % LaTeX-Umsetzung der "Richtlinien für Projekt- und Diplomarbeiten"
 % der LFE Medieninformatik, LMU München. (Autor: Richard Atterer, 27.9.2006, 23.10.2007), Bug-Fixing Mark Kaczkowski (23.6.2008)
 
@@ -12,12 +13,7 @@
 %\usepackage{natbib} % Cross references
 % Zum Setzen von URLs
 \usepackage{listings} % For displaying js source code
-\lstdefinelanguage{JavaScript} {
-	morekeywords={
-		break,const,continue,delete,do,while,export,for,in,function,
-		if,else,import,in,instanceOf,label,let,new,return,switch,this,
-		throw,try,catch,typeof,var,void,with,yield
-	},
+\lstdefinelanguage{JavaScript}{morekeywords={break,const,continue,delete,do,while,export,for,in,function,if,else,import,in,instanceOf,label,let,new,return,switch,this,throw,try,catch,typeof,var,void,with,yield},
   sensitive=false,
 	morecomment=[l]{//},
 	morecomment=[s]{/*}{*/},
@@ -255,7 +251,6 @@ the references and auxiliary means indicated in the thesis.
 %______________________________________________________________________
 %Abbildungsverzeichnis erzeugen - normalerweise nicht nötig
 \cleardoublepage
-$%\pagestyle{plain}
 \listoffigures
 
 %______________________________________________________________________
@@ -277,10 +272,10 @@ $%\pagestyle{plain}
 \subsection{Web Configurator Prototypes} \label{App:proto-config}
 
 %______________________________________________________________________
-\cleardoublepage
+
 \fancyhead[LE,RO,LO,RE]{} % Keine Kopfzeile mehr oben auf jeder Seite
 \cleardoublepage
-\pagestyle{plain}
+%\pagestyle{plain}
 \addcontentsline{toc}{section}{Contents of the enclosed CD}
 \section*{Contents of the enclosed CD}
 \paragraph{Thesis}
