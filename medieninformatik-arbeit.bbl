@@ -1,10 +1,94 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{gee2005dynamic}
-A.~G. Gee, M.~Yu, and G.~Grinstein.
-\newblock Dynamic and interactive dimensional anchors for spring-based
-  visualizations.
-\newblock Technical report, Technical report, computer science, University of
-  Massachussetts Lowell, 2005.
+\bibitem{abbasi2012s}
+E.~Abbasi, A.~Hubaux, M.~Acher, Q.~Boucher, and P.~Heymans.
+\newblock What's in a web configurator? empirical results from 111 cases.
+\newblock University of Belgium, 2013.
+
+\bibitem{Card:1999:RIV:300679}
+S.~K. Card, J.~D. Mackinlay, and B.~Shneiderman, editors.
+\newblock {\em Readings in Information Visualization: Using Vision to Think}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1999.
+
+\bibitem{felfernig2014knowledge}
+A.~Felfernig, L.~Hotz, C.~Bagley, and J.~Tiihonen.
+\newblock {\em Knowledge-based configuration: From research to business cases}.
+\newblock Newnes, 2014.
+
+\bibitem{gantz2012digital}
+J.~Gantz and D.~Reinsel.
+\newblock The digital universe in 2020: Big data, bigger digital shadows, and
+  biggest growth in the far east.
+\newblock {\em IDC iView: IDC Analyze the Future}, 2007:1--16, 2012.
+
+\bibitem{hedin1998product}
+G.~Hedin, L.~Ohlsson, and J.~McKenna.
+\newblock Product configuration using object oriented grammars.
+\newblock In {\em System Configuration Management}, pages 107--126. Springer,
+  1998.
+
+\bibitem{khot2014understanding}
+R.~A. Khot, L.~Hjorth, and F.~Mueller.
+\newblock Understanding physical activity through 3d printed material
+  artifacts.
+\newblock In {\em Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems}, pages 3835--3844. ACM, 2014.
+
+\bibitem{mayer2013big}
+V.~Mayer-Sch{\"o}nberger and K.~Cukier.
+\newblock {\em Big data: A revolution that will transform how we live, work,
+  and think}.
+\newblock Houghton Mifflin Harcourt, 2013.
+
+\bibitem{mccarney2007hawthorne}
+R.~McCarney, J.~Warner, S.~Iliffe, R.~van Haselen, M.~Griffin, and P.~Fisher.
+\newblock The hawthorne effect: a randomised, controlled trial.
+\newblock {\em BMC medical research methodology}, 7(1):30, 2007.
+
+\bibitem{piller2006user}
+F.~T. Piller.
+\newblock User innovation: Der kunde als initiator und beteiligter im
+  innovationsprozess.
+\newblock {\em Drossou, O., Krempl, S.(Hg.): Open Innovation. Freier Austausch
+  von Wissen als soziales, politisches und wirtschaftliches Erfolgsmodell.
+  Hannover}, pages 85--97, 2006.
+
+\bibitem{pine1999mass}
+B.~J. Pine.
+\newblock {\em Mass customization: the new frontier in business competition}.
+\newblock Harvard Business Press, 1999.
+
+\bibitem{rolland2012commerce}
+R.~Rolland, E.~Yvain, O.~Christmann, E.~Loup-Escande, and S.~Richir.
+\newblock E-commerce and web 3d for involving the customer in the design
+  process: the case of a gates 3d configurator.
+\newblock In {\em Proceedings of the 2012 Virtual Reality International
+  Conference}, page~25. ACM, 2012.
+
+\bibitem{swan2013quantified}
+M.~Swan.
+\newblock The quantified self: fundamental disruption in big data science and
+  biological discovery.
+\newblock {\em Big Data}, 1(2):85--99, 2013.
+
+\bibitem{wolf2009know}
+G.~Wolf.
+\newblock Know thyself: Tracking every facet of life, from sleep to mood to
+  pain.
+\newblock {\em Wired Magazine}, 24(7):365, 2009.
+\newblock
+  \url{http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself?currentPage=all}.
+
+\bibitem{quantified:2015:Online}
+G.~Wolf.
+\newblock The quantified self, self knowledge through numbers, May 2012.
+\newblock {last accessed 19-05-2015}, \url{http://www.quantifiedself.com/}.
+
+\bibitem{zhao2008embodiment}
+J.~Zhao and A.~V. Moere.
+\newblock Embodiment in data sculpture: a model of the physical visualization
+  of information.
+\newblock In {\em Proceedings of the 3rd international conference on Digital
+  Interactive Media in Entertainment and Arts}, pages 343--350. ACM, 2008.
 
 \end{thebibliography}

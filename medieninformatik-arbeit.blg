@@ -10,44 +10,48 @@ A level-1 auxiliary file: Conclusion/content.aux
 A level-1 auxiliary file: FutureWork/content.aux
 The style file: abbrv.bst
 Database file #1: ma-thesis.bib
-You've used 1 entry,
+Warning--entry type for "quantified:2015:Online" isn't style-file defined
+--line 95 of file ma-thesis.bib
+Warning--empty booktitle in abbasi2012s
+You've used 15 entries,
             2118 wiz_defined-function locations,
-            509 strings with 4102 characters,
-and the built_in function-call counts, 283 in all, are:
-= -- 26
-> -- 18
-< -- 0
-+ -- 7
-- -- 6
-* -- 18
-:= -- 61
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 7
+            591 strings with 6963 characters,
+and the built_in function-call counts, 5192 in all, are:
+= -- 508
+> -- 241
+< -- 5
++ -- 99
+- -- 80
+* -- 324
+:= -- 847
+add.period$ -- 50
+call.type$ -- 15
+change.case$ -- 81
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 8
-empty$ -- 16
-format.name$ -- 6
-if$ -- 52
+cite$ -- 16
+duplicate$ -- 222
+empty$ -- 417
+format.name$ -- 80
+if$ -- 1118
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 5
+int.to.str$ -- 15
+missing$ -- 17
+newline$ -- 79
+num.names$ -- 31
+pop$ -- 112
 preamble$ -- 1
-purify$ -- 5
+purify$ -- 70
 quote$ -- 0
-skip$ -- 5
+skip$ -- 152
 stack$ -- 0
-substring$ -- 5
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 261
+swap$ -- 59
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 13
+type$ -- 52
+warning$ -- 1
+while$ -- 49
+width$ -- 17
+write$ -- 168
+(There were 2 warnings)
