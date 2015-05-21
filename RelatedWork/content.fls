@@ -1,0 +1,10 @@
+PWD /Users/wrd/Documents/Master Thesis/Thesis/RelatedWork
+INPUT /usr/local/texlive/2014/texmf.cnf
+INPUT /usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT content.tex
+OUTPUT content.log
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty

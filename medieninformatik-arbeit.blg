@@ -8,8 +8,8 @@ Warning--entry type for "quantified:2015:Online" isn't style-file defined
 Warning--entry type for "unu:2015:Online" isn't style-file defined
 --line 160 of file ma-thesis.bib
 Warning--entry type for "timbuk2:2015:Online" isn't style-file defined
---line 178 of file ma-thesis.bib
-I was expecting a `,' or a `}'---line 193 of file ma-thesis.bib
+--line 169 of file ma-thesis.bib
+I was expecting a `,' or a `}'---line 184 of file ma-thesis.bib
  :   
  :   publisher={ACM}
 (Error may have been on previous line)
@@ -17,7 +17,7 @@ I'm skipping whatever remains of this entry
 Warning--empty booktitle in abbasi2012s
 You've used 19 entries,
             2118 wiz_defined-function locations,
-            602 strings with 7619 characters,
+            602 strings with 7617 characters,
 and the built_in function-call counts, 6177 in all, are:
 = -- 598
 > -- 296

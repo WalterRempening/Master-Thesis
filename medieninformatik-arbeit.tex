@@ -1,9 +1,8 @@
+%!TEX root = "medieninformatik-arbeit.tex"
 \documentclass[11pt,a4paper,twoside]{article}
 \synctex=1
-%! TEX-root = "medieninformatik-arbeit.tex"
 % LaTeX-Umsetzung der "Richtlinien für Projekt- und Diplomarbeiten"
 % der LFE Medieninformatik, LMU München. (Autor: Richard Atterer, 27.9.2006, 23.10.2007), Bug-Fixing Mark Kaczkowski (23.6.2008)
-\usepackage{subfiles}
 \usepackage[T1]{fontenc} % sonst geht \hyphenation nicht mit Umlauten
 \usepackage[latin1]{inputenc} % man kann schreiben äöüß, statt "a"o"u"s
 %\usepackage[utf8]{inputenc} % wie oben, aber UTF-8 als Encoding statt ISO-8859-1 (latin1)
@@ -52,8 +51,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{13.6pt} % behebt headheight Warning
 
-\usepackage{hyperref}
-\usepackage{chappg}
+\usepackage{subfiles}
 % Korrektes Format für Nummerierung von Abbildungen (figure) und
 % Tabellen (table): <Kapitelnummer>.<Abbildungsnummer>
 \makeatletter
