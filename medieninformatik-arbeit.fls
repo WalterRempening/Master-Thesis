@@ -1,4 +1,4 @@
-PWD /Users/wrd/Documents/Master Thesis/Thesis/RelatedWork
+PWD /Users/wrd/Documents/Master Thesis/Thesis
 INPUT /usr/local/texlive/2014/texmf.cnf
 INPUT /usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -30,8 +30,10 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/mathptmx.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/mathptmx.sty
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/subfiles/subfiles.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/subfiles/subfiles.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
@@ -67,6 +69,8 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
@@ -81,10 +85,6 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/subfiles/subfiles.sty
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/subfiles/subfiles.sty
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux
 OUTPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux

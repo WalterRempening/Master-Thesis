@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  21 MAY 2015 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  21 MAY 2015 23:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -87,17 +87,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty (/usr/loc
-al/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2012/05/23 Federico Garcia
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks16
+\verbatim@line=\toks17
+\verbatim@in@stream=\read1
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty (/usr/lo
+cal/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks18
 )
 \lst@mode=\count88
 \lst@gtempboxa=\box26
-\lst@token=\toks17
+\lst@token=\toks19
 \lst@length=\count89
 \lst@currlwidth=\dimen104
 \lst@column=\count90
@@ -204,6 +208,10 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count100
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen109
 \Fld@menulength=\count101
@@ -258,31 +266,24 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \f@ncyO@erf=\skip50
 \f@ncyO@olf=\skip51
 \f@ncyO@orf=\skip52
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/subfiles/subfiles.sty
-Package: subfiles 2012/05/23 Federico Garcia
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks18
-\verbatim@line=\toks19
-\verbatim@in@stream=\read1
-)) (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux)
+) (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux)
 \openout1 = `medieninformatik-arbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 79.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -303,7 +304,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \everyMPtoPDFconversion=\toks21
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 79.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -311,9 +312,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count114
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.out) (/Users
 /wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.out)
 \@outlinefile=\write3
@@ -333,42 +334,43 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 88.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 97
-.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 92.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
+1.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 97
-.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
+1.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 97
-.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
+1.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 97
-.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
+1.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 97.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 101.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 105.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 109.
 [2
 
 ] [3
@@ -377,14 +379,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 173.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 174.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 182.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 183.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
 [5] [6
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.toc [1])
@@ -399,16 +401,16 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 rk/img/unu-config.png, id=368, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/unu-config.png Graphic file (type png)
 <use RelatedWork/img/unu-config.png>
-Package pdftex.def Info: RelatedWork/img/unu-config.png used on input line 35.
+Package pdftex.def Info: RelatedWork/img/unu-config.png used on input line 40.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
 <RelatedWork/img/timbuk2-config.png, id=372, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/timbuk2-config.png Graphic file (type png)
 <use RelatedWork/img/timbuk2-config.png>
 Package pdftex.def Info: RelatedWork/img/timbuk2-config.png used on input line 
-41.
+46.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 []\T1/ptm/m/n/10.95 Figure 2.2: []Timbuk2[] bag web
  []
 
@@ -417,7 +419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 <RelatedWork/img/gates-config.png, id=395, 842.14626pt x 492.84125pt>
 File: RelatedWork/img/gates-config.png Graphic file (type png)
 <use RelatedWork/img/gates-config.png>
-Package pdftex.def Info: RelatedWork/img/gates-config.png used on input line 55
+Package pdftex.def Info: RelatedWork/img/gates-config.png used on input line 69
 .
 (pdftex.def)             Requested size: 384.10959pt x 224.79208pt.
 ) [6 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/gates-config.pn
@@ -454,25 +456,25 @@ m-[]classic-[]messenger-[]bag /
 ] [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
 [23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
 (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `medieninformatik-arbeit.out' has not changed
 .
 (rerunfilecheck)             Checksum: B42E273DB82039B6A76B7DC7C6B3169F;3455.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 7743 strings out of 493117
- 115519 string characters out of 6135432
- 205354 words of memory out of 5000000
- 10923 multiletter control sequences out of 15000+600000
+ 7745 strings out of 493117
+ 115547 string characters out of 6135432
+ 205357 words of memory out of 5000000
+ 10925 multiletter control sequences out of 15000+600000
  42415 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,47p,1851b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,47p,1178b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
@@ -481,7 +483,7 @@ e/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
 Output written on "/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-a
-rbeit.pdf" (31 pages, 2405915 bytes).
+rbeit.pdf" (31 pages, 2405947 bytes).
 PDF statistics:
  550 PDF objects out of 1000 (max. 8388607)
  499 compressed objects within 5 object streams

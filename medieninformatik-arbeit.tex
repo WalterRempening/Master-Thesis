@@ -1,16 +1,18 @@
-%!TEX root = "medieninformatik-arbeit.tex"
+%!TEX root = medieninformatik-arbeit.tex
 \documentclass[11pt,a4paper,twoside]{article}
-\synctex=1
+% \synctex=1
+
 % LaTeX-Umsetzung der "Richtlinien für Projekt- und Diplomarbeiten"
 % der LFE Medieninformatik, LMU München. (Autor: Richard Atterer, 27.9.2006, 23.10.2007), Bug-Fixing Mark Kaczkowski (23.6.2008)
+
 \usepackage[T1]{fontenc} % sonst geht \hyphenation nicht mit Umlauten
 \usepackage[latin1]{inputenc} % man kann schreiben äöüß, statt "a"o"u"s
 %\usepackage[utf8]{inputenc} % wie oben, aber UTF-8 als Encoding statt ISO-8859-1 (latin1)
 \usepackage[ngerman,english]{babel} % deutsche Trennregeln, "Inhaltsverzeichnis" etc.
 %\usepackage{ngerman} % Alternative zum Babel-Paket oben
 \usepackage{mathptmx} % Times-Roman-Schrift (auch für mathematische Formeln)
-\usepackage{url} % Cross references
-% Zum Setzen von URLs
+
+\usepackage{subfiles}
 \usepackage{listings} % For displaying js source code
 \lstdefinelanguage{JavaScript}{morekeywords={break,const,continue,delete,do,while,export,for,in,function,if,else,import,in,instanceOf,label,let,new,return,switch,this,throw,try,catch,typeof,var,void,with,yield},
   sensitive=false,
@@ -30,15 +32,16 @@
 %document.getElementsByTagName("body")[0].appendChild(headline);
 %\end{lstlisting}
 
-
+%\usepackage{url} % Cross references
+% Zum Setzen von URLs
 \usepackage{color}
 \definecolor{darkred}{rgb}{.25,0,0}
 \definecolor{darkgreen}{rgb}{0,0.2,0}
 \definecolor{darkmagenta}{rgb}{.2,0,.2}
 \definecolor{darkcyan}{rgb}{0,.15,.15}
 \usepackage[plainpages=false,bookmarks=true,bookmarksopen=true,colorlinks=true,
-  linkcolor=darkred,citecolor=darkgreen,filecolor=darkmagenta,
-  menucolor=darkred,urlcolor=darkcyan]{hyperref}
+ linkcolor=darkred,citecolor=darkgreen,filecolor=darkmagenta,
+ menucolor=darkred,urlcolor=darkcyan]{hyperref}
 
 % pdflatex: Bilder in den Formaten .jpeg, .png und .pdf
 % latex: Bilder im .eps-Format
@@ -51,7 +54,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{13.6pt} % behebt headheight Warning
 
-\usepackage{subfiles}
+
 % Korrektes Format für Nummerierung von Abbildungen (figure) und
 % Tabellen (table): <Kapitelnummer>.<Abbildungsnummer>
 \makeatletter
@@ -60,6 +63,7 @@
 \@addtoreset{table}{section}
 \renewcommand{\thetable}{\thesection.\arabic{table}}
 \makeatother
+
 \sloppy % Damit LaTeX nicht so viel über "overfull hbox" u.Ä. meckert
 
 % Ränder
@@ -105,29 +109,6 @@
 \section*{Acknowledgements}
 
 \clearpage
-\section*{Zusammenfassung}
-Die Sammlung persönlicher Aktivitätsdaten wurde durch die zahlreiche Anzahl an
-Anwendungen und Geräte enorm vereinfacht. Diese Anwendungen und
-Gerätschaften, die hauptsächlich das Ziel haben, Nutzer zu einem aktiven
-Lebensstil ermutigen, können in Smartphones, wo sie die Vielfalt an Sensoren
-ausnutzen oder als tragbare Accessoires wie moderne Uhren oder Armbänder gefunden
-werden. Abgesehen davon, dass klassische Datenvisualisierungen Einblicke in den
-Aktivitätsdaten verschaffen können, ist es auch möglich den Datensatz durch
-physikalische Objekte, auch als Aktivitätsskulpturen bekannt, zu visualisieren.
-Es wurde bewiesen, dass Aktivitätsskulpturen Nutzer positiv beeinflussen, da die
-Nutzer sich für ihren aktiven Lebensstil belohnt fühlen. Um den Prozess der
-Visualisierung von Information in Skulpturen weiter zu forschen wurde ein
-Web-Konfigurator für Aktivitätsskulpturen entwickelt. Durch die Nutzung moderner
-Web-Technologien erhält der Nutzer eine Platform die ihm es erlaubt seine Daten
-unkompliziert zu exportieren und ermöglicht ihn die Gestaltung einer 3D
-druckbaren Skulptur. Für die Entwicklung des Konfigurators, wurden aktuelle
-Konfiguratoren analysiert mit dem Ziel Best-Practices im Bereich des Interface-
-und Interaktionsdesigns zu erkennen. Um den Nutzer eine breite Vielfalt an
-möglichen Anpassungen für die Skulptur, wurden 4 verschiedene
-Skulptur-Prototypen entwickelt. Letztendlich wurden für die Validierung des
-Prototyps eine online Demoversion veröffentlicht und eine Nutzerstudie
-durchgeführt. Die Resonanz der Nutzer zeigte, dass unser Prototyp einfach zu
-bedienen war und, dass die entstandene Skulptur ästhetisch und sinnvoll rüberkam. 
 
 \selectlanguage{english}
 \section*{Abstract}
@@ -154,6 +135,33 @@ configurator an online version was released and a user study was performed.
 User feedback showed that our prototype was easy to operate and that the
 obtained sculptures were appealing and meaningful them.
 
+\selectlanguage{ngerman}
+\section*{Zusammenfassung}
+Die Sammlung persönlicher Aktivitätsdaten wurde durch die zahlreiche Anzahl an
+Anwendungen und Geräte enorm vereinfacht. Diese Anwendungen und
+Gerätschaften, die hauptsächlich das Ziel haben, Nutzer zu einem aktiven
+Lebensstil ermutigen, können in Smartphones, wo sie die Vielfalt an Sensoren
+ausnutzen oder als tragbare Accessoires wie moderne Uhren oder Armbänder gefunden
+werden. Abgesehen davon, dass klassische Datenvisualisierungen Einblicke in den
+Aktivitätsdaten verschaffen können, ist es auch möglich den Datensatz durch
+physikalische Objekte, auch als Aktivitätsskulpturen bekannt, zu visualisieren.
+Es wurde bewiesen, dass Aktivitätsskulpturen Nutzer positiv beeinflussen, da die
+Nutzer sich für ihren aktiven Lebensstil belohnt fühlen. Um den Prozess der
+Visualisierung von Information in Skulpturen weiter zu forschen wurde ein
+Web-Konfigurator für Aktivitätsskulpturen entwickelt. Durch die Nutzung moderner
+Web-Technologien erhält der Nutzer eine Platform die ihm es erlaubt seine Daten
+unkompliziert zu exportieren und ermöglicht ihn die Gestaltung einer 3D
+druckbaren Skulptur. Für die Entwicklung des Konfigurators, wurden aktuelle
+Konfiguratoren analysiert mit dem Ziel Best-Practices im Bereich des Interface-
+und Interaktionsdesigns zu erkennen. Um den Nutzer eine breite Vielfalt an
+möglichen Anpassungen für die Skulptur, wurden 4 verschiedene
+Skulptur-Prototypen entwickelt. Letztendlich wurden für die Validierung des
+Prototyps eine online Demoversion veröffentlicht und eine Nutzerstudie
+durchgeführt. Die Resonanz der Nutzer zeigte, dass unser Prototyp einfach zu
+bedienen war und, dass die entstandene Skulptur ästhetisch und sinnvoll rüberkam. 
+
+
+\selectlanguage{english}
 
 \cleardoublepage
 \section*{Task Definition}
@@ -162,7 +170,8 @@ tracking data (e.g.\ step count) that dwell between the artistic and the abstrac
 For this master's thesis the student will develop a web configurator that will
 allow to individually create said activity sculptures (a similar example can be
 seen in
-\href{https://www.shapeways.com/creator/statement_vase}{www.shapeways.com/creator/statement\_vase}).\newline
+\href{https://www.shapeways.com/creator/statement_vase}{www.shapeways.com/creator/statement\_vase}).
+
 The focus of the thesis will be the development of interaction concepts and
 their implementation in the configurator. The concepts will be examined and
 improved in smaller iterative user studies. Another important aspect is a
@@ -218,7 +227,7 @@ the references and auxiliary means indicated in the thesis.
 \fancyhead[LO,RE]{\leftmark}
 \fancyfoot[LE,RO]{\thepage}
 
-%______________________________________________________________________
+%_____________________________________________________________________
 % Include Kapitel
 %______________________________________________________________________
 \subfile{Introduction/intro}
@@ -273,7 +282,6 @@ the references and auxiliary means indicated in the thesis.
 
 \fancyhead[LE,RO,LO,RE]{} % Keine Kopfzeile mehr oben auf jeder Seite
 \cleardoublepage
-%\pagestyle{plain}
 \addcontentsline{toc}{section}{Contents of the enclosed CD}
 \section*{Contents of the enclosed CD}
 \paragraph{Thesis}

@@ -1,5 +1,7 @@
 \select@language {english}
 \select@language {english}
+\select@language {ngerman}
+\select@language {english}
 \contentsline {paragraph}{Possible research questions}{e}{section*.5}
 \contentsline {paragraph}{Tasks}{e}{section*.6}
 \contentsline {paragraph}{Requirements}{e}{section*.7}
