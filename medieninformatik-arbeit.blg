@@ -9,51 +9,55 @@ Warning--entry type for "unu:2015:Online" isn't style-file defined
 --line 160 of file ma-thesis.bib
 Warning--entry type for "timbuk2:2015:Online" isn't style-file defined
 --line 169 of file ma-thesis.bib
-I was expecting a `,' or a `}'---line 184 of file ma-thesis.bib
+Warning--entry type for "livinglabs:2015:Online" isn't style-file defined
+--line 178 of file ma-thesis.bib
+Warning--entry type for "unity3d:2015:Online" isn't style-file defined
+--line 187 of file ma-thesis.bib
+I was expecting a `,' or a `}'---line 202 of file ma-thesis.bib
  :   
  :   publisher={ACM}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in abbasi2012s
-You've used 19 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            602 strings with 7617 characters,
-and the built_in function-call counts, 6177 in all, are:
-= -- 598
-> -- 296
+            612 strings with 7895 characters,
+and the built_in function-call counts, 6589 in all, are:
+= -- 636
+> -- 310
 < -- 5
-+ -- 121
-- -- 98
-* -- 373
-:= -- 1023
-add.period$ -- 62
-call.type$ -- 19
-change.case$ -- 102
++ -- 127
+- -- 102
+* -- 385
+:= -- 1091
+add.period$ -- 68
+call.type$ -- 21
+change.case$ -- 110
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 256
-empty$ -- 495
-format.name$ -- 98
-if$ -- 1319
+cite$ -- 22
+duplicate$ -- 270
+empty$ -- 539
+format.name$ -- 102
+if$ -- 1409
 int.to.chr$ -- 0
-int.to.str$ -- 19
+int.to.str$ -- 21
 missing$ -- 19
-newline$ -- 99
-num.names$ -- 39
-pop$ -- 143
+newline$ -- 109
+num.names$ -- 43
+pop$ -- 161
 preamble$ -- 1
-purify$ -- 87
+purify$ -- 93
 quote$ -- 0
-skip$ -- 181
+skip$ -- 195
 stack$ -- 0
-substring$ -- 281
-swap$ -- 63
+substring$ -- 291
+swap$ -- 65
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
+type$ -- 76
 warning$ -- 1
-while$ -- 57
-width$ -- 21
-write$ -- 208
+while$ -- 61
+width$ -- 23
+write$ -- 228
 (There was 1 error message)

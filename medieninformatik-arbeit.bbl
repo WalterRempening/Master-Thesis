@@ -57,6 +57,12 @@ R.~McCarney, J.~Warner, S.~Iliffe, R.~van Haselen, M.~Griffin, and P.~Fisher.
 \newblock The hawthorne effect: a randomised, controlled trial.
 \newblock {\em BMC medical research methodology}, 7(1):30, 2007.
 
+\bibitem{livinglabs:2015:Online}
+E.~N. of~Living~Labs.
+\newblock European network of living labs, 2014.
+\newblock {last accessed 21-05-2015},
+  \url{http://www.openlivinglabs.eu/aboutus}.
+
 \bibitem{piller2006user}
 F.~T. Piller.
 \newblock User innovation: Der kunde als initiator und beteiligter im
@@ -82,6 +88,11 @@ M.~Swan.
 \newblock The quantified self: fundamental disruption in big data science and
   biological discovery.
 \newblock {\em Big Data}, 1(2):85--99, 2013.
+
+\bibitem{unity3d:2015:Online}
+U.~Technologies.
+\newblock Unity game engine, 2015.
+\newblock {last accessed 21-05-2015}, \url{http://www.unity3d.com}.
 
 \bibitem{timbuk2:2015:Online}
 Timbuk2.
