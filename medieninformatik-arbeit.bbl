@@ -15,11 +15,23 @@ A.~Felfernig, L.~Hotz, C.~Bagley, and J.~Tiihonen.
 \newblock {\em Knowledge-based configuration: From research to business cases}.
 \newblock Newnes, 2014.
 
+\bibitem{feliceinteractive}
+M.~C. Felice, J.~B. Ferreira~Filho, M.~Acher, A.~Blouin, and O.~Barais.
+\newblock Interactive visualisation of products in online configurators.
+\newblock {\em 17th International Software Product Line Conference co-located
+  workshops}, 2013.
+
 \bibitem{gantz2012digital}
 J.~Gantz and D.~Reinsel.
 \newblock The digital universe in 2020: Big data, bigger digital shadows, and
   biggest growth in the far east.
 \newblock {\em IDC iView: IDC Analyze the Future}, 2007:1--16, 2012.
+
+\bibitem{unu:2015:Online}
+U.~GmbH.
+\newblock Unu embrace urban life, 2014.
+\newblock {last accessed 20-05-2015},
+  \url{https://unumotors.com/get-your-unu.html}.
 
 \bibitem{hedin1998product}
 G.~Hedin, L.~Ohlsson, and J.~McKenna.
@@ -70,6 +82,19 @@ M.~Swan.
 \newblock The quantified self: fundamental disruption in big data science and
   biological discovery.
 \newblock {\em Big Data}, 1(2):85--99, 2013.
+
+\bibitem{timbuk2:2015:Online}
+Timbuk2.
+\newblock Timbuk2 custom classic messenger bag, 2014.
+\newblock {last accessed 20-05-2015},
+  \url{http://www.timbuk2.com/customizer#/product/18-custom-classic-messenger-bag/size/2/customize}.
+
+\bibitem{vande2009analyzing}
+A.~Vande~Moere and S.~Patel.
+\newblock Analyzing the design approaches of physical data sculptures in a
+  design education context.
+\newblock {\em Visual Information Communications International (VINCI’09)},
+  2009.
 
 \bibitem{wolf2009know}
 G.~Wolf.

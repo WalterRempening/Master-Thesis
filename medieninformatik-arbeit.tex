@@ -3,7 +3,7 @@
 %! TEX-root = "medieninformatik-arbeit.tex"
 % LaTeX-Umsetzung der "Richtlinien für Projekt- und Diplomarbeiten"
 % der LFE Medieninformatik, LMU München. (Autor: Richard Atterer, 27.9.2006, 23.10.2007), Bug-Fixing Mark Kaczkowski (23.6.2008)
-
+\usepackage{subfiles}
 \usepackage[T1]{fontenc} % sonst geht \hyphenation nicht mit Umlauten
 \usepackage[latin1]{inputenc} % man kann schreiben äöüß, statt "a"o"u"s
 %\usepackage[utf8]{inputenc} % wie oben, aber UTF-8 als Encoding statt ISO-8859-1 (latin1)
@@ -52,6 +52,8 @@
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{13.6pt} % behebt headheight Warning
 
+\usepackage{hyperref}
+\usepackage{chappg}
 % Korrektes Format für Nummerierung von Abbildungen (figure) und
 % Tabellen (table): <Kapitelnummer>.<Abbildungsnummer>
 \makeatletter
@@ -109,7 +111,7 @@
 Die Sammlung persönlicher Aktivitätsdaten wurde durch die zahlreiche Anzahl an
 Anwendungen und Geräte enorm vereinfacht. Diese Anwendungen und
 Gerätschaften, die hauptsächlich das Ziel haben, Nutzer zu einem aktiven
-Lebensstil ermutigen, können in Smarphones, wo sie die Vielfalt an Sensoren
+Lebensstil ermutigen, können in Smartphones, wo sie die Vielfalt an Sensoren
 ausnutzen oder als tragbare Accessoires wie moderne Uhren oder Armbänder gefunden
 werden. Abgesehen davon, dass klassische Datenvisualisierungen Einblicke in den
 Aktivitätsdaten verschaffen können, ist es auch möglich den Datensatz durch
@@ -221,33 +223,31 @@ the references and auxiliary means indicated in the thesis.
 %______________________________________________________________________
 % Include Kapitel
 %______________________________________________________________________
-
-\cleardoublepage 
-\include{Introduction/intro}
+\subfile{Introduction/intro}
 %\_____________________________________________________________________
 
 \cleardoublepage
-\include{RelatedWork/content}
+\subfile{RelatedWork/content}
 %______________________________________________________________________
 
 \cleardoublepage
-\include{Prototype/proto}
+\subfile{Prototype/proto}
 %______________________________________________________________________
 
 \cleardoublepage
-\include{Configurator/conf}
+\subfile{Configurator/conf}
 %______________________________________________________________________
 
 \cleardoublepage
-\include{UserStudy/study}
+\subfile{UserStudy/study}
 %______________________________________________________________________
 
 \cleardoublepage
-\include{Conclusion/content}
+\subfile{Conclusion/content}
 %______________________________________________________________________
 
 \cleardoublepage
-\include{FutureWork/content}
+\subfile{FutureWork/content}
 %______________________________________________________________________
 %Abbildungsverzeichnis erzeugen - normalerweise nicht nötig
 \cleardoublepage
