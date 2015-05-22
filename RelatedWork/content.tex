@@ -65,19 +65,35 @@ One of the main aspects of the gates configurator in respect to the research pur
 
 \begin{figure}[hb]
 \begin{center}
-  \includegraphics[width=0.65\textwidth]{RelatedWork/img/gates-config}
+  \includegraphics[width=0.7\textwidth]{RelatedWork/img/gates-config}
   \caption{Groupe Maine's configurator\cite{rolland2012commerce} }
 \label{fig:gates-config}
 \end{center}
 \end{figure}
 
-This does actually work
+The gates configurator is a great example of how companies can make use of 3D visualization technologies to present their product to customers in a more convincing way. The authors of made a great choice of working with the Unity3D game engine as it allows them to port to other platforms as well, in this way developed software tools could be very easily ported to other mobile platforms like tablets or smartphones with bigger screens without the need of starting from scratch. This technology also offers desktop like frame rate performance in the web. The configurator has not many configuration possibilities which makes it easier for customers to understand but it excels at providing different visualization environments which in this case takes advantage of navigating in 3D space. One key statement of the authors was that tools like the configurator promote customer's participation in the developing of products. It was a shame there is no actual configurator in the Groupe Main's webpage for testing and it is unknown if the configurator was ever implemented in their website. The authors of the gates configurate see a great potential of 3D visualization technologies in fields such as e-learning, simulation and education.
 
-\subsubsection{Makervis}
+\subsubsection{The MakerVis Fabrication Tool}
+The MakerVis fabrication software is, in the words of its creators: \textit{``a prototype tool that integrates the entire process of creating physical visualizations, from data filtering to physical fabrication''}\cite{swaminathan2014supporting}. If somebody attempts to visualize their information they will have to use a wide range of tools to achieve this. This is cumbersome and impractical as it requires a great amount of effort and in general it is a very conflict prone way of working with data. This motivated Swaminathan et. al to develop MakerVis as an attempt to offer a platform that unifies the needed tools to extract data, filter it and visualize it. Although the focus of the MakerVis is not the implementation of a complex tool but more the exploration of the different challenges encountered in the process of visualization.
+
+The work-flow provided by MakerVis is composed of six steps all displayed in the user interface seen on figure \ref{fig:makervis-config}. First users need to upload a CSV file containing the data to visualize. After that users can select between several visualization styles. Once a visualization is selected the data the user can begin mapping the data to the visualization by selecting data variables. Further on users can manipulate the visualization's geometry through an array of sliders and controls. In order to setup fabrication parameters and selecting the machine users can make use of the lower right section where the visualization is deconstructed layer by layer. Finally the STL file of the model can be exported for fabrication. A helpful functionality the authors implemented was the specification of printing materials through a JSON file.  It is worth mentioning that MakerVis does not provide true 3D visualizations. The produced designs are indeed physical objects but the final result is a pseudo 3D visualization. In order to achieve this the authors use principally 2D fabrication methods employing laser cutting and CNC machines, only basic 3D printing support is provided. The visualizations users can choose from are more directed to traditional charts and bar graphs and not so much geared towards more artistic representations. Due to the modular engineering of tool, the visualizations can be expanded. The available tools for data manipulation is also limited and advanced manipulation should be better performed in an external tool. MakerVis was build with modern web technologies based on the JavaScript programming language like Node.js\cite{joyent2015node}, Three.js\cite{cabello2010three}, D3.js\cite{bostock2015d3js} and jQuery\cite{jqf2015jquery}. As some of this technologies were also used in the Activity Sculpture Configurator they will be explained in depth in Chapter \ref{ch:configurator}. 
+
+Although the authors conducted a relative small user study, the results provided valuable information about what areas can be further improved. The user study showed that users wanted more detailed control about the decorative aspects of visualization. Providing tools for personalize text labels and scales increases would allow users to further customize their visualization. Another challenge encountered was that of material representation. It was difficult for users to decide on which materials to use and expressed the desire to physically interact with the available materials. Also the correct scale representation of the object was estimated wrongly by most users. The need of the ability to save and load visualizations was also expressed to be needed. This findings might sound as failures but they only make clear the limitations of the screen as a medium to transmit haptic properties of materials and that unifying every tool needed for data visualization in a tool is an immense challenge.
+
+\begin{figure}[h]
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{RelatedWork/img/MakerVis}
+  \caption{The MakerVis fabrication tool\cite{swaminathan2014supporting} }
+\label{fig:makervis-config}
+\end{center}
+\end{figure}
+
+This fabrication tool is the work very related to the one of this thesis
 
 \subsubsection{Twikit}
 
 \subsection{Activity Sculptures}
+see \cite{swaminathan2014supporting} for more sources about activity sculptures, good stuff in there!
 
 \subsubsection{Sweet Atoms}
 

@@ -5,6 +5,16 @@ E.~Abbasi, A.~Hubaux, M.~Acher, Q.~Boucher, and P.~Heymans.
 \newblock What's in a web configurator? empirical results from 111 cases.
 \newblock University of Belgium, 2013.
 
+\bibitem{bostock2015d3js}
+M.~Bostock.
+\newblock D3 data driven documents, 2013.
+\newblock {last accessed 22-05-2015}, \url{http://d3js.org/}.
+
+\bibitem{cabello2010three}
+R.~Cabello.
+\newblock Three.js, 2010.
+\newblock {last accessed 22-05-2015}, \url{http://threejs.org/}.
+
 \bibitem{Card:1999:RIV:300679}
 S.~K. Card, J.~D. Mackinlay, and B.~Shneiderman, editors.
 \newblock {\em Readings in Information Visualization: Using Vision to Think}.
@@ -38,6 +48,16 @@ G.~Hedin, L.~Ohlsson, and J.~McKenna.
 \newblock Product configuration using object oriented grammars.
 \newblock In {\em System Configuration Management}, pages 107--126. Springer,
   1998.
+
+\bibitem{joyent2015node}
+J.~Inc.
+\newblock Node.js, 2012.
+\newblock {last accessed 22-05-2015}, \url{http://nodejs.org/}.
+
+\bibitem{jqf2015jquery}
+T.~jQuery Foundation.
+\newblock jquery write less, do more, 2015.
+\newblock {last accessed 22-05-2015}, \url{https://jquery.com/}.
 
 \bibitem{khot2014understanding}
 R.~A. Khot, L.~Hjorth, and F.~Mueller.
@@ -82,6 +102,13 @@ R.~Rolland, E.~Yvain, O.~Christmann, E.~Loup-Escande, and S.~Richir.
   process: the case of a gates 3d configurator.
 \newblock In {\em Proceedings of the 2012 Virtual Reality International
   Conference}, page~25. ACM, 2012.
+
+\bibitem{swaminathan2014supporting}
+S.~Swaminathan, C.~Shi, Y.~Jansen, P.~Dragicevic, L.~A. Oehlberg, and J.-D.
+  Fekete.
+\newblock Supporting the design and fabrication of physical visualizations.
+\newblock In {\em Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems}, pages 3845--3854. ACM, 2014.
 
 \bibitem{swan2013quantified}
 M.~Swan.

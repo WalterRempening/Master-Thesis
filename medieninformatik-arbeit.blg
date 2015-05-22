@@ -18,46 +18,54 @@ I was expecting a `,' or a `}'---line 202 of file ma-thesis.bib
  :   publisher={ACM}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "cabello2010three" isn't style-file defined
+--line 214 of file ma-thesis.bib
+Warning--entry type for "joyent2015node" isn't style-file defined
+--line 223 of file ma-thesis.bib
+Warning--entry type for "bostock2015d3js" isn't style-file defined
+--line 232 of file ma-thesis.bib
+Warning--entry type for "jqf2015jquery" isn't style-file defined
+--line 241 of file ma-thesis.bib
 Warning--empty booktitle in abbasi2012s
-You've used 21 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            612 strings with 7895 characters,
-and the built_in function-call counts, 6589 in all, are:
-= -- 636
-> -- 310
-< -- 5
-+ -- 127
-- -- 102
-* -- 385
-:= -- 1091
-add.period$ -- 68
-call.type$ -- 21
-change.case$ -- 110
+            633 strings with 8514 characters,
+and the built_in function-call counts, 8040 in all, are:
+= -- 777
+> -- 371
+< -- 6
++ -- 152
+- -- 122
+* -- 453
+:= -- 1318
+add.period$ -- 84
+call.type$ -- 26
+change.case$ -- 135
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 270
-empty$ -- 539
-format.name$ -- 102
-if$ -- 1409
+cite$ -- 27
+duplicate$ -- 323
+empty$ -- 671
+format.name$ -- 122
+if$ -- 1730
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 19
-newline$ -- 109
-num.names$ -- 43
-pop$ -- 161
+int.to.str$ -- 26
+missing$ -- 20
+newline$ -- 134
+num.names$ -- 53
+pop$ -- 209
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 113
 quote$ -- 0
-skip$ -- 195
+skip$ -- 244
 stack$ -- 0
-substring$ -- 291
-swap$ -- 65
-text.length$ -- 5
+substring$ -- 356
+swap$ -- 82
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
+type$ -- 96
 warning$ -- 1
-while$ -- 61
-width$ -- 23
-write$ -- 228
+while$ -- 74
+width$ -- 28
+write$ -- 280
 (There was 1 error message)
