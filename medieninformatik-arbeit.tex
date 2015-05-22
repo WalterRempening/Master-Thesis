@@ -1,4 +1,3 @@
-%!TEX root = medieninformatik-arbeit.tex
 \documentclass[11pt,a4paper,twoside]{article}
 % \synctex=1
 
@@ -11,15 +10,14 @@
 \usepackage[ngerman,english]{babel} % deutsche Trennregeln, "Inhaltsverzeichnis" etc.
 %\usepackage{ngerman} % Alternative zum Babel-Paket oben
 \usepackage{mathptmx} % Times-Roman-Schrift (auch für mathematische Formeln)
-
 \usepackage{subfiles}
 \usepackage{listings} % For displaying js source code
 \lstdefinelanguage{JavaScript}{morekeywords={break,const,continue,delete,do,while,export,for,in,function,if,else,import,in,instanceOf,label,let,new,return,switch,this,throw,try,catch,typeof,var,void,with,yield},
-  sensitive=false,
-	morecomment=[l]{//},
-	morecomment=[s]{/*}{*/},
-	morestring=[b]",
-	morestring=[d]'
+sensitive=false,
+morecomment=[l]{//},
+morecomment=[s]{/*}{*/},
+morestring=[b]",
+morestring=[d]'
 }
 % Code example
 %\begin{lstlisting}[language=JavaScript]
@@ -40,8 +38,8 @@
 \definecolor{darkmagenta}{rgb}{.2,0,.2}
 \definecolor{darkcyan}{rgb}{0,.15,.15}
 \usepackage[plainpages=false,bookmarks=true,bookmarksopen=true,colorlinks=true,
- linkcolor=darkred,citecolor=darkgreen,filecolor=darkmagenta,
- menucolor=darkred,urlcolor=darkcyan]{hyperref}
+linkcolor=darkred,citecolor=darkgreen,filecolor=darkmagenta,
+menucolor=darkred,urlcolor=darkcyan]{hyperref}
 
 % pdflatex: Bilder in den Formaten .jpeg, .png und .pdf
 % latex: Bilder im .eps-Format
@@ -82,10 +80,10 @@
 \pagenumbering{alph} % Unsichtbare alphabetische Nummerierung
 
 \begin{center}
-  \textsc{University of Munich}\\
-  Department ``Institute for Informatics''\\
-  Education and Research Units Media Informatics\\
-  Prof.\ Dr.\ Heinrich Hußmann
+\textsc{University of Munich}\\
+Department ``Institute for Informatics''\\
+Education and Research Units Media Informatics\\
+Prof.\ Dr.\ Heinrich Hußmann
 
 
 \vspace{5cm}
@@ -99,9 +97,9 @@
 \vfill
 
 \begin{tabular}{ll}
-  Working Time: & 1. 12. 2014 to 1. 6. 2015\\
-  Supervisor: & Simon Stusak\\
-  Responsible Professor: & Prof. Dr. Andreas Butz
+Working Time: & 1. 12. 2014 to 1. 6. 2015\\
+Supervisor: & Simon Stusak\\
+Responsible Professor: & Prof. Dr. Andreas Butz
 \end{tabular}
 %______________________________________________________________________
 
@@ -180,22 +178,22 @@ for follow-up works.
 
 \paragraph{Possible research questions}
 \begin{itemize}
-  \item What interaction concepts are possible? What are their advantages and
-    disadvantages?
-  \item What degree of freedom is possible and meaningful while designing a visualization?
-  \item What is a possible design space for said activity sculptures?
+\item What interaction concepts are possible? What are their advantages and
+disadvantages?
+\item What degree of freedom is possible and meaningful while designing a visualization?
+\item What is a possible design space for said activity sculptures?
 \end{itemize}
 \paragraph{Tasks}
 \begin{itemize}
-  \item Research and related works (e.g.\ data visualization, configurators)
-  \item Development of interaction concepts
-  \item Concept implementation
-  \item Planing and executing several small user studies
-  \item Written thesis and presentation of work
+\item Research and related works (e.g.\ data visualization, configurators)
+\item Development of interaction concepts
+\item Concept implementation
+\item Planing and executing several small user studies
+\item Written thesis and presentation of work
 \end{itemize}
 \paragraph{Requirements}
 \begin{itemize}
-  \item Programming skills in web development and computer graphics
+\item Programming skills in web development and computer graphics
 \end{itemize}
 \vfill % Sorgt dafür, dass das Folgende an das Seitenende rutscht
 
@@ -228,7 +226,7 @@ the references and auxiliary means indicated in the thesis.
 \fancyfoot[LE,RO]{\thepage}
 
 %_____________________________________________________________________
-% Include Kapitel
+% subfile Kapitel
 %______________________________________________________________________
 \subfile{Introduction/intro}
 %\_____________________________________________________________________
@@ -286,37 +284,37 @@ the references and auxiliary means indicated in the thesis.
 \section*{Contents of the enclosed CD}
 \paragraph{Thesis}
 \begin{itemize}
-  \item \LaTeX\ Document   
-  \item PDF File 
+\item \LaTeX\ Document   
+\item PDF File 
 \end{itemize}
 
 \paragraph{Presentations}
 \begin{itemize}
-  \item Initial presentation
-  \item Final presentation
+\item Initial presentation
+\item Final presentation
 \end{itemize}
 
 \paragraph{Activity Sculpture Web Configurator}
 \begin{itemize}
-  \item Prototype sketches  
-  \item Source code
-  \item Gitlab and Github mirrors  
-  \item Instructions for deployment  
-  \item Login Data
-   
+\item Prototype sketches  
+\item Source code
+\item Gitlab and Github mirrors  
+\item Instructions for deployment  
+\item Login Data
+
 \end{itemize}    
 
 \paragraph{Sculptures}
 \begin{itemize}
-  \item Prototype sketches 
-  \item.stl 3D print ready example files 
+\item Prototype sketches 
+\item.stl 3D print ready example files 
 \end{itemize}
 
 \paragraph{User Study}
 \begin{itemize}
-    \item Questionnaire 
-    \item Results
-    \item Heat map images
-  \end{itemize}      
+\item Questionnaire 
+\item Results
+\item Heat map images
+\end{itemize}      
 
 \end{document}
