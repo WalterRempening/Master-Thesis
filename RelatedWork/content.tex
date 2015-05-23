@@ -67,7 +67,7 @@ One of the main aspects of the gates configurator in respect to the research pur
 \begin{figure}[hb]
 \begin{center}
   \includegraphics[width=0.7\textwidth]{RelatedWork/img/gates-config}
-  \caption{Groupe Maine's configurator\cite{rolland2012commerce} }
+  \caption{Groupe Maine's gates configurator\cite{rolland2012commerce} }
 \label{fig:gates-config}
 \end{center}
 \end{figure}
@@ -92,25 +92,33 @@ Although the authors conducted a relative small user study, the results provided
 The MakerVis fabrication tool approximates closely the aim of the work discussed in this thesis. This work shares the same mission of building a tool were the whole process of visualizing a 3D object is contained. The MakerVis focuses more on data manipulation and fabrication as it basically dedicates two thirds of the whole screen to data filtering and fabrication parameters. None the less the interaction concepts and design layout served as a reference point for the activity sculpture configurator. 
 
 \subsubsection{Twikit}
+The 3D printing market is a fast growing market estimated to reach US\$16.2 billion dollars in value by 2018\cite{canalys2014trends}. Many see the potential to offer services to facilitate the design and production of 3D printing goods. An interesting example is 
+Twikit\cite{twikit2015tech} a company located in Belgium that offers innovative software, fabrication and shipping solutions for brands and retailers looking to easily implement product customization to their product portfolio. The Twikit website states that their goal is to ``allow end-to-end 3D product customization, in the easiest way possible'' and they see 3D product customization as ``key in the future of products and experiences''.
 
+The range of services the belgian company offers covers every step in the development of a 3D configurable product. If needed Twikit is can aid brands in the development of their 3D product through collaboration with existing design teams. On the software side, Twikit offers a complex engine for 3D visualization, customization and fabrication called Twikbot. This engine allows companies to integrate customization tools into their current e-shop or application. Due to the modular nature of the engine, retailers can choose what kind of interface controls they need for the customization process and integrate them with the assurance that the design specifications and constraints will be met. The Twikbot also offers material configuration functionality for a variety of 3D printing techniques. Another integral component of the Twikbot is its Content-Management-System (CMS). The Twikbot CMS is a backend tool that manages and tracks currently configured and sold products and through an API cloud-based service it links to logistics and 3D print fulfillment providers. 
+
+The Twikit website showcases several study cases from small and large businesses that have integrated their software to sell appealing customizable products. As much as it would be interesting to know how Twikit performs in all areas of their services, for the purposes of this thesis, only the configurators showcased will be evaluated. One interesting case study in the website is the 3D Trophy Factory\cite{twikit2015tech} which is owned and run by the same Twikit people. This e-shop sells a variety of trophy models were the text can be customized (see figure \ref{fig:trophy-config}). It is a very simple configurator that allows customers to interact the trophy in 3D space through click and drag. Depending on the model customers can input up to three different text lines. The configurator offers the possibility to save and load configured trophies. If users have a custom 3D model they would like to print as a trophy, the e-shop supports uploading 3D model files. In some designs users can also change some text properties like randomize the positioning. 
 
 \begin{figure}[h]
 \captionsetup{width=0.4\textwidth}
 \centering
 \begin{minipage}{.45\textwidth}
 \centering
-  \includegraphics[width=\linewidth]{RelatedWork/img/mrmaria-config}
-  \caption{\protect Twikit powered MrMaria Studio lamp web configurator\cite{unu:2015:Online}}
-\label{fig:mmaria-config}
+  \includegraphics[width=\linewidth]{RelatedWork/img/trophy-config}
+  \caption{\protect Twikit powered 3D Trophy Factory web configurator\cite{trophy2015factory}}
+\label{fig:trophy-config}
 \end{minipage}
 \begin{minipage}{.45\textwidth}
 \centering
-  \includegraphics[width=\linewidth]{RelatedWork/img/trophy-config}
-  \caption{\protect Twikit powered 3D Trophy Factory web configurator\cite{timbuk2:2015:Online}}
-\label{fig:trophy-config}
+  \includegraphics[width=\linewidth]{RelatedWork/img/mrmaria-config}
+  \caption{\protect Twikit powered MrMaria Studio lamp web configurator\cite{mrmaria2015studio}} 
+\label{fig:mmaria-config}
 \end{minipage}
 \end{figure}
 
+The next Twitkit case study shows that the technology offered by Twickit can be easily used to enable brands no matter how big or small to start offering customizable products. Amsterdam based design studio Mr Maria\cite{mrmaria2015studio} added a customizable toy lamp to their product line. The lamp configurator showcases the brand identity of the studio and allows customers to customize their lamp in a playful way. The lamp is composed by a model of an animal and a pedestal were a text is placed. Users can choose different animals to place over the pedestal and further customize it by adding different accessories like hats, different pedestal designs with different color themes and a text field for adding a custom text (see figure \ref{fig:mmaria-config}. The lamp is placed in a cartoon style background which can be changed to a dark view where the lamp glows simulating to be turned on.  
+
+The 3D Trophy Factory and the Mr Maria lamp configurator were both very appealing and fun to work with. Twikit does not say much about the technologies used in the framework but a view into both e-shop's source code showed that it makes use of the Three.js\cite{cabello2010three} graphics library. In summary, the toolkit offered by Twikit seems to make quality visualizations with good performance as the interaction with the products is always fluid. It would be interesting to see how much does Twickit charge customers for their service but the website only offers a contact form to get information.    
 
 \subsection{Activity Sculptures}
 see \cite{swaminathan2014supporting} for more sources about activity sculptures, good stuff in there!

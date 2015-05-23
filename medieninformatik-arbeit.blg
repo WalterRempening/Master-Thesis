@@ -13,11 +13,6 @@ Warning--entry type for "livinglabs:2015:Online" isn't style-file defined
 --line 178 of file ma-thesis.bib
 Warning--entry type for "unity3d:2015:Online" isn't style-file defined
 --line 187 of file ma-thesis.bib
-I was expecting a `,' or a `}'---line 202 of file ma-thesis.bib
- :   
- :   publisher={ACM}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--entry type for "cabello2010three" isn't style-file defined
 --line 214 of file ma-thesis.bib
 Warning--entry type for "joyent2015node" isn't style-file defined
@@ -26,46 +21,54 @@ Warning--entry type for "bostock2015d3js" isn't style-file defined
 --line 232 of file ma-thesis.bib
 Warning--entry type for "jqf2015jquery" isn't style-file defined
 --line 241 of file ma-thesis.bib
+Warning--entry type for "twikit2015tech" isn't style-file defined
+--line 250 of file ma-thesis.bib
+Warning--entry type for "mrmaria2015studio" isn't style-file defined
+--line 259 of file ma-thesis.bib
+Warning--entry type for "trophy2015factory" isn't style-file defined
+--line 268 of file ma-thesis.bib
+Warning--entry type for "canalys2014trends" isn't style-file defined
+--line 276 of file ma-thesis.bib
 Warning--empty booktitle in abbasi2012s
-You've used 26 entries,
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            633 strings with 8514 characters,
-and the built_in function-call counts, 8040 in all, are:
-= -- 777
-> -- 371
+            650 strings with 9034 characters,
+and the built_in function-call counts, 8855 in all, are:
+= -- 851
+> -- 399
 < -- 6
-+ -- 152
-- -- 122
-* -- 453
-:= -- 1318
-add.period$ -- 84
-call.type$ -- 26
-change.case$ -- 135
++ -- 164
+- -- 130
+* -- 477
+:= -- 1452
+add.period$ -- 95
+call.type$ -- 30
+change.case$ -- 151
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 323
-empty$ -- 671
-format.name$ -- 122
-if$ -- 1730
+cite$ -- 31
+duplicate$ -- 351
+empty$ -- 759
+format.name$ -- 130
+if$ -- 1908
 int.to.chr$ -- 0
-int.to.str$ -- 26
+int.to.str$ -- 30
 missing$ -- 20
-newline$ -- 134
-num.names$ -- 53
-pop$ -- 209
+newline$ -- 153
+num.names$ -- 61
+pop$ -- 245
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 125
 quote$ -- 0
-skip$ -- 244
+skip$ -- 273
 stack$ -- 0
-substring$ -- 356
-swap$ -- 82
+substring$ -- 376
+swap$ -- 86
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
+type$ -- 112
 warning$ -- 1
-while$ -- 74
-width$ -- 28
-write$ -- 280
-(There was 1 error message)
+while$ -- 82
+width$ -- 32
+write$ -- 318
+(There were 14 warnings)
