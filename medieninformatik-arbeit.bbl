@@ -5,6 +5,12 @@ E.~Abbasi, A.~Hubaux, M.~Acher, Q.~Boucher, and P.~Heymans.
 \newblock What's in a web configurator? empirical results from 111 cases.
 \newblock University of Belgium, 2013.
 
+\bibitem{bara2004visuo}
+F.~Bara, E.~Gentaz, P.~Col{\'e}, and L.~Sprenger-Charolles.
+\newblock The visuo-haptic and haptic exploration of letters increases the
+  kindergarten children's understanding of the alphabetic principle.
+\newblock {\em Cognitive development}, 19(3):433--449, 2004.
+
 \bibitem{bostock2015d3js}
 M.~Bostock.
 \newblock D3 data driven documents, 2013.
@@ -59,6 +65,12 @@ G.~Hedin, L.~Ohlsson, and J.~McKenna.
 J.~Inc.
 \newblock Node.js, 2012.
 \newblock {last accessed 22-05-2015}, \url{http://nodejs.org/}.
+
+\bibitem{jansen2013evaluating}
+Y.~Jansen, P.~Dragicevic, and J.-D. Fekete.
+\newblock Evaluating the efficiency of physical visualizations.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 2593--2602. ACM, 2013.
 
 \bibitem{jqf2015jquery}
 T.~jQuery Foundation.
@@ -147,10 +159,17 @@ Twikit.
 \newblock Twikit, tweak it, make it! 3d customization, 2015.
 \newblock {last accessed 22-05-2015}, \url{https://www.twikit.com/}.
 
+\bibitem{vande2008beyond}
+A.~Vande~Moere.
+\newblock Beyond the tyranny of the pixel: Exploring the physicality of
+  information visualization.
+\newblock In {\em Information Visualisation, 2008. IV'08. 12th International
+  Conference}, pages 469--474. IEEE, 2008.
+
 \bibitem{vande2009analyzing}
 A.~Vande~Moere and S.~Patel.
-\newblock Analyzing the design approaches of physical data sculptures in a
-  design education context.
+\newblock The physical visualization of information: Designing data sculptures
+  in an educational context.
 \newblock {\em Visual Information Communications International (VINCI'09)},
   2009.
 
