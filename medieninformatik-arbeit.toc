@@ -18,7 +18,6 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Sweat Atoms}{9}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Mental Fabrications}{11}{subsubsection.2.2.2}
 \contentsline {subsection}{\numberline {2.3}Activity Data Sources}{11}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Fitness Tracker APIs}{11}{subsubsection.2.3.1}
 \contentsline {section}{\numberline {3}Prototype Design}{13}{section.3}
 \contentsline {subsection}{\numberline {3.1}Requirements}{13}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Sculpture Design}{13}{subsection.3.2}
@@ -50,7 +49,7 @@
 \contentsline {subsection}{\numberline {5.6}Limitations}{17}{subsection.5.6}
 \contentsline {section}{\numberline {6}Conclusion}{19}{section.6}
 \contentsline {section}{\numberline {7}Future Work}{21}{section.7}
-\contentsline {section}{Appendix}{29}{section*.16}
+\contentsline {section}{Appendix}{29}{section*.20}
 \contentsline {section}{\numberline {A}Online Questionnaire}{29}{appendix.A}
 \contentsline {section}{\numberline {B}User Study Results}{29}{appendix.B}
 \contentsline {subsection}{\numberline {B.1}Questionnaire Results}{29}{subsection.B.1}
@@ -59,8 +58,8 @@
 \contentsline {subsection}{\numberline {C.1}Sculpture Prototypes}{29}{subsection.C.1}
 \contentsline {subsection}{\numberline {C.2}Web Configurator Prototypes}{29}{subsection.C.2}
 \contentsline {section}{Contents of the enclosed CD}{31}{subsection.C.2}
-\contentsline {paragraph}{Thesis}{31}{section*.19}
-\contentsline {paragraph}{Presentations}{31}{section*.20}
-\contentsline {paragraph}{Activity Sculpture Web Configurator}{31}{section*.21}
-\contentsline {paragraph}{Sculptures}{31}{section*.22}
-\contentsline {paragraph}{User Study}{31}{section*.23}
+\contentsline {paragraph}{Thesis}{31}{section*.23}
+\contentsline {paragraph}{Presentations}{31}{section*.24}
+\contentsline {paragraph}{Activity Sculpture Web Configurator}{31}{section*.25}
+\contentsline {paragraph}{Sculptures}{31}{section*.26}
+\contentsline {paragraph}{User Study}{31}{section*.27}

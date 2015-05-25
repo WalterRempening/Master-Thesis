@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  25 MAY 2015 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  25 MAY 2015 21:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -416,12 +416,12 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 ] [2]) [3] [4
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/content.tex <RelatedWo
-rk/img/unu-config.png, id=373, 1441.385pt x 808.01875pt>
+rk/img/unu-config.png, id=368, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/unu-config.png Graphic file (type png)
 <use RelatedWork/img/unu-config.png>
 Package pdftex.def Info: RelatedWork/img/unu-config.png used on input line 41.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
-<RelatedWork/img/timbuk2-config.png, id=377, 1441.385pt x 808.01875pt>
+<RelatedWork/img/timbuk2-config.png, id=372, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/timbuk2-config.png Graphic file (type png)
 <use RelatedWork/img/timbuk2-config.png>
 Package pdftex.def Info: RelatedWork/img/timbuk2-config.png used on input line 
@@ -434,26 +434,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
 
 [5 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/unu-config.png> <
 /Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/timbuk2-config.png>] 
-<RelatedWork/img/gates-config.png, id=399, 842.14626pt x 492.84125pt>
+<RelatedWork/img/gates-config.png, id=394, 842.14626pt x 492.84125pt>
 File: RelatedWork/img/gates-config.png Graphic file (type png)
 <use RelatedWork/img/gates-config.png>
 Package pdftex.def Info: RelatedWork/img/gates-config.png used on input line 69
 .
 (pdftex.def)             Requested size: 298.75262pt x 174.83577pt.
 [6 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/gates-config.png>
-] <RelatedWork/img/MakerVis.png, id=416, 967.615pt x 580.1675pt>
+] <RelatedWork/img/MakerVis.png, id=411, 967.615pt x 580.1675pt>
 File: RelatedWork/img/MakerVis.png Graphic file (type png)
 <use RelatedWork/img/MakerVis.png>
 Package pdftex.def Info: RelatedWork/img/MakerVis.png used on input line 86.
 (pdftex.def)             Requested size: 298.75262pt x 179.12415pt.
 [7 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/MakerVis.png>] <R
-elatedWork/img/trophy-config.png, id=434, 1441.385pt x 808.01875pt>
+elatedWork/img/trophy-config.png, id=429, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/trophy-config.png Graphic file (type png)
 <use RelatedWork/img/trophy-config.png>
 Package pdftex.def Info: RelatedWork/img/trophy-config.png used on input line 1
 07.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
-<RelatedWork/img/mrmaria-config.png, id=437, 1440.38126pt x 808.01875pt>
+<RelatedWork/img/mrmaria-config.png, id=432, 1440.38126pt x 808.01875pt>
 File: RelatedWork/img/mrmaria-config.png Graphic file (type png)
 <use RelatedWork/img/mrmaria-config.png>
 Package pdftex.def Info: RelatedWork/img/mrmaria-config.png used on input line 
@@ -461,7 +461,7 @@ Package pdftex.def Info: RelatedWork/img/mrmaria-config.png used on input line
 (pdftex.def)             Requested size: 192.0548pt x 107.73392pt.
 [8 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/trophy-config.png
 > </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mrmaria-config.png
->] <RelatedWork/img/sweatatoms-as.png, id=464, 561.09625pt x 376.40625pt>
+>] <RelatedWork/img/sweatatoms-as.png, id=459, 561.09625pt x 376.40625pt>
 File: RelatedWork/img/sweatatoms-as.png Graphic file (type png)
 <use RelatedWork/img/sweatatoms-as.png>
 Package pdftex.def Info: RelatedWork/img/sweatatoms-as.png used on input line 1
@@ -471,23 +471,23 @@ Package pdftex.def Info: RelatedWork/img/sweatatoms-as.png used on input line 1
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [10 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/sweatatoms-as.pn
-g>] <RelatedWork/img/mentalfab1-as.png, id=485, 605.26125pt x 666.49pt>
+g>] <RelatedWork/img/mentalfab1-as.png, id=479, 605.26125pt x 666.49pt>
 File: RelatedWork/img/mentalfab1-as.png Graphic file (type png)
 <use RelatedWork/img/mentalfab1-as.png>
 Package pdftex.def Info: RelatedWork/img/mentalfab1-as.png used on input line 1
 58.
 (pdftex.def)             Requested size: 192.0548pt x 143.76942pt.
-<RelatedWork/img/mentalfab-as.png, id=487, 643.40375pt x 481.8pt>
+<RelatedWork/img/mentalfab-as.png, id=481, 643.40375pt x 481.8pt>
 File: RelatedWork/img/mentalfab-as.png Graphic file (type png)
 <use RelatedWork/img/mentalfab-as.png>
 Package pdftex.def Info: RelatedWork/img/mentalfab-as.png used on input line 16
 2.
 (pdftex.def)             Requested size: 192.0548pt x 143.8133pt.
-) [11 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab1-as.
-png> </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab-as.pn
-g>] [12
+[11 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab1-as.pn
+g> </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab-as.png>
+]) [12] (/Users/wrd/Documents/Master Thesis/Thesis/Prototype/proto.tex) [13
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/Prototype/proto.tex) [13] [14
+] [14
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/Configurator/conf.tex) [15] [16
 
@@ -538,14 +538,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
 Package rerunfilecheck Info: File `medieninformatik-arbeit.out' has not changed
 .
-(rerunfilecheck)             Checksum: A4600297EE22694CB9F35534A714F9ED;3535.
+(rerunfilecheck)             Checksum: 359A6C2448D9138A71C0A65B2CA48C02;3456.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
  ) 
 Here is how much of TeX's memory you used:
- 8823 strings out of 493117
- 135752 string characters out of 6135432
- 219561 words of memory out of 5000000
- 11964 multiletter control sequences out of 15000+600000
+ 8825 strings out of 493117
+ 135756 string characters out of 6135432
+ 219550 words of memory out of 5000000
+ 11963 multiletter control sequences out of 15000+600000
  42415 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,47p,2059b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -557,10 +557,10 @@ e/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
 Output written on "/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-a
-rbeit.pdf" (39 pages, 5078570 bytes).
+rbeit.pdf" (39 pages, 5080549 bytes).
 PDF statistics:
- 697 PDF objects out of 1000 (max. 8388607)
- 617 compressed objects within 7 object streams
- 151 named destinations out of 1000 (max. 500000)
- 484 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 699 PDF objects out of 1000 (max. 8388607)
+ 619 compressed objects within 7 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
