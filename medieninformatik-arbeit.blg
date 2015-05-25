@@ -31,46 +31,50 @@ Warning--entry type for "canalys2014trends" isn't style-file defined
 --line 276 of file ma-thesis.bib
 Warning--entry type for "mental2014fabrications" isn't style-file defined
 --line 313 of file ma-thesis.bib
+Warning--entry type for "nuero2015sky" isn't style-file defined
+--line 322 of file ma-thesis.bib
+Warning--entry type for "cylcing2015maxsmp" isn't style-file defined
+--line 331 of file ma-thesis.bib
 Warning--empty booktitle in abbasi2012s
-You've used 34 entries,
+You've used 36 entries,
             2118 wiz_defined-function locations,
-            673 strings with 9884 characters,
-and the built_in function-call counts, 10423 in all, are:
-= -- 1017
-> -- 454
+            681 strings with 10146 characters,
+and the built_in function-call counts, 10835 in all, are:
+= -- 1055
+> -- 468
 < -- 8
-+ -- 188
-- -- 148
-* -- 571
-:= -- 1684
-add.period$ -- 109
-call.type$ -- 34
-change.case$ -- 172
++ -- 194
+- -- 152
+* -- 583
+:= -- 1752
+add.period$ -- 115
+call.type$ -- 36
+change.case$ -- 180
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 417
-empty$ -- 893
-format.name$ -- 148
-if$ -- 2261
+cite$ -- 37
+duplicate$ -- 431
+empty$ -- 937
+format.name$ -- 152
+if$ -- 2351
 int.to.chr$ -- 0
-int.to.str$ -- 34
+int.to.str$ -- 36
 missing$ -- 23
-newline$ -- 173
-num.names$ -- 69
-pop$ -- 275
+newline$ -- 183
+num.names$ -- 73
+pop$ -- 293
 preamble$ -- 1
-purify$ -- 142
+purify$ -- 148
 quote$ -- 0
-skip$ -- 326
+skip$ -- 340
 stack$ -- 0
-substring$ -- 495
-swap$ -- 112
+substring$ -- 505
+swap$ -- 114
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
+type$ -- 136
 warning$ -- 1
-while$ -- 98
-width$ -- 36
-write$ -- 363
-(There were 15 warnings)
+while$ -- 102
+width$ -- 38
+write$ -- 383
+(There were 17 warnings)

@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{cylcing2015maxsmp}
+C.~'74'.
+\newblock Cylcing '74: makers of max', 2015.
+\newblock {last accessed 25-05-2015}, \url{https://cycling74.com/}.
+
 \bibitem{abbasi2012s}
 E.~Abbasi, A.~Hubaux, M.~Acher, Q.~Boucher, and P.~Heymans.
 \newblock What's in a web configurator? empirical results from 111 cases.
@@ -99,6 +104,12 @@ V.~Mayer-Sch{\"o}nberger and K.~Cukier.
 R.~McCarney, J.~Warner, S.~Iliffe, R.~van Haselen, M.~Griffin, and P.~Fisher.
 \newblock The hawthorne effect: a randomised, controlled trial.
 \newblock {\em BMC medical research methodology}, 7(1):30, 2007.
+
+\bibitem{nuero2015sky}
+NeuroSky.
+\newblock Biosensors \& algorithms ,ecg, eeg, neursky, 2015.
+\newblock {last accessed 25-05-2015},
+  \url{http://neurosky.com/biosensors/eeg-sensor/biosensors/}.
 
 \bibitem{livinglabs:2015:Online}
 E.~N. of~Living~Labs.
