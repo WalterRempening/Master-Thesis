@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  25 MAY 2015 21:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  26 MAY 2015 00:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -112,9 +112,12 @@ Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \caption@hangindent=\dimen110
 )
 \c@ContinuedFloat=\count88
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box26
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count89
-\lst@gtempboxa=\box26
+\lst@gtempboxa=\box27
 \lst@token=\toks19
 \lst@length=\count90
 \lst@currlwidth=\dimen111
@@ -129,7 +132,7 @@ Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \c@lstnumber=\count95
 \lst@skipnumbers=\count96
-\lst@framebox=\box27
+\lst@framebox=\box28
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
@@ -283,21 +286,21 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 ) (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux)
 \openout1 = `medieninformatik-arbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 79.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -311,7 +314,7 @@ Package caption Info: End \AtBeginDocument code.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen122
-\scratchbox=\box28
+\scratchbox=\box29
 \nofMPsegments=\count110
 \nofMParguments=\count111
 \everyMPshowfont=\toks20
@@ -321,8 +324,8 @@ Package caption Info: End \AtBeginDocument code.
 \makeMPintoPDFobject=\count114
 \everyMPtoPDFconversion=\toks21
 )
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 78.
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring ON on input line 79.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -330,9 +333,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count115
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.out) (/Users
 /wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.out)
 \@outlinefile=\write3
@@ -352,43 +355,43 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
-0.
+1.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
-0.
+1.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
-0.
+1.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
-0.
+1.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 100.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 101.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 109.
 [2
 
 ] [3
@@ -397,14 +400,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 181.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 182.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 182.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 183.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 182.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
 [5] [6
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.toc [1])
@@ -485,23 +488,23 @@ Package pdftex.def Info: RelatedWork/img/mentalfab-as.png used on input line 16
 (pdftex.def)             Requested size: 192.0548pt x 143.8133pt.
 [11 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab1-as.pn
 g> </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab-as.png>
-]) [12] (/Users/wrd/Documents/Master Thesis/Thesis/Prototype/proto.tex) [13
+] [12]) [13] [14
 
-] [14
+] (/Users/wrd/Documents/Master Thesis/Thesis/Prototype/proto.tex) [15] [16
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/Configurator/conf.tex) [15] [16
+] (/Users/wrd/Documents/Master Thesis/Thesis/Configurator/conf.tex) [17] [18
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/UserStudy/study.tex) [17] [18
+] (/Users/wrd/Documents/Master Thesis/Thesis/UserStudy/study.tex) [19] [20
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/Conclusion/content.tex) [19] [20
+] (/Users/wrd/Documents/Master Thesis/Thesis/Conclusion/content.tex) [21] [22
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/FutureWork/content.tex) [21] [22
+] (/Users/wrd/Documents/Master Thesis/Thesis/FutureWork/content.tex) [23] [24
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lof)
 \tf@lof=\write5
 \openout5 = `medieninformatik-arbeit.lof'.
 
-[23] [24
+[25] [26
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
@@ -513,54 +516,61 @@ Underfull \hbox (badness 3815) in paragraph at lines 25--29
 2015, [][]$\T1/cmtt/m/n/10.95 http : / / www .
  []
 
-[25]
-Underfull \hbox (badness 2229) in paragraph at lines 134--138
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+\T1/cmtt/m/n/10.95 nike . com / content / nike-[]developer-[]cq / us / en _ us 
+/ index / documentation /
+ []
+
+[27]
+Underfull \hbox (badness 2229) in paragraph at lines 172--176
 []\T1/ptm/m/n/10.95 I. Popian.  Men-tal fab-ri-ca-tions, 2015.  last ac-cessed 
 25-05-2015, [][]$\T1/cmtt/m/n/10.95 http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
+Underfull \hbox (badness 10000) in paragraph at lines 207--211
 \T1/cmtt/m/n/10.95 / / www . timbuk2 . com / customizer # /product / 18-[]custo
 m-[]classic-[]messenger-[]bag /
  []
 
-[26]) [27] [28
+[28]) [29] [30
 
-] [29] [30
+] [31] [32
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
-[31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+[33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
 (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `medieninformatik-arbeit.out' has not changed
 .
-(rerunfilecheck)             Checksum: 359A6C2448D9138A71C0A65B2CA48C02;3456.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
+(rerunfilecheck)             Checksum: D0E536ECF824E0730515A02DA69427B0;3451.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 8825 strings out of 493117
- 135756 string characters out of 6135432
- 219550 words of memory out of 5000000
- 11963 multiletter control sequences out of 15000+600000
- 42415 words of font info for 55 fonts, out of 8000000 for 9000
+ 8913 strings out of 493117
+ 137042 string characters out of 6135432
+ 220292 words of memory out of 5000000
+ 12031 multiletter control sequences out of 15000+600000
+ 42532 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,47p,2059b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb>
+ive/2014/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
 Output written on "/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-a
-rbeit.pdf" (39 pages, 5080549 bytes).
+rbeit.pdf" (41 pages, 5094983 bytes).
 PDF statistics:
- 699 PDF objects out of 1000 (max. 8388607)
- 619 compressed objects within 7 object streams
- 154 named destinations out of 1000 (max. 500000)
+ 759 PDF objects out of 1000 (max. 8388607)
+ 676 compressed objects within 7 object streams
+ 169 named destinations out of 1000 (max. 500000)
  476 words of extra memory for PDF output out of 10000 (max. 10000000)
 

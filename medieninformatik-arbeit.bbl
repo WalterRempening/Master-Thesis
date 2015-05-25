@@ -66,16 +66,54 @@ G.~Hedin, L.~Ohlsson, and J.~McKenna.
 \newblock In {\em System Configuration Management}, pages 107--126. Springer,
   1998.
 
+\bibitem{fitbitApi}
+F.~Inc.
+\newblock Fitbit, 2015.
+\newblock {last accessed 25-05-2015}, \url{https://www.fitbit.com/de/flex}.
+
+\bibitem{fitbitProduct}
+F.~Inc.
+\newblock Fitbit flex wireless activity \& sleep wristband, 2015.
+\newblock {last accessed 25-05-2015}, \url{https://www.fitbit.com/de/flex}.
+
 \bibitem{joyent2015node}
 J.~Inc.
 \newblock Node.js, 2012.
 \newblock {last accessed 22-05-2015}, \url{http://nodejs.org/}.
+
+\bibitem{nikeApi}
+N.~Inc.
+\newblock Nike+ developer portal, 2014.
+\newblock {last accessed 25-05-2015},
+  \url{https://developer.nike.com/content/nike-developer-cq/us/en_us/index/documentation/api-docs.html}.
+
+\bibitem{nikePlusFuelBand}
+N.~Inc.
+\newblock Nike+, 2015.
+\newblock {last accessed 25-05-2015},
+  \url{https://secure-nikeplus.nike.com/plus/products/}.
+
+\bibitem{nikeRunningApp}
+N.~Inc.
+\newblock Nike+ running gps app, 2015.
+\newblock {last accessed 25-05-2015},
+  \url{http://www.nike.com/us/en_us/c/running/nikeplus/gps-app}.
 
 \bibitem{jansen2013evaluating}
 Y.~Jansen, P.~Dragicevic, and J.-D. Fekete.
 \newblock Evaluating the efficiency of physical visualizations.
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems}, pages 2593--2602. ACM, 2013.
+
+\bibitem{jawboneUpProduct}
+Jawbone.
+\newblock Buy up3 by jawbone the most advanced tracker known to man, 2015.
+\newblock {last accessed 25-05-2015}, \url{https://jawbone.com/store/buy/up3}.
+
+\bibitem{jawboneUpApi}
+Jawbone.
+\newblock Up for developers, 2015.
+\newblock {last accessed 25-05-2015}, \url{https://jawbone.com/up/developer}.
 
 \bibitem{jqf2015jquery}
 T.~jQuery Foundation.
@@ -189,6 +227,29 @@ A.~Vande~Moere and S.~Patel.
   in an educational context.
 \newblock {\em Visual Information Communications International (VINCI'09)},
   2009.
+
+\bibitem{misfitApi}
+M.~Wearables.
+\newblock Build \@ misfit, 2015.
+\newblock {last accessed 25-05-2015},
+  \url{https://build.misfit.com/docs/start}.
+
+\bibitem{misfitShine}
+M.~Wearables.
+\newblock Misfit shine premium fitness + sleep monitor, 2015.
+\newblock {last accessed 25-05-2015},
+  \url{http://misfit.com/products/shine#shine-trackitall}.
+
+\bibitem{withingsApi}
+Withings.
+\newblock Withings documentation, 2015.
+\newblock {last accessed 25-05-2015}, \url{http://oauth.withings.com/api}.
+
+\bibitem{withingsProduct}
+Withings.
+\newblock Withings pulse ox, 2015.
+\newblock {last accessed 25-05-2015},
+  \url{http://www.withings.com/de/withings-pulse.html}.
 
 \bibitem{wolf2009know}
 G.~Wolf.

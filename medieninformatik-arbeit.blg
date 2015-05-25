@@ -35,46 +35,68 @@ Warning--entry type for "nuero2015sky" isn't style-file defined
 --line 322 of file ma-thesis.bib
 Warning--entry type for "cylcing2015maxsmp" isn't style-file defined
 --line 331 of file ma-thesis.bib
+Warning--entry type for "nikeApi" isn't style-file defined
+--line 340 of file ma-thesis.bib
+Warning--entry type for "nikePlusFuelBand" isn't style-file defined
+--line 349 of file ma-thesis.bib
+Warning--entry type for "nikeRunningApp" isn't style-file defined
+--line 358 of file ma-thesis.bib
+Warning--entry type for "jawboneUpApi" isn't style-file defined
+--line 367 of file ma-thesis.bib
+Warning--entry type for "jawboneUpProduct" isn't style-file defined
+--line 376 of file ma-thesis.bib
+Warning--entry type for "misfitShine" isn't style-file defined
+--line 385 of file ma-thesis.bib
+Warning--entry type for "misfitApi" isn't style-file defined
+--line 394 of file ma-thesis.bib
+Warning--entry type for "withingsApi" isn't style-file defined
+--line 403 of file ma-thesis.bib
+Warning--entry type for "withingsProduct" isn't style-file defined
+--line 412 of file ma-thesis.bib
+Warning--entry type for "fitbitApi" isn't style-file defined
+--line 421 of file ma-thesis.bib
+Warning--entry type for "fitbitProduct" isn't style-file defined
+--line 430 of file ma-thesis.bib
 Warning--empty booktitle in abbasi2012s
-You've used 36 entries,
+You've used 47 entries,
             2118 wiz_defined-function locations,
-            681 strings with 10146 characters,
-and the built_in function-call counts, 10835 in all, are:
-= -- 1055
-> -- 468
+            729 strings with 11529 characters,
+and the built_in function-call counts, 13101 in all, are:
+= -- 1264
+> -- 545
 < -- 8
-+ -- 194
-- -- 152
-* -- 583
-:= -- 1752
-add.period$ -- 115
-call.type$ -- 36
-change.case$ -- 180
++ -- 227
+- -- 174
+* -- 649
+:= -- 2126
+add.period$ -- 148
+call.type$ -- 47
+change.case$ -- 224
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 431
-empty$ -- 937
-format.name$ -- 152
-if$ -- 2351
+cite$ -- 48
+duplicate$ -- 508
+empty$ -- 1179
+format.name$ -- 174
+if$ -- 2846
 int.to.chr$ -- 0
-int.to.str$ -- 36
+int.to.str$ -- 47
 missing$ -- 23
-newline$ -- 183
-num.names$ -- 73
-pop$ -- 293
+newline$ -- 238
+num.names$ -- 95
+pop$ -- 392
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 181
 quote$ -- 0
-skip$ -- 340
+skip$ -- 417
 stack$ -- 0
-substring$ -- 505
-swap$ -- 114
+substring$ -- 560
+swap$ -- 125
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 136
+type$ -- 180
 warning$ -- 1
-while$ -- 102
-width$ -- 38
-write$ -- 383
-(There were 17 warnings)
+while$ -- 124
+width$ -- 49
+write$ -- 493
+(There were 28 warnings)
