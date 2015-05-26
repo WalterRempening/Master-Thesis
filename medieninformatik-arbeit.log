@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  26 MAY 2015 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  26 MAY 2015 20:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -452,15 +452,13 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 
 [2] (/Users/wrd/Documents/Master Thesis/Thesis/Introduction/intro.tex [1
 
-] [2]) [3] [4
-
-] (/Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/content.tex <RelatedWo
-rk/img/unu-config.png, id=374, 1441.385pt x 808.01875pt>
+] [2]) [3] (/Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/content.tex <
+RelatedWork/img/unu-config.png, id=365, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/unu-config.png Graphic file (type png)
 <use RelatedWork/img/unu-config.png>
 Package pdftex.def Info: RelatedWork/img/unu-config.png used on input line 41.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
-<RelatedWork/img/timbuk2-config.png, id=378, 1441.385pt x 808.01875pt>
+<RelatedWork/img/timbuk2-config.png, id=369, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/timbuk2-config.png Graphic file (type png)
 <use RelatedWork/img/timbuk2-config.png>
 Package pdftex.def Info: RelatedWork/img/timbuk2-config.png used on input line 
@@ -471,76 +469,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []\T1/ptm/m/n/10.95 Figure 2.2: |Tim-buk2 bag web
  []
 
-[5 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/unu-config.png> <
-/Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/timbuk2-config.png>] 
-<RelatedWork/img/gates-config.png, id=400, 842.14626pt x 492.84125pt>
+[4
+
+ </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/unu-config.png> </U
+sers/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/timbuk2-config.png>] <R
+elatedWork/img/gates-config.png, id=390, 842.14626pt x 492.84125pt>
 File: RelatedWork/img/gates-config.png Graphic file (type png)
 <use RelatedWork/img/gates-config.png>
 Package pdftex.def Info: RelatedWork/img/gates-config.png used on input line 69
 .
 (pdftex.def)             Requested size: 298.75262pt x 174.83577pt.
-[6 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/gates-config.png>
-] <RelatedWork/img/MakerVis.png, id=417, 967.615pt x 580.1675pt>
+[5 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/gates-config.png>
+] <RelatedWork/img/MakerVis.png, id=408, 967.615pt x 580.1675pt>
 File: RelatedWork/img/MakerVis.png Graphic file (type png)
 <use RelatedWork/img/MakerVis.png>
 Package pdftex.def Info: RelatedWork/img/MakerVis.png used on input line 86.
 (pdftex.def)             Requested size: 298.75262pt x 179.12415pt.
-[7 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/MakerVis.png>] <R
-elatedWork/img/trophy-config.png, id=435, 1441.385pt x 808.01875pt>
+[6 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/MakerVis.png>] <R
+elatedWork/img/trophy-config.png, id=426, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/trophy-config.png Graphic file (type png)
 <use RelatedWork/img/trophy-config.png>
 Package pdftex.def Info: RelatedWork/img/trophy-config.png used on input line 1
 07.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
-<RelatedWork/img/mrmaria-config.png, id=438, 1440.38126pt x 808.01875pt>
+<RelatedWork/img/mrmaria-config.png, id=429, 1440.38126pt x 808.01875pt>
 File: RelatedWork/img/mrmaria-config.png Graphic file (type png)
 <use RelatedWork/img/mrmaria-config.png>
 Package pdftex.def Info: RelatedWork/img/mrmaria-config.png used on input line 
 113.
 (pdftex.def)             Requested size: 192.0548pt x 107.73392pt.
-[8 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/trophy-config.png
+[7 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/trophy-config.png
 > </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mrmaria-config.png
->] <RelatedWork/img/sweatatoms-as.png, id=465, 561.09625pt x 376.40625pt>
+>] <RelatedWork/img/sweatatoms-as.png, id=456, 561.09625pt x 376.40625pt>
 File: RelatedWork/img/sweatatoms-as.png Graphic file (type png)
 <use RelatedWork/img/sweatatoms-as.png>
 Package pdftex.def Info: RelatedWork/img/sweatatoms-as.png used on input line 1
 34.
 (pdftex.def)             Requested size: 298.75262pt x 200.41331pt.
-[9]
+[8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[10 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/sweatatoms-as.pn
-g>] <RelatedWork/img/mentalfab1-as.png, id=486, 605.26125pt x 666.49pt>
+[9 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/sweatatoms-as.png
+>] <RelatedWork/img/mentalfab1-as.png, id=476, 605.26125pt x 666.49pt>
 File: RelatedWork/img/mentalfab1-as.png Graphic file (type png)
 <use RelatedWork/img/mentalfab1-as.png>
 Package pdftex.def Info: RelatedWork/img/mentalfab1-as.png used on input line 1
 58.
 (pdftex.def)             Requested size: 192.0548pt x 143.76942pt.
-<RelatedWork/img/mentalfab-as.png, id=488, 643.40375pt x 481.8pt>
+<RelatedWork/img/mentalfab-as.png, id=478, 643.40375pt x 481.8pt>
 File: RelatedWork/img/mentalfab-as.png Graphic file (type png)
 <use RelatedWork/img/mentalfab-as.png>
 Package pdftex.def Info: RelatedWork/img/mentalfab-as.png used on input line 16
 2.
 (pdftex.def)             Requested size: 192.0548pt x 143.8133pt.
-[11 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab1-as.pn
+[10 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab1-as.pn
 g> </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab-as.png>
-] [12]) [13] [14
+] [11] <RelatedWork/img/bracelets.jpg, id=524, 1003.75pt x 401.5pt>
+File: RelatedWork/img/bracelets.jpg Graphic file (type jpg)
+<use RelatedWork/img/bracelets.jpg>
+Package pdftex.def Info: RelatedWork/img/bracelets.jpg used on input line 189.
+(pdftex.def)             Requested size: 341.43436pt x 136.57558pt.
+) [12 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/bracelets.jpg>
+] (/Users/wrd/Documents/Master Thesis/Thesis/Prototype/proto.tex) [13
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/Prototype/proto.tex) [15] [16
+] (/Users/wrd/Documents/Master Thesis/Thesis/Configurator/conf.tex) [14
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/Configurator/conf.tex) [17] [18
+] (/Users/wrd/Documents/Master Thesis/Thesis/UserStudy/study.tex) [15
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/UserStudy/study.tex) [19] [20
+] (/Users/wrd/Documents/Master Thesis/Thesis/Conclusion/content.tex) [16
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/Conclusion/content.tex) [21] [22
+] (/Users/wrd/Documents/Master Thesis/Thesis/FutureWork/content.tex) [17
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/FutureWork/content.tex) [23] [24
+] [18
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lof)
 \tf@lof=\write5
 \openout5 = `medieninformatik-arbeit.lof'.
 
-[25] [26
+[19] [20
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
@@ -558,7 +564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--89
 / index / documentation /
  []
 
-[27]
+[21]
 Underfull \hbox (badness 2229) in paragraph at lines 172--176
 []\T1/ptm/m/n/10.95 I. Popian.  Men-tal fab-ri-ca-tions, 2015.  last ac-cessed 
 25-05-2015, [][]$\T1/cmtt/m/n/10.95 http : / / www .
@@ -570,64 +576,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--211
 m-[]classic-[]messenger-[]bag /
  []
 
-[28]) [29] [30
+[22]) [23] [24
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/Appendix/content.tex <Appendix/pro
-totypes/3DGraph_01.jpg, id=683, 1003.75pt x 1642.135pt>
+totypes/3DGraph_01.jpg, id=672, 1003.75pt x 1642.135pt>
 File: Appendix/prototypes/3DGraph_01.jpg Graphic file (type jpg)
 <use Appendix/prototypes/3DGraph_01.jpg>
 Package pdftex.def Info: Appendix/prototypes/3DGraph_01.jpg used on input line 
 14.
 (pdftex.def)             Requested size: 328.63115pt x 537.64655pt.
-[31 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/3DGraph_01.j
-pg>] <Appendix/prototypes/3DGraph_02.jpg, id=690, 1003.75pt x 1061.9675pt>
+[25 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/3DGraph_01.j
+pg>] <Appendix/prototypes/3DGraph_02.jpg, id=679, 1003.75pt x 1061.9675pt>
 File: Appendix/prototypes/3DGraph_02.jpg Graphic file (type jpg)
 <use Appendix/prototypes/3DGraph_02.jpg>
 Package pdftex.def Info: Appendix/prototypes/3DGraph_02.jpg used on input line 
 20.
 (pdftex.def)             Requested size: 426.79134pt x 451.54898pt.
-<Appendix/prototypes/ActivityFlora.jpg, id=691, 1003.75pt x 1419.3025pt>
+<Appendix/prototypes/ActivityFlora.jpg, id=680, 1003.75pt x 1419.3025pt>
 File: Appendix/prototypes/ActivityFlora.jpg Graphic file (type jpg)
 <use Appendix/prototypes/ActivityFlora.jpg>
 Package pdftex.def Info: Appendix/prototypes/ActivityFlora.jpg used on input li
 ne 28.
 (pdftex.def)             Requested size: 426.79134pt x 603.48796pt.
-<Appendix/prototypes/ActivityLandscape.jpg, id=692, 1003.75pt x 1419.3025pt>
+<Appendix/prototypes/ActivityLandscape.jpg, id=681, 1003.75pt x 1419.3025pt>
 File: Appendix/prototypes/ActivityLandscape.jpg Graphic file (type jpg)
 <use Appendix/prototypes/ActivityLandscape.jpg>
 Package pdftex.def Info: Appendix/prototypes/ActivityLandscape.jpg used on inpu
 t line 36.
 (pdftex.def)             Requested size: 426.79134pt x 603.48796pt.
-<Appendix/prototypes/ActivityVase_01.jpg, id=693, 1003.75pt x 1483.5425pt>
+<Appendix/prototypes/ActivityVase_01.jpg, id=682, 1003.75pt x 1483.5425pt>
 File: Appendix/prototypes/ActivityVase_01.jpg Graphic file (type jpg)
 <use Appendix/prototypes/ActivityVase_01.jpg>
 Package pdftex.def Info: Appendix/prototypes/ActivityVase_01.jpg used on input 
 line 44.
 (pdftex.def)             Requested size: 426.79134pt x 630.80283pt.
-<Appendix/prototypes/ActivityVase_02.jpg, id=694, 1003.75pt x 544.0325pt>
+<Appendix/prototypes/ActivityVase_02.jpg, id=683, 1003.75pt x 544.0325pt>
 File: Appendix/prototypes/ActivityVase_02.jpg Graphic file (type jpg)
 <use Appendix/prototypes/ActivityVase_02.jpg>
 Package pdftex.def Info: Appendix/prototypes/ActivityVase_02.jpg used on input 
 line 49.
 (pdftex.def)             Requested size: 426.79134pt x 231.32281pt.
-[32 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/3DGraph_02.j
-pg>] [33 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/Activit
-yFlora.jpg>] [34 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes
-/ActivityLandscape.jpg>] [35 </Users/wrd/Documents/Master Thesis/Thesis/Appendi
-x/prototypes/ActivityVase_01.jpg>] [36 </Users/wrd/Documents/Master Thesis/Thes
+[26 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/3DGraph_02.j
+pg>] [27 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/Activit
+yFlora.jpg>] [28 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes
+/ActivityLandscape.jpg>] [29 </Users/wrd/Documents/Master Thesis/Thesis/Appendi
+x/prototypes/ActivityVase_01.jpg>] [30 </Users/wrd/Documents/Master Thesis/Thes
 is/Appendix/prototypes/ActivityVase_02.jpg>]
-<Appendix/prototypes/Configurator-UI_A_01.jpg, id=721, 1003.75pt x 1982.40625pt
+<Appendix/prototypes/Configurator-UI_A_01.jpg, id=710, 1003.75pt x 1982.40625pt
 >
 File: Appendix/prototypes/Configurator-UI_A_01.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_A_01.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_A_01.jpg used on i
 nput line 58.
 (pdftex.def)             Requested size: 320.09349pt x 632.17479pt.
-[37
+[31
 
  </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/Configurator-UI
 _A_01.jpg>]
-<Appendix/prototypes/Configurator-UI_A_02.jpg, id=727, 1003.75pt x 737.75626pt>
+<Appendix/prototypes/Configurator-UI_A_02.jpg, id=716, 1003.75pt x 737.75626pt>
 File: Appendix/prototypes/Configurator-UI_A_02.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_A_02.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_A_02.jpg used on i
@@ -639,7 +645,7 @@ Overfull \hbox (12.3986pt too wide) in paragraph at lines 66--68
  []
 
 
-<Appendix/prototypes/Configurator-UI_A_03.jpg, id=728, 1003.75pt x 732.7375pt>
+<Appendix/prototypes/Configurator-UI_A_03.jpg, id=717, 1003.75pt x 732.7375pt>
 File: Appendix/prototypes/Configurator-UI_A_03.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_A_03.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_A_03.jpg used on i
@@ -651,7 +657,7 @@ Overfull \hbox (9.41092pt too wide) in paragraph at lines 73--75
  []
 
 
-<Appendix/prototypes/Configurator-UI_A_04.jpg, id=729, 1003.75pt x 881.2925pt>
+<Appendix/prototypes/Configurator-UI_A_04.jpg, id=718, 1003.75pt x 881.2925pt>
 File: Appendix/prototypes/Configurator-UI_A_04.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_A_04.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_A_04.jpg used on i
@@ -663,7 +669,7 @@ Overfull \hbox (97.84644pt too wide) in paragraph at lines 80--82
  []
 
 
-<Appendix/prototypes/Configurator-UI_A_05.jpg, id=730, 1003.75pt x 744.7825pt>
+<Appendix/prototypes/Configurator-UI_A_05.jpg, id=719, 1003.75pt x 744.7825pt>
 File: Appendix/prototypes/Configurator-UI_A_05.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_A_05.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_A_05.jpg used on i
@@ -675,7 +681,7 @@ Overfull \hbox (16.58136pt too wide) in paragraph at lines 87--89
  []
 
 
-<Appendix/prototypes/Configurator-UI_A_06.jpg, id=731, 1003.75pt x 733.74126pt>
+<Appendix/prototypes/Configurator-UI_A_06.jpg, id=720, 1003.75pt x 733.74126pt>
 File: Appendix/prototypes/Configurator-UI_A_06.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_A_06.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_A_06.jpg used on i
@@ -687,7 +693,7 @@ Overfull \hbox (10.00845pt too wide) in paragraph at lines 94--96
  []
 
 
-<Appendix/prototypes/Configurator-UI_B_01.jpg, id=732, 1003.75pt x 727.71875pt>
+<Appendix/prototypes/Configurator-UI_B_01.jpg, id=721, 1003.75pt x 727.71875pt>
 File: Appendix/prototypes/Configurator-UI_B_01.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_B_01.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_B_01.jpg used on i
@@ -699,7 +705,7 @@ Overfull \hbox (6.42322pt too wide) in paragraph at lines 101--103
  []
 
 
-<Appendix/prototypes/Configurator-UI_B_02.jpg, id=733, 1003.75pt x 725.71124pt>
+<Appendix/prototypes/Configurator-UI_B_02.jpg, id=722, 1003.75pt x 725.71124pt>
 File: Appendix/prototypes/Configurator-UI_B_02.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_B_02.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_B_02.jpg used on i
@@ -711,7 +717,7 @@ Overfull \hbox (5.22815pt too wide) in paragraph at lines 107--109
  []
 
 
-<Appendix/prototypes/Configurator-UI_C_3.jpg, id=734, 1003.75pt x 1352.05125pt>
+<Appendix/prototypes/Configurator-UI_C_3.jpg, id=723, 1003.75pt x 1352.05125pt>
 File: Appendix/prototypes/Configurator-UI_C_3.jpg Graphic file (type jpg)
 <use Appendix/prototypes/Configurator-UI_C_3.jpg>
 Package pdftex.def Info: Appendix/prototypes/Configurator-UI_C_3.jpg used on in
@@ -722,17 +728,17 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 114--116
  [][] 
  []
 
-[38 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/Configurator
--UI_A_02.jpg>] [39 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototyp
-es/Configurator-UI_A_03.jpg>] [40 </Users/wrd/Documents/Master Thesis/Thesis/Ap
-pendix/prototypes/Configurator-UI_A_04.jpg>] [41 </Users/wrd/Documents/Master T
-hesis/Thesis/Appendix/prototypes/Configurator-UI_A_05.jpg>] [42 </Users/wrd/Doc
-uments/Master Thesis/Thesis/Appendix/prototypes/Configurator-UI_A_06.jpg>] [43 
+[32 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/Configurator
+-UI_A_02.jpg>] [33 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototyp
+es/Configurator-UI_A_03.jpg>] [34 </Users/wrd/Documents/Master Thesis/Thesis/Ap
+pendix/prototypes/Configurator-UI_A_04.jpg>] [35 </Users/wrd/Documents/Master T
+hesis/Thesis/Appendix/prototypes/Configurator-UI_A_05.jpg>] [36 </Users/wrd/Doc
+uments/Master Thesis/Thesis/Appendix/prototypes/Configurator-UI_A_06.jpg>] [37 
 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/Configurator-UI_
-B_01.jpg>] [44 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/C
-onfigurator-UI_B_02.jpg>] [45 </Users/wrd/Documents/Master Thesis/Thesis/Append
+B_01.jpg>] [38 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/prototypes/C
+onfigurator-UI_B_02.jpg>] [39 </Users/wrd/Documents/Master Thesis/Thesis/Append
 ix/prototypes/Configurator-UI_C_3.jpg>] <Appendix/questionnaire/survey.pdf, id=
-776, 597.50786pt x 845.04686pt>
+765, 597.50786pt x 845.04686pt>
 File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey.pdf>
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf used on input line 1
@@ -744,7 +750,7 @@ Package pdftex.def Info: Appendix/questionnaire/survey.pdf used on input line 1
 22.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<Appendix/questionnaire/survey.pdf, id=779, page=1, 597.50786pt x 845.04686pt>
+<Appendix/questionnaire/survey.pdf, id=768, page=1, 597.50786pt x 845.04686pt>
 File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey.pdf, page 1>
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page1 used on input
@@ -770,7 +776,7 @@ File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page1 used on input
  line 122.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[46
+[40
 
  </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pdf>]
 File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
@@ -784,7 +790,7 @@ Package pdftex.def Info: Appendix/questionnaire/survey.pdf used on input line 1
 23.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<Appendix/questionnaire/survey.pdf, id=842, page=2, 597.50786pt x 845.04686pt>
+<Appendix/questionnaire/survey.pdf, id=831, page=2, 597.50786pt x 845.04686pt>
 File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey.pdf, page 2>
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page2 used on input
@@ -810,9 +816,9 @@ File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page2 used on input
  line 123.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[47 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
+[41 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
 f>]
-<Appendix/questionnaire/survey.pdf, id=892, page=3, 597.50786pt x 845.04686pt>
+<Appendix/questionnaire/survey.pdf, id=881, page=3, 597.50786pt x 845.04686pt>
 File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey.pdf, page 3>
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page3 used on input
@@ -828,9 +834,9 @@ File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page3 used on input
  line 123.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[48 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
+[42 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
 f>]
-<Appendix/questionnaire/survey.pdf, id=942, page=4, 597.50786pt x 845.04686pt>
+<Appendix/questionnaire/survey.pdf, id=931, page=4, 597.50786pt x 845.04686pt>
 File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey.pdf, page 4>
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page4 used on input
@@ -846,9 +852,9 @@ File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page4 used on input
  line 123.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[49 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
+[43 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
 f>]
-<Appendix/questionnaire/survey.pdf, id=991, page=5, 597.50786pt x 845.04686pt>
+<Appendix/questionnaire/survey.pdf, id=980, page=5, 597.50786pt x 845.04686pt>
 File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey.pdf, page 5>
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page5 used on input
@@ -864,9 +870,9 @@ File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page5 used on input
  line 123.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[50 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
+[44 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
 f>]
-<Appendix/questionnaire/survey.pdf, id=1040, page=6, 597.50786pt x 845.04686pt>
+<Appendix/questionnaire/survey.pdf, id=1029, page=6, 597.50786pt x 845.04686pt>
 File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey.pdf, page 6>
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page6 used on input
@@ -882,9 +888,9 @@ File: Appendix/questionnaire/survey.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendix/questionnaire/survey.pdf, page6 used on input
  line 123.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[51 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
+[45 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey.pd
 f>]
-<Appendix/questionnaire/survey_results.pdf, id=1100, 597.50786pt x 845.04686pt>
+<Appendix/questionnaire/survey_results.pdf, id=1089, 597.50786pt x 845.04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey_results.pdf>
 Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf used on inpu
@@ -896,7 +902,7 @@ Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf used on inpu
 t line 127.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<Appendix/questionnaire/survey_results.pdf, id=1103, page=1, 597.50786pt x 845.
+<Appendix/questionnaire/survey_results.pdf, id=1092, page=1, 597.50786pt x 845.
 04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey_results.pdf, page 1>
@@ -923,7 +929,7 @@ File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page1 used 
 on input line 127.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[52 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
+[46 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
 sults.pdf>]
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey_results.pdf>
@@ -936,7 +942,7 @@ Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf used on inpu
 t line 128.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<Appendix/questionnaire/survey_results.pdf, id=1132, page=2, 597.50786pt x 845.
+<Appendix/questionnaire/survey_results.pdf, id=1121, page=2, 597.50786pt x 845.
 04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey_results.pdf, page 2>
@@ -961,257 +967,257 @@ on input line 128.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/survey_results.pdf, page 2>
 Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page2 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+[47 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
+sults.pdf>]
+<Appendix/questionnaire/survey_results.pdf, id=1127, page=3, 597.50786pt x 845.
+04686pt>
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 3>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page3 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 3>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page3 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 3>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page3 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+[48 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
+sults.pdf>]
+<Appendix/questionnaire/survey_results.pdf, id=1132, page=4, 597.50786pt x 845.
+04686pt>
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 4>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page4 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 4>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page4 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 4>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page4 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+[49 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
+sults.pdf>]
+<Appendix/questionnaire/survey_results.pdf, id=1137, page=5, 597.50786pt x 845.
+04686pt>
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 5>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page5 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 5>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page5 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 5>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page5 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+[50 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
+sults.pdf>]
+<Appendix/questionnaire/survey_results.pdf, id=1143, page=6, 597.50786pt x 845.
+04686pt>
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 6>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page6 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 6>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page6 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 6>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page6 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+[51 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
+sults.pdf>]
+<Appendix/questionnaire/survey_results.pdf, id=1148, page=7, 597.50786pt x 845.
+04686pt>
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 7>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page7 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 7>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page7 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 7>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page7 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+[52 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
+sults.pdf>]
+<Appendix/questionnaire/survey_results.pdf, id=1153, page=8, 597.50786pt x 845.
+04686pt>
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 8>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page8 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 8>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page8 used 
+on input line 128.
+(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
+File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
+<use Appendix/questionnaire/survey_results.pdf, page 8>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page8 used 
 on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 [53 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
 sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1138, page=3, 597.50786pt x 845.
+<Appendix/questionnaire/survey_results.pdf, id=1159, page=9, 597.50786pt x 845.
 04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 3>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page3 used 
+<use Appendix/questionnaire/survey_results.pdf, page 9>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page9 used 
 on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 3>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page3 used 
+<use Appendix/questionnaire/survey_results.pdf, page 9>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page9 used 
 on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 3>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page3 used 
+<use Appendix/questionnaire/survey_results.pdf, page 9>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page9 used 
 on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 [54 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
 sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1143, page=4, 597.50786pt x 845.
-04686pt>
+<Appendix/questionnaire/survey_results.pdf, id=1164, page=10, 597.50786pt x 845
+.04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 4>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page4 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 10>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page10 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 4>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page4 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 10>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page10 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 4>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page4 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 10>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page10 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 [55 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
 sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1148, page=5, 597.50786pt x 845.
-04686pt>
+<Appendix/questionnaire/survey_results.pdf, id=1169, page=11, 597.50786pt x 845
+.04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 5>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page5 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 11>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page11 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 5>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page5 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 11>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page11 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 5>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page5 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 11>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page11 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 [56 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
 sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1154, page=6, 597.50786pt x 845.
-04686pt>
+<Appendix/questionnaire/survey_results.pdf, id=1174, page=12, 597.50786pt x 845
+.04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 6>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page6 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 12>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page12 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 6>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page6 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 12>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page12 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 6>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page6 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 12>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page12 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 [57 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
 sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1159, page=7, 597.50786pt x 845.
-04686pt>
+<Appendix/questionnaire/survey_results.pdf, id=1179, page=13, 597.50786pt x 845
+.04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 7>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page7 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 13>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page13 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 7>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page7 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 13>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page13 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 7>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page7 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 13>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page13 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 [58 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
 sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1164, page=8, 597.50786pt x 845.
-04686pt>
+<Appendix/questionnaire/survey_results.pdf, id=1184, page=14, 597.50786pt x 845
+.04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 8>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page8 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 14>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page14 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 8>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page8 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 14>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page14 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 8>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page8 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 14>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page14 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 [59 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
 sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1170, page=9, 597.50786pt x 845.
-04686pt>
+<Appendix/questionnaire/survey_results.pdf, id=1190, page=15, 597.50786pt x 845
+.04686pt>
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 9>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page9 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 15>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page15 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 9>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page9 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 15>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page15 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 9>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page9 used 
-on input line 128.
+<use Appendix/questionnaire/survey_results.pdf, page 15>
+Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page15 used
+ on input line 128.
 (pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
 [60 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
-sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1175, page=10, 597.50786pt x 845
-.04686pt>
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 10>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page10 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 10>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page10 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 10>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page10 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[61 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
-sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1180, page=11, 597.50786pt x 845
-.04686pt>
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 11>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page11 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 11>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page11 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 11>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page11 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[62 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
-sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1185, page=12, 597.50786pt x 845
-.04686pt>
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 12>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page12 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 12>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page12 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 12>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page12 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[63 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
-sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1190, page=13, 597.50786pt x 845
-.04686pt>
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 13>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page13 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 13>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page13 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 13>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page13 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[64 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
-sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1195, page=14, 597.50786pt x 845
-.04686pt>
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 14>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page14 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 14>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page14 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 14>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page14 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[65 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
-sults.pdf>]
-<Appendix/questionnaire/survey_results.pdf, id=1201, page=15, 597.50786pt x 845
-.04686pt>
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 15>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page15 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 15>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page15 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-File: Appendix/questionnaire/survey_results.pdf Graphic file (type pdf)
-<use Appendix/questionnaire/survey_results.pdf, page 15>
-Package pdftex.def Info: Appendix/questionnaire/survey_results.pdf, page15 used
- on input line 128.
-(pdftex.def)             Requested size: 837.34409pt x 1184.24384pt.
-[66 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/survey_re
-sults.pdf>] <Appendix/questionnaire/user-study.pdf, id=1206, 845.1575pt x 597.2
+sults.pdf>] <Appendix/questionnaire/user-study.pdf, id=1195, 845.1575pt x 597.2
 3125pt>
 File: Appendix/questionnaire/user-study.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/user-study.pdf>
@@ -1224,7 +1230,7 @@ Package pdftex.def Info: Appendix/questionnaire/user-study.pdf used on input li
 ne 132.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
-<Appendix/questionnaire/user-study.pdf, id=1209, page=1, 845.1575pt x 597.23125
+<Appendix/questionnaire/user-study.pdf, id=1198, page=1, 845.1575pt x 597.23125
 pt>
 File: Appendix/questionnaire/user-study.pdf Graphic file (type pdf)
 <use Appendix/questionnaire/user-study.pdf, page 1>
@@ -1251,45 +1257,45 @@ File: Appendix/questionnaire/user-study.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendix/questionnaire/user-study.pdf, page1 used on i
 nput line 132.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-[67 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/user-stud
-y.pdf>] <Appendix/questionnaire/click_heatmap.jpg, id=1220, 1003.75pt x 664.482
+[61 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/user-stud
+y.pdf>] <Appendix/questionnaire/click_heatmap.jpg, id=1209, 1003.75pt x 664.482
 5pt>
 File: Appendix/questionnaire/click_heatmap.jpg Graphic file (type jpg)
 <use Appendix/questionnaire/click_heatmap.jpg>
 Package pdftex.def Info: Appendix/questionnaire/click_heatmap.jpg used on input
  line 139.
 (pdftex.def)             Requested size: 554.83003pt x 367.31183pt.
-[68
+[62
 
  </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/click_heatma
 p.jpg>]
-<Appendix/questionnaire/eye-tracking_heatmap.jpg, id=1227, 1003.75pt x 664.4825
+<Appendix/questionnaire/eye-tracking_heatmap.jpg, id=1215, 1003.75pt x 664.4825
 pt>
 File: Appendix/questionnaire/eye-tracking_heatmap.jpg Graphic file (type jpg)
 <use Appendix/questionnaire/eye-tracking_heatmap.jpg>
 Package pdftex.def Info: Appendix/questionnaire/eye-tracking_heatmap.jpg used o
 n input line 147.
 (pdftex.def)             Requested size: 554.83003pt x 367.31183pt.
-) [69 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/eye-tra
-cking_heatmap.jpg>] [70
+) [63 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/eye-tra
+cking_heatmap.jpg>] [64
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
-[71]
+[65]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
 (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `medieninformatik-arbeit.out' has not changed
 .
-(rerunfilecheck)             Checksum: 7D1638828C311F14193E6A03045EEDB5;3540.
+(rerunfilecheck)             Checksum: 06DEC1338A9552B1DF4E1D267B82C13C;3479.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 10244 strings out of 493117
- 160823 string characters out of 6135432
- 245851 words of memory out of 5000000
- 13253 multiletter control sequences out of 15000+600000
+ 10243 strings out of 493117
+ 160931 string characters out of 6135432
+ 246104 words of memory out of 5000000
+ 13257 multiletter control sequences out of 15000+600000
  42532 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,20n,55p,2059b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1302,10 +1308,10 @@ ive/2014/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
 Output written on "/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-a
-rbeit.pdf" (79 pages, 8389812 bytes).
+rbeit.pdf" (73 pages, 8566498 bytes).
 PDF statistics:
- 1324 PDF objects out of 1440 (max. 8388607)
- 1063 compressed objects within 11 object streams
- 225 named destinations out of 1000 (max. 500000)
- 744 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1312 PDF objects out of 1440 (max. 8388607)
+ 1051 compressed objects within 11 object streams
+ 219 named destinations out of 1000 (max. 500000)
+ 741 words of extra memory for PDF output out of 10000 (max. 10000000)
 
