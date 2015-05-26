@@ -12,6 +12,7 @@
 \usepackage{mathptmx} % Times-Roman-Schrift (auch für mathematische Formeln)
 \usepackage{subfiles}
 \usepackage{caption}
+\usepackage{pdfpages}
 \usepackage[official]{eurosym}
 \usepackage{listings} % For displaying js source code
 \lstdefinelanguage{JavaScript}{morekeywords={break,const,continue,delete,do,while,export,for,in,function,if,else,import,in,instanceOf,label,let,new,return,switch,this,throw,try,catch,typeof,var,void,with,yield},
@@ -269,14 +270,150 @@ the references and auxiliary means indicated in the thesis.
 \cleardoublepage
 \appendix
 \addcontentsline{toc}{section}{Appendix}
-\section*{Appendix}
-\section{Online Questionnaire} \label{App:questions}
-\section{User Study Results} \label{App:results}
-\subsection{Questionnaire Results} \label{App:results-questions}
-\subsection{Heat Map Images} \label{App:results-heatimgs}
+
+% \subsection{Questionnaire}
+\label{App:survey:questions}
+\includepdf[pages=1,pagecommand=\section*{Appendix}
+\section{User Study \& Questionnaire}\subsection{Questionnaire}\centering,width=\textwidth]{Appendix/questionnaire/survey} 
+\includepdf[pages=2-,pagecommand={\centering},width=\textwidth]{Appendix/questionnaire/survey} 
+
+% \subsection{Questionnaire Results} 
+\label{App:survey:results}
+\includepdf[pages=1,pagecommand=\subsection{Questionnaire Results}\centering,width=\textwidth]{Appendix/questionnaire/survey_results} 
+\includepdf[pages=2-,pagecommand={\centering},width=\textwidth]{Appendix/questionnaire/survey_results} 
+
+% \subsection{User Study Results}
+\label{App:survey:userstudy}
+\includepdf[pages=1,pagecommand=\subsection{User Study Results}\centering,angle=-90,width=1.1\textwidth]{Appendix/questionnaire/user-study} 
+\clearpage
+
+\subsection{Heat Map Images} 
+\begin{figure}[ht!]
+\centering
+\caption*{Click Heatmap}
+\includegraphics[width=1.3\textwidth,angle=-90]{Appendix/questionnaire/click_heatmap}
+\label{App:survey:heatmap:click}
+\end{figure}
+
+\newpage
+\begin{figure}[ht!]
+\centering
+\caption*{Eye-tracking Heatmap}
+\includegraphics[width=1.3\textwidth,angle=-90]{Appendix/questionnaire/eye-tracking_heatmap}
+\label{App:survey:heatmap:eyetracking}
+\end{figure}
+
+%_____________________________________________________________________________
+\clearpage
 \section{Prototype Sketches} \label{App:prototypes} 
 \subsection{Sculpture Prototypes} \label{App:proto-sculptures}
+
+\begin{figure}[h!]
+\centering
+\caption*{3D Graph Sculpture Prototype (continues in next page)}
+\includegraphics[width=0.87\textwidth]{Appendix/prototypes/3DGraph_01}
+\label{proto:sculpture:3DGraph}
+\end{figure}
+\newpage
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{Appendix/prototypes/3DGraph_02}
+\label{proto:sculpture:3DGraph2}
+\end{figure}
+
+\newpage
+\begin{figure}[t]
+\centering
+\caption*{Activity Flora}
+\includegraphics[width=\textwidth]{Appendix/prototypes/ActivityFlora}
+\label{proto:sculpture:flora}
+\end{figure}
+
+\newpage
+\begin{figure}[t]
+\centering
+\caption*{Activity Landscape}
+\includegraphics[width=\textwidth]{Appendix/prototypes/ActivityLandscape}
+\label{proto:sculpture:landscape}
+\end{figure}
+
+\newpage
+\begin{figure}[t]
+\centering
+\caption*{Activity Vase (continues in next page)}
+\includegraphics[width=\textwidth]{Appendix/prototypes/ActivityVase_01}
+\label{proto:sculpture:Vase}
+\end{figure}
+\begin{figure}[t!]
+\centering
+\includegraphics[width=\textwidth]{Appendix/prototypes/ActivityVase_02}
+\end{figure}
+\clearpage
+%_____________________________________________________________________________
 \subsection{Web Configurator Prototypes} \label{App:proto-config}
+
+\begin{figure}[h!]
+\centering
+\caption*{Configurator Protype No.1 Welcome Screen}
+\includegraphics[width=0.75\textwidth]{Appendix/prototypes/Configurator-UI_A_01}
+\label{proto:configurator:1a}
+\end{figure}
+
+\newpage
+\begin{figure}[ht]
+\centering
+\caption*{Configurator Protype No.1 Dashboard View}
+\includegraphics[width=1.4\textwidth,angle=90]{Appendix/prototypes/Configurator-UI_A_02}
+\label{proto:configurator:1b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\caption*{Configurator Protype No.1 Sculpture Selection View}
+\includegraphics[width=1.4\textwidth,angle=90]{Appendix/prototypes/Configurator-UI_A_03}
+\label{proto:configurator:1c}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\caption*{Configurator Protype No.1 Scultpure Configurator View}
+\includegraphics[width=1.4\textwidth,angle=90]{Appendix/prototypes/Configurator-UI_A_04}
+\label{proto:configurator:1d}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\caption*{Configurator Protype No.1 Accessories View}
+\includegraphics[width=1.4\textwidth,angle=90]{Appendix/prototypes/Configurator-UI_A_05}
+\label{proto:configurator:1e}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\caption*{Configurator Protype No.1 Summary View}
+\includegraphics[width=1.4\textwidth,angle=90]{Appendix/prototypes/Configurator-UI_A_06}
+\label{proto:configurator:1f}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\caption*{Configurator Protype No.2 Configurator View}
+\includegraphics[width=1.4\textwidth,angle=90]{Appendix/prototypes/Configurator-UI_B_01}
+\label{proto:configurator:2a}
+\end{figure}
+\begin{figure}[t]
+\centering
+\caption*{Configurator Protype No.2 Summary View}
+\includegraphics[width=1.4\textwidth,angle=90]{Appendix/prototypes/Configurator-UI_B_02}
+\label{proto:configurator:2b}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\caption*{Configurator Protype No.3}
+\includegraphics[width=1.1\textwidth]{Appendix/prototypes/Configurator-UI_C_3}
+\label{proto:configurator:3}
+\end{figure}
 
 %______________________________________________________________________
 
