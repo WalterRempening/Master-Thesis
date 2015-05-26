@@ -50,14 +50,14 @@
 \contentsline {section}{\numberline {6}Conclusion}{21}{section.6}
 \contentsline {section}{\numberline {7}Future Work}{23}{section.7}
 \contentsline {section}{Appendix}{31}{section*.22}
-\contentsline {section}{\numberline {A}User Study \& Questionnaire}{31}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Questionnaire}{31}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Questionnaire Results}{37}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}User Study Results}{52}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}Heat Map Images}{53}{subsection.A.4}
-\contentsline {section}{\numberline {B}Prototype Sketches}{55}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Sculpture Prototypes}{55}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Web Configurator Prototypes}{61}{subsection.B.2}
+\contentsline {section}{\numberline {A}Prototype Sketches}{31}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Sculpture Prototypes}{31}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Web Configurator Prototypes}{37}{subsection.A.2}
+\contentsline {section}{\numberline {B}User Study \& Questionnaire}{46}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Questionnaire}{46}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Questionnaire Results}{52}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}User Study Results}{67}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}Heat Map Images}{68}{subsection.B.4}
 \contentsline {section}{Contents of the enclosed CD}{71}{figure.caption.40}
 \contentsline {paragraph}{Thesis}{71}{section*.42}
 \contentsline {paragraph}{Presentations}{71}{section*.43}
