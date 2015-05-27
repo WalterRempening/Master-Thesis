@@ -22,44 +22,44 @@
 \contentsline {subsection}{\numberline {3.1}Activity Sculpture Design}{13}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}3D Graph}{14}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Activity Landscape}{16}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}Activity Flora}{16}{subsubsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.4}Activity Vase}{16}{subsubsection.3.1.4}
-\contentsline {subsubsection}{\numberline {3.1.5}Prototype Validation}{16}{subsubsection.3.1.5}
-\contentsline {subsection}{\numberline {3.2}Configurator Design}{16}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Ideation Process}{16}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Prototype Validation}{16}{subsubsection.3.2.2}
-\contentsline {section}{\numberline {4}Implementation}{19}{section.4}
-\contentsline {subsection}{\numberline {4.1}Requirements}{19}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Technology}{19}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Architecture}{19}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Configurator}{19}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Sculpture Manipulation}{19}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Sculpture Generation \& Rendering}{19}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Backend}{19}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Withings API Integration}{19}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Data Processing}{19}{subsubsection.4.5.2}
-\contentsline {subsection}{\numberline {4.6}Challenges}{19}{subsection.4.6}
-\contentsline {section}{\numberline {5}User Study}{20}{section.5}
-\contentsline {subsection}{\numberline {5.1}Study Design}{20}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Questionnaire}{20}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Participants}{20}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Procedure}{20}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Results}{20}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Limitations}{20}{subsection.5.6}
-\contentsline {section}{\numberline {6}Conclusion}{21}{section.6}
-\contentsline {section}{\numberline {7}Future Work}{22}{section.7}
-\contentsline {section}{Appendix}{29}{section*.32}
-\contentsline {section}{\numberline {A}Prototype Sketches}{29}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Sculpture Prototypes}{29}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Web Configurator Prototypes}{35}{subsection.A.2}
-\contentsline {section}{\numberline {B}User Study \& Questionnaire}{44}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Questionnaire}{44}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Questionnaire Results}{50}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}User Study Results}{65}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}Heat Map Images}{66}{subsection.B.4}
-\contentsline {section}{Contents of the enclosed CD}{69}{figure.caption.50}
-\contentsline {paragraph}{Thesis}{69}{section*.52}
-\contentsline {paragraph}{Presentations}{69}{section*.53}
-\contentsline {paragraph}{Activity Sculpture Web Configurator}{69}{section*.54}
-\contentsline {paragraph}{Sculptures}{69}{section*.55}
-\contentsline {paragraph}{User Study}{69}{section*.56}
+\contentsline {subsubsection}{\numberline {3.1.3}Activity Flora}{17}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Activity Vase}{18}{subsubsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.5}Prototype Validation}{18}{subsubsection.3.1.5}
+\contentsline {subsection}{\numberline {3.2}Configurator Design}{18}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Ideation Process}{18}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Prototype Validation}{18}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}Implementation}{20}{section.4}
+\contentsline {subsection}{\numberline {4.1}Requirements}{20}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Technology}{20}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Architecture}{20}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Configurator}{20}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Sculpture Manipulation}{20}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Sculpture Generation \& Rendering}{20}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Backend}{20}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Withings API Integration}{20}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Data Processing}{20}{subsubsection.4.5.2}
+\contentsline {subsection}{\numberline {4.6}Challenges}{20}{subsection.4.6}
+\contentsline {section}{\numberline {5}User Study}{21}{section.5}
+\contentsline {subsection}{\numberline {5.1}Study Design}{21}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Questionnaire}{21}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Participants}{21}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Procedure}{21}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Results}{21}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Limitations}{21}{subsection.5.6}
+\contentsline {section}{\numberline {6}Conclusion}{22}{section.6}
+\contentsline {section}{\numberline {7}Future Work}{23}{section.7}
+\contentsline {section}{Appendix}{31}{section*.32}
+\contentsline {section}{\numberline {A}Prototype Sketches}{31}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Sculpture Prototypes}{31}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Web Configurator Prototypes}{37}{subsection.A.2}
+\contentsline {section}{\numberline {B}User Study \& Questionnaire}{46}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Questionnaire}{46}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Questionnaire Results}{52}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}User Study Results}{67}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}Heat Map Images}{68}{subsection.B.4}
+\contentsline {section}{Contents of the enclosed CD}{71}{figure.caption.50}
+\contentsline {paragraph}{Thesis}{71}{section*.52}
+\contentsline {paragraph}{Presentations}{71}{section*.53}
+\contentsline {paragraph}{Activity Sculpture Web Configurator}{71}{section*.54}
+\contentsline {paragraph}{Sculptures}{71}{section*.55}
+\contentsline {paragraph}{User Study}{71}{section*.56}
