@@ -127,6 +127,11 @@ R.~A. Khot, L.~Hjorth, and F.~Mueller.
 \newblock In {\em Proceedings of the 32nd annual ACM conference on Human
   factors in computing systems}, pages 3835--3844. ACM, 2014.
 
+\bibitem{Konstanzer20078609220}
+R.~Konstanzer, D.~Koenig, and I.~Andrei.
+\newblock Volkswagen car configurator.
+\newblock Mar 2007.
+
 \bibitem{mrmaria2015studio}
 M.~Maria.
 \newblock Mr maria shop all sweetness and light, 2015.
@@ -154,6 +159,11 @@ E.~N. of~Living~Labs.
 \newblock European network of living labs, 2014.
 \newblock {last accessed 21-05-2015},
   \url{http://www.openlivinglabs.eu/aboutus}.
+
+\bibitem{ogden1946meaning}
+C.~K. Ogden, I.~A. Richards, B.~Malinowski, and F.~G. Crookshank.
+\newblock {\em The meaning of meaning}.
+\newblock Harcourt, Brace \& World New York, 1946.
 
 \bibitem{piller2006user}
 F.~T. Piller.
