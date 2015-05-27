@@ -57,47 +57,56 @@ Warning--entry type for "fitbitApi" isn't style-file defined
 --line 421 of file ma-thesis.bib
 Warning--entry type for "fitbitProduct" isn't style-file defined
 --line 430 of file ma-thesis.bib
+Warning--entry type for "multiexposure" isn't style-file defined
+--line 454 of file ma-thesis.bib
+Warning--entry type for "nervous" isn't style-file defined
+--line 463 of file ma-thesis.bib
+Warning--entry type for "fahz" isn't style-file defined
+--line 472 of file ma-thesis.bib
+Warning--entry type for "cinema4d" isn't style-file defined
+--line 481 of file ma-thesis.bib
 Warning--empty booktitle in abbasi2012s
 Warning--empty note in Konstanzer20078609220
-You've used 49 entries,
+Warning--empty journal in olsen2004realtime
+You've used 54 entries,
             2118 wiz_defined-function locations,
-            740 strings with 11842 characters,
-and the built_in function-call counts, 13660 in all, are:
-= -- 1313
-> -- 586
+            759 strings with 12467 characters,
+and the built_in function-call counts, 14723 in all, are:
+= -- 1411
+> -- 627
 < -- 8
-+ -- 244
-- -- 188
-* -- 689
-:= -- 2230
-add.period$ -- 154
-call.type$ -- 49
-change.case$ -- 236
++ -- 261
+- -- 200
+* -- 725
+:= -- 2410
+add.period$ -- 169
+call.type$ -- 54
+change.case$ -- 257
 chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 526
-empty$ -- 1212
-format.name$ -- 188
-if$ -- 2953
+cite$ -- 57
+duplicate$ -- 564
+empty$ -- 1317
+format.name$ -- 200
+if$ -- 3180
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 25
-newline$ -- 248
-num.names$ -- 99
-pop$ -- 407
+int.to.str$ -- 54
+missing$ -- 26
+newline$ -- 273
+num.names$ -- 109
+pop$ -- 450
 preamble$ -- 1
-purify$ -- 192
+purify$ -- 208
 quote$ -- 0
-skip$ -- 428
+skip$ -- 464
 stack$ -- 0
-substring$ -- 571
-swap$ -- 126
+substring$ -- 596
+swap$ -- 130
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 186
-warning$ -- 2
-while$ -- 128
-width$ -- 51
-write$ -- 512
-(There were 29 warnings)
+type$ -- 206
+warning$ -- 3
+while$ -- 138
+width$ -- 56
+write$ -- 561
+(There were 34 warnings)
