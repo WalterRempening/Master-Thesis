@@ -59,54 +59,56 @@ Warning--entry type for "fitbitProduct" isn't style-file defined
 --line 430 of file ma-thesis.bib
 Warning--entry type for "multiexposure" isn't style-file defined
 --line 454 of file ma-thesis.bib
-Warning--entry type for "nervous" isn't style-file defined
+Warning--entry type for "nervousHyphae" isn't style-file defined
 --line 463 of file ma-thesis.bib
-Warning--entry type for "fahz" isn't style-file defined
+Warning--entry type for "nervousStudio" isn't style-file defined
 --line 472 of file ma-thesis.bib
-Warning--entry type for "cinema4d" isn't style-file defined
+Warning--entry type for "fahz" isn't style-file defined
 --line 481 of file ma-thesis.bib
+Warning--entry type for "cinema4d" isn't style-file defined
+--line 490 of file ma-thesis.bib
 Warning--empty booktitle in abbasi2012s
 Warning--empty note in Konstanzer20078609220
 Warning--empty journal in olsen2004realtime
-You've used 54 entries,
+You've used 56 entries,
             2118 wiz_defined-function locations,
-            759 strings with 12467 characters,
-and the built_in function-call counts, 14723 in all, are:
-= -- 1411
-> -- 627
+            769 strings with 12659 characters,
+and the built_in function-call counts, 15144 in all, are:
+= -- 1449
+> -- 641
 < -- 8
-+ -- 261
-- -- 200
-* -- 725
-:= -- 2410
-add.period$ -- 169
-call.type$ -- 54
-change.case$ -- 257
++ -- 267
+- -- 204
+* -- 739
+:= -- 2482
+add.period$ -- 175
+call.type$ -- 56
+change.case$ -- 264
 chr.to.int$ -- 0
-cite$ -- 57
-duplicate$ -- 564
-empty$ -- 1317
-format.name$ -- 200
-if$ -- 3180
+cite$ -- 59
+duplicate$ -- 583
+empty$ -- 1361
+format.name$ -- 204
+if$ -- 3271
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 26
-newline$ -- 273
-num.names$ -- 109
-pop$ -- 450
+int.to.str$ -- 56
+missing$ -- 28
+newline$ -- 283
+num.names$ -- 113
+pop$ -- 467
 preamble$ -- 1
-purify$ -- 208
+purify$ -- 214
 quote$ -- 0
-skip$ -- 464
+skip$ -- 477
 stack$ -- 0
-substring$ -- 596
-swap$ -- 130
+substring$ -- 606
+swap$ -- 132
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 206
+type$ -- 212
 warning$ -- 3
-while$ -- 138
-width$ -- 56
-write$ -- 561
-(There were 34 warnings)
+while$ -- 142
+width$ -- 58
+write$ -- 581
+(There were 35 warnings)

@@ -25,7 +25,7 @@ The the aforementioned design considerations of activity sculptures the requirem
 	\item The sculpture has to be 3D printable by current 3D printing technologies
 \end{itemize}
 
-With the defined requirements the author formulated four designs exploring different possible approaches. Due to space and layout considerations, the sketches drawn for the prototypes will not be displayed in this chapter. Due to the large sizes of the sketches all prototype sketches were placed in their entirety in the appendix of this work. For the sculpture prototypes sketches please refer to section \ref{App:proto-sculptures}, for configurator prototypes sketches refer to section \ref{App:proto-config}.
+With the defined requirements the author formulated four designs exploring different possible approaches. Due to space and layout considerations, the sketches drawn for the prototypes will not be displayed in this chapter only fragments. Due to the large sizes of the sketches all prototype sketches were placed in their entirety in the appendix of this work. For the sculpture prototypes sketches please refer to section \ref{App:proto-sculptures}, for configurator prototypes sketches refer to section \ref{App:proto-config}.
 
 \subsubsection{3D Graph}
 The first prototype is based on a line chart but augmented to describe more data variables. The idea was inspired by multiple exposure images of Olympic athletes in the middle of their performance. The multi exposure technique allows photographers to take a snapshot of the athlete at a specific point in time. The resulting image shows a group of athletes in different positions completing a cycle of a movement (see figure \ref{fig:multiexposure}). The concept of presenting snapshots of the athlete's position over time is actually a parallel concept to standard charts and charts where the value of a variable is presented at a specific point in time. Only transferring the line-chart to a physical space would have been not appealing enough and very limited as it would have been only possible to visualize one variable over time. The first modification made in order to improve the aesthetic of the sculpture was to give the chart-line volume and a triangulated or low polygon count (lowpoly) aesthetic, two properties that can be explored thanks to physical space. With this modification the sculpture gained the ability to visualize one more variable. The first variable influences the hight changes in the Y axis of the chart-line over time and by adding the volume to the line we can change the radius of the line according to the value changes of the variable over time. 
@@ -56,7 +56,7 @@ The 3D graph embodies activity data through iconic and indexical representations
 In summary, the 3D Graph prototype is a highly aesthetic activity sculpture that is also functional as the both the sculpture and the data could be analyzed in the same object. The sculpture can visualize data generated on a large time span. it has a rather low capability of mapping several variables because of the constraints of the line-chart metaphor. This could be improved by adding more graph bodies representing each 3 variables over time. The 3D graph offers a wide range of configuration options that would make it a rather interesting object to customize in the configurator. The manufacturability of the sculpture is attainable but also complicated as the sculpture, the plate and the supporting elements have to be fabricated not to mention the engravings on the plate. 
 
 \subsubsection{Activity Landscape}
-The activity landscape is an activity sculpture that embodies the data generated in a single day's activity by utilizing the data to generate a terrain. This concept of this sculpture came from the idea of generating a ground path from the GPS location points recollected while a user was jogging or riding his bike. After the workout other activity information like heart rate or elevation change would be mapped to the GPS locations. The user would then select in the configurator which variables he wants to map to different aspects of the terrain like and experiment with different variables for terrain elevation or map other variables to the radius of hills for instance. The activity landscape would also feature a plate for showcasing the sculpture. This plate as in the 3D Graph would feature engraved information about the work out like variables visualized, duration of the workout and calories burned. Because the terrain is based mostly on GPS information, the plate could also have an picture or engraving of a map where the workout was performed. As seen in section \ref{sub:sweatatoms} were some users stacked sculptures to form a bigger sculpture, several activity landscapes could be printed to form a bigger landscape. This could be used as a motivation to users to explore new parts of their city, it would be interesting to see how the landscape would look like after a year running or biking. This concept could also be applied to users who maybe travel constantly or like to ride their bikes in national parks around the world. After each travel they could bring the memories of their adventure in an activity landscape and put them together at their homes. 
+The activity landscape is an activity sculpture that embodies the data generated in a single day's activity by utilizing the data to generate a terrain (see figure \ref{fig:activitylandscape}. This concept of this sculpture came from the idea of generating a ground path from the GPS location points recollected while a user was jogging or riding his bike. After the workout other activity information like heart rate or elevation change would be mapped to the GPS locations. The user would then select in the configurator which variables he wants to map to different aspects of the terrain like and experiment with different variables for terrain elevation or map other variables to the radius of hills for instance. The activity landscape would also feature a plate for showcasing the sculpture. This plate as in the 3D Graph would feature engraved information about the work out like variables visualized, duration of the workout and calories burned. Because the terrain is based mostly on GPS information, the plate could also have an picture or engraving of a map where the workout was performed. As seen in section \ref{sub:sweatatoms} were some users stacked sculptures to form a bigger sculpture, several activity landscapes could be printed to form a bigger landscape. This could be used as a motivation to users to explore new parts of their city, it would be interesting to see how the landscape would look like after a year running or biking. This concept could also be applied to users who maybe travel constantly or like to ride their bikes in national parks around the world. After each travel they could bring the memories of their adventure in an activity landscape and put them together at their homes. 
 
 \begin{figure}[h]
 \centering
@@ -81,27 +81,41 @@ The activity landscape embodies the activity data through iconic representation 
 To summarize, the activity terrain provides an interesting approach to activity visualization and maybe also to procedural terrain generation in games. The level of customization in the configurator is high. It has to be clarified that the complexity of designing terrains was not studied in depth by the author, therefore it remains unknown how many variables are possible to visualize through the terrain. The added plate with the map can give users a stronger sense of belonging to their city. The idea of a personalized souvenir from adventure rides would be also interesting to explore. The sculpture does not exhibit any properties that could be proved difficult to manufacture. Same as the with the 3D Graph the plate could only make the fabrication process somewhat longer.  
 
 \subsubsection{Activity Flora}
+The activity flora is an activity sculpture that utilizes activity data as input parameters for the generation of a sculpture resembling a leaf. The concept for this prototype is to take the data generated in a single day or during a single workout and materialize it in a leaf like structure. In the sketch showed in figure \ref{fig:activityflora} activity data variables can be mapped to properties of the leaf. For example the size of the leaf could be affected by the traversed distance during that day, the contour shape could be mapped to elevation changes. The main branch in the middle of the leaf could be manipulated by the velocity changes, furthermore he characteristic branch structure inside the leaf could be influenced by the average heart-rate value (see figure \ref{fig:activityflora}). For the inner structure of the leave a generative system could be implemented to simulate better the leaf structure. In the configurator users could select which variable to map to each leaf generation parameter to generate a series of leafs. The customization possibilities could be further expanded with the addition of leaf tails and material options. To further explore the concept of grouping sculptures, a sketch with a stand that holds several leafs was drawn like a very stylized  flower pot. The leaf stand or pot would also be able to be customizable in the configurator.  
 
 \begin{figure}[h]
-\captionsetup{width=0.9\textwidth}
+\captionsetup{width=0.6\textwidth}
 \begin{center}
-  \includegraphics[width=0.9\textwidth]{Prototype/img/nervous}
-  \caption{Sculptures made with generative algorithms based on hyphae growth as seen on leave and coral structures\cite{nervous}}
-\label{fig:nervous}
-\end{center}
-\end{figure}
-
-\begin{figure}[h]
-\captionsetup{width=0.9\textwidth}
-\begin{center}
-  \includegraphics[width=0.7\textwidth]{Prototype/img/ActivityFlora_detail}
+  \includegraphics[width=0.6\textwidth]{Prototype/img/ActivityFlora_detail}
   \caption{Activity Flora sketch}
 \label{fig:activityflora}
 \end{center}
 \end{figure}
 
+The idea was inspired by the works of New York based generative design studio Nervous System\cite{nervousStudio} who since 2007 have been pioneering the design of generative objects for 3D printing. The majority of their designs is based in the simulation of natural structures or patterns through algorithms (see figure \ref{fig:nervous}. The concept of generating an object from activity data with an aesthetic inspired by nature was very appealing to the author. It would be interesting to see how users engage and perceive an object that was generated by their own activity but that also looks like something that lived, like a petrified leaf. Maybe in the future when 3D printing is also possible to do with biologic materials some kind of bacteria culture could be utilized to print the leaf alive for real. 
+
+\begin{figure}[h]
+\captionsetup{width=0.7\textwidth}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{Prototype/img/nervous}
+  \caption{Sculptures made with generative algorithms based on hyphae growth as seen on leave and coral structures\cite{nervousHyphae}}
+\label{fig:nervous}
+\end{center}
+\end{figure}
+
+The activity flora embodies the data mostly iconic representation as the sculpture resembles a leaf but some information is abstracted completely because of the generative system resulting in a high medium metaphorical distance. The leaf prototype invites the user to contemplate the sculpture and due to the metaphor of the leaf self reflection will be harder for the viewer as the data is mapped not entirely to the sculpture but also to the system generating the leaf's structure.
+
+To conclude this prototype, the activity leaf showcases a mixed approach to activity sculpture design, mapping some variables to physical properties of the leaf and using activity data as input for a generative system. The configuration possibilities are rather scarce and focus more on secondary elements of the sculpture like the stand or the leaf tail. The concept of metaphorically giving an object natural characteristics would be interesting to explore in the context of activity sculptures.
 
 \subsubsection{Activity Vase}
+The last developed prototype is the activity vase, a sculpture were the structure is conformed of a stacked radial chart with smoothly connected the axes. Every stacked radial chart represents a day's worth of activity. The user can choose in the configurator how many variables he wants to add to the vase by populating the radial chart. The height of the vase would be then configured by choosing the time span to be visualized which translates in the number of stacked radial charts (see figure \ref{fig:activityvase}. In this way the we can offer the user different outputs from one sculpture. Users could gain different usages of the sculpture depending on the visualized time span. For short time spans the sculpture could be expanded or adapted to be used as earrings or as a key-chain, longer time spans could be then used to make a pen holder or even a mug. Users could print each day the visualized data and maybe stacked them in a pole. As the sculpture better visualizes larger time spans from at least a day to weeks or months a sculpture representing two months in a year could be visualized, for example at the beginning and at the end of an intense workout plan an inner solid sculpture would represent the first month and an outer sculpture enclosing the first would represent the last month as it is expected that the activity performed will contain higher values in some variables, as the user reaches longer distances in their trainings for example. The sculpture could be further customized in the configurator through 3D printing material options and maybe even a simple plate were the labels of the variables are engraved. 
+
+The concept of the activity vase was inspired by a 3D printed sculpture that maps two or more facial profiles to the sides of a vase and then unites them through extrusion. The final product is called Fhaz (see figure \ref{fig:fhaz}), which is basically an expansion of Rubin's vase\cite{rubin1921visuell} to visualize more than to profiles in a 3D printed object. In order to transfer the concept of Rubin's vase to an activity sculpture the idea of utilizing a stacked radial chart proved to be a suitable solution.
+
+Using Vande Moere's taxonomy, the activity vase embodies the activity data through a symbolic representation as the visualization has no resemblance to the metaphor. As the abstraction of the represented data in the sculpture is high the metaphorical distance is also high. The activity vase offers viewers the freedom to explore the sculpture through touch and self-reflection because of the viewer's low familiarity with the object. The narrative has to be figured out through exploration and interaction with the object.
+
+The activity vase is a very flexible sculpture in terms of data mapping. Through the radial chart metaphor the visualized amount of variables is only limited by the users decisions in the configurator. Due to its abstract representation the sculpture could be adapted to be used as everyday accessories and not only limited to standing in a shelf. The configurability of the sculpture is not very high but this could be addressed through the addition of different rendering styles like wire-frame to the configurator. The manufacturability of the sculpture is attainable as the solid structure of the vase does not challenge current fabrication methods. 
+
 
 \begin{figure}[h]
 \centering
@@ -120,7 +134,30 @@ To summarize, the activity terrain provides an interesting approach to activity 
 \end{figure}
 
 \subsubsection{Prototype Validation}
+After an extensive development process it was time to decide what prototype would be chosen to implement in for the web configurator. The decision was made by the author and the tutor through an iterative evaluation process. During the design process the prototypes were analyzed and discussed in order to discuss possible challenges or interesting concepts. Table \ref{tab:comparison} offers an overview of how each prototype compares to each other. For the analysis Vande Moere's taxonomy, the estimated complexity of the implementation of the sculpture and the customization capacity of the sculpture were considered. Estimating the implementation of the sculpture was vital, as the time of developing for the configurator and the sculpture were limited. The customization possibilities offered by the sculpture were also important as it was important to offer users an appealing sculpture that can be customized to their liking and more configuration options mean more unique sculptures. 
 
+With this considerations in mind the activity vase fitted best the criteria. It is a very dynamic sculpture that offers a high variable mapping capability due to the radial chart metaphor, making it possible to visualize a high number of variables in the same sculpture. Unlike all other sculptures that are limited to 4 variables. The implementation complexity was estimated as medium because it can be achieved through common geometry construction algorithms. In comparison both the activity terrain and the activity leaf would have demanded a great amount of research on terrain generation and natural structure simulation. An important factor for choosing the activity vase was that it does not rely on a specific property of the data to be generated. For example the activity landscape depends heavily on GPS data to be generated. After analyzing the fitness-tracker that were intended to be used in this work, none of them supported GPS data. Due to the high cost of fitness-tracker that supported GPS and to the complexity of using a smartphone to address this issue, the activity terrain was discarded. The abstract nature of the activity vase, even though not familiar to most users it provides a representation that can be expanded to use in wearables or other artifacts that appeal to both genders, reaching in this way a wider audience. And finally it offers also a reasonable customization capacity that can be later expanded if needed. 
+
+The final implementation of the sculpture and the possible control features will be discussed in Chapter \ref{ch:configurator} in section \ref{sub:sculpturegeneration}. Following the design process of the configurator will be discussed.   
+
+\begin{table}[h]
+\centering
+\begin{tabular}{*{6}{|p{2.1cm}}|}
+ \hline
+ Sculpture Name & Metaphor & Semiotic Representation & Variable Mapping Capacity & Estimated Implementation Complexity & Customization Capacity \\
+ \hline
+ 3D Graph & Line Chary & Indexical 	/Avatar Iconic & 4 & Medium high & Medium high\\
+ \hline
+ Activity Landscape & Terrain & Iconic & min. 2 & High & High\\
+ \hline
+ Activity Flora & Leaf & Iconic & 4 & High & Low\\
+ \hline
+ Activity Vase & Vase/	Cylinder & Symbolic & Unlimited & Medium & Medium\\
+ \hline
+\end{tabular}
+\caption{Activity Sculpture Prototype Comparison}
+\label{tab:comparison}
+\end{table}
 
 \subsection{Configurator Design}
 \cite{abbasi2012s}
