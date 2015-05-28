@@ -6,7 +6,7 @@
 This chapter presents the process of developing the designs for the activity sculpture and the web configurator. In the first section the requirements for the activity sculpture are presented and four different designs that attempt to fulfill the requirements are presented. Finally the validation process for the sculpture to be designed will be discussed. The second section is devoted to the design process of the customization system. This comprehends not only the user interface but also the user experience while operating the system. After a process where three different concepts were ideated, through the validation of the design the final prototype is chosen. 
 
 \subsection{Activity Sculpture Design}
-The activity sculpture and the configurator are strongly interconnected as depending on the design, the sculpture will influence the quantity of controls to be taken into consideration for the design of the configurator giving users greater or lesser freedom for manipulating the the sculpture. As we discussed in section \ref{sec:activitysculptures}, activity sculptures portray different attributes inherit from their physical nature. This why a different approach for designing physical data visualizations is needed. For this purpose the design taxonomy proposed by Vande Moere et al.\cite{vande2009analyzing} was used as a guide to better categorize the qualities of the developed designs. This taxonomy is has two dimensions which describe the design space of activity sculptures: \textit{representational fidelity} and \textit{narrative formulation}. 
+The activity sculpture and the configurator are strongly interconnected as depending of the sculpture design, the sculpture will influence the quantity of controls to be taken into consideration for the design of the configurator giving users greater or lesser freedom for manipulating the the sculpture. As we discussed in section \ref{sec:activitysculptures}, activity sculptures portray different attributes inherit from their physical nature. This why a different approach for designing physical data visualizations is needed. For this purpose the design taxonomy proposed by Vande Moere et al.\cite{vande2009analyzing} was used as a guide to better categorize the qualities of the developed designs. This taxonomy is has two dimensions which describe the design space of activity sculptures: \textit{representational fidelity} and \textit{narrative formulation}. 
 
 \textbf{The representational fidelity} attempts to explain the decision made for the embodiment of the data in form. This includes the chosen metaphor for mapping the data to the object and the resulting metaphorical distance, this is the level of abstraction used to represent the data through the metaphor. In order to better explain the abstraction level Vande Moere's taxonomy uses concepts from semiotic studies. According to C.K. Ogden et al.\cite{ogden1946meaning} semiotic signs can be explained through their three major concepts: the signified, the signifier and the sense. The signified is an object that represents a physical thing or and idea. The signified is represented by the signifier who tries to bring the same experience an observer would have with the signified. The sense is the experience brought by the signified. Furthermore signs can be categorized into iconic, indexical and symbolic. Iconic representation occurs when the signifier resembles the signified, like a picture or a diagram. Activity sculptures are iconic when they resemble  the metaphor they are interpreting. Examples of this could be the heart-beat extruded graph sculpture in discussed in section \ref{sub:sweatatoms} or the MakerVis visualizations in \ref{fig:makervis-config}. An indexical sign has a sensory feature that correlates directly to the signified. The signifier points to the signified through an actual connection, like dark clouds point to a forthcoming rain or smoke points to fire. Activity sculptures can be classified as indexical when through the use of a property directly related to the data. An example of such a sculpture would be the SweatAtoms frog in section \ref{sub:sweatatoms} or the . The most complex kind of sing is the symbol, as it does not bear any resemblance to the signified. The relationship between the signified and the signifier has to be taught by convention in order to be understood. Activity sculptures making use of symbolic representation are the hardest to understand as the relationship to the data has to be learned as it is not apparently displayed. Example of symbolic sculptures would be the landscapes in the Mental Fabrications project discussed in section \ref{sub:mentalfabrications}. Through the definition of iconic, indexical and symbolic representation we can derive their metaphorical distance resulting in indexical having the closest distance, symbolic the furthest and iconic a medium distance\cite{swaminathan2014supporting}. 
 
@@ -160,33 +160,55 @@ The final implementation of the sculpture and the possible control features will
 \end{table}
 
 \subsection{Configurator Design}
-\cite{abbasi2012s}
-\cite{Konstanzer20078609220}
-\cite{rolland2012commerce}
+The configurator's main goal is to guide a user through decision making, while keeping consistency with design constraints\cite{abbasi2012s}. The design of a user friendly web configurator is not an easy task as it involves thoughtful design of the configuration process, the controls with which the user will manipulate the object and the constraints that will ensure that the chosen configuration fulfills the design restrictions. Abbasi et al. made an in depth study of 111 web configurators\cite{abbasi2012s} providing helpful insight of most used techniques. In their research Abbasi et al. divided the functionality of a configurator in three areas: \textit{configuration options, constraints} and \textit{the configuration process}. 
+
+\textbf{Configuration options} comprehend the user interface widgets that are used to change values, choose options and manipulate the object in general. The most common widgets are combo box items (drop-down lists), images, radio buttons, check boxes and text boxes. It was found that 83\% of the analyzed configurators preloaded their controls with default values and if the user did not input a value in a control it continued with a default value. If users miss filling in values in specific controls or input fields the configurator can notify the user if he has left any mandatory field empty or when continuing to the next section the user will be notified that he left an empty field.
+
+\textbf{Constraints} can be used to proof the correctness of user input values or also to hide functionality from novice users. In order to achieve ensure the correctness of the input data several checks can be performed. Type correctness ensures the value's type matches the expected type: integer, strings etc. Rage correctness tests if the value resides in the lower and upper bounds. Value formatting specifies an expected format and case sensitiveness for dates, colors or email addresses. 62\% of the studied configurators performed these checks in a prevention pattern where the configurator notifies the user of a mistake before he submits the input value. It is common to hide constrain the visibility of certain controls if not activated. 
+
+\textbf{Configuration processes} can take mainly three forms. A single step configurator displays all controls in a single view. Basic multi-step configurators display the options in graphical containers that can be displayed successively or in a single view. Hierarchical multi-step configurators divide the controls are similar to basic multi-step configurators but allow the subgrouping of controls in a graphical container. Multi-step configurators can activate their controls in a step-by-step manner or they can make all controls available at any moment. For the design of multi-step configurators is important to keep in mind that some kind of decision propagation system has to be implemented in order to keep the decisions made in a previous step available and display their impact to the product.
+
+Another important guideline for the design of the configurator was the ISO 9241-110:2006 standard for the ergonomics of human-system interaction\cite{fdis20069241}. The standard offers a series of recommendations for user interface designers and developers of interactive systems. The Volkswagen web configurator made use if the guidelines in the standard and they proved to be useful in the design process\cite{Konstanzer20078609220}. The following recommendations were taken into consideration for the design and prototype phase of this work. 
+
+\textbf{Suitability for the task} expresses the interaction should be suitable for the user's task and skill level. Meaning the user is given meaningful aids to accomplish his task and the interface supports functionality for different kinds of users e.g. "advanced" or "novice".
+
+\textbf{Self-descriptiveness} attempts to make clear to the user what tasks should be performed next. Descriptions have to be reached easily by the user and several different views of the product.
+
+\textbf{Controllability.} The user should be able to control the speed and order of the interaction as well as other navigation aids.
+
+\textbf{Conformity with user expectations.} This consistency of the interface is important to meet the user's expectations. In order to achieve this the design process has to be logically understandable to the user. Fore example the user should know at all times in which step of the configuration process he is.
+
+\textbf{Error tolerance.} The interface reacts reasonably to all user input and mechanisms that prevent the user to make mistakes should be implemented. If an error occurs the interface has to be forgiving and the error should be easily reversible.
+
+With the obtained guidelines from both the extensive study of Abbasi et al.\cite{abbasi2012s} and the ISO 9241-110:2006\cite{fdis20069241} the configurator prototypes took the following form.
 
 \subsubsection{Ideation Process}
+The configurator prototypes were ideated in an iterative process where different concepts were developed and discussed between the author and his tutor. 
 
+The first prototype was a multi-step based configurator where every steps presents a new set of visual controls. This first prototype welcomed the user with a home screen for the configurator. In this screen the user can login with his tracker account or he can scroll down and see a gallery of sculptures other users have made. If the user keep scrolling down a tutorial section is presented. This section is intended to be only a brief introduction of the workflow of the configurator. After logging in the user lands in the data dashboard. This is the first step of the configurator and serves to get the user acquainted with his data. In this step a line-chart with three tabs at the top displaying different data categories is shown from which the user can chose variables to visualize. The user knows in which step he is at all times with a navigation bar at the top of the screen. The current step number is highlighted. The user can further explore the data with zoom controls and also with an on hover radial chart displaying the value of the variables visualized for the given point in time. The next step is the sculpture selection menu. This step allows the user to select a specific object he can make out of the activity with a short description. Once the user has chosen a sculpture style the sculpture configurator is shown. In this step the user can customize the sculpture by selecting from a variety of materials and colors. The user can also chose between different connection modes, which alters the way the vertices of the sculpture are connected. At the bottom of this view the selected variables are shown in both radial and line chart views. Thinking of the configurator as a commercial product it would be helpful to have an overview of the price and see how different configurations influence it. When the user is happy with the sculpture he may continue to the accessories configurator. In this step labels and other accessories or secondary elements can be customized. In the final step a summary of the used materials and visual styles is offered and the sculpture can be then printed. 
 
 \begin{figure}[h]
 \captionsetup{width=0.9\textwidth}
 \begin{center}
   \includegraphics[width=0.6\textwidth]{Prototype/img/ui_proto1}
-  \caption{Sketch of step based configurator prototype}
+  \caption{Sketch of the step based configurator prototype}
 \label{fig:uiproto1}
 \end{center}
 \end{figure}
+
+The next sculpture 
 
 \begin{figure}[h]
 \centering
 \begin{minipage}{.45\textwidth}
 \centering
-  \includegraphics[width=\textwidth]{Prototype/img/cinema4d}
+  \includegraphics[width=1.06\textwidth,trim=0mm 0mm 50mm 0mm,clip=true]{Prototype/img/cinema4d}
   \caption{3D modeling software Cinema 4D graphical user interface\cite{cinema4d}}
   \label{fig:cinema}
 \end{minipage}
 \begin{minipage}{.45\textwidth}
 \centering
-  \includegraphics[width=\linewidth]{Prototype/img/ui_proto2}
+  \includegraphics[width=1.0\linewidth,trim=0mm 0mm 0mm 28mm,clip=true]{Prototype/img/ui_proto2}
   \caption{Sketch of 3D modeling software inspired configurator prototype}
   \label{fig:uiproto2}
 \end{minipage}

@@ -70,45 +70,45 @@ Warning--entry type for "cinema4d" isn't style-file defined
 Warning--empty booktitle in abbasi2012s
 Warning--empty note in Konstanzer20078609220
 Warning--empty journal in olsen2004realtime
-You've used 56 entries,
+You've used 57 entries,
             2118 wiz_defined-function locations,
-            769 strings with 12659 characters,
-and the built_in function-call counts, 15144 in all, are:
-= -- 1449
-> -- 641
+            773 strings with 12829 characters,
+and the built_in function-call counts, 15348 in all, are:
+= -- 1469
+> -- 648
 < -- 8
-+ -- 267
-- -- 204
-* -- 739
-:= -- 2482
-add.period$ -- 175
-call.type$ -- 56
-change.case$ -- 264
++ -- 270
+- -- 206
+* -- 747
+:= -- 2521
+add.period$ -- 178
+call.type$ -- 57
+change.case$ -- 268
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 583
-empty$ -- 1361
-format.name$ -- 204
-if$ -- 3271
+cite$ -- 60
+duplicate$ -- 593
+empty$ -- 1378
+format.name$ -- 206
+if$ -- 3312
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 28
-newline$ -- 283
-num.names$ -- 113
-pop$ -- 467
+int.to.str$ -- 57
+missing$ -- 29
+newline$ -- 288
+num.names$ -- 115
+pop$ -- 471
 preamble$ -- 1
-purify$ -- 214
+purify$ -- 217
 quote$ -- 0
-skip$ -- 477
+skip$ -- 484
 stack$ -- 0
-substring$ -- 606
-swap$ -- 132
+substring$ -- 611
+swap$ -- 133
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 212
+type$ -- 216
 warning$ -- 3
-while$ -- 142
-width$ -- 58
-write$ -- 581
+while$ -- 144
+width$ -- 59
+write$ -- 591
 (There were 35 warnings)
