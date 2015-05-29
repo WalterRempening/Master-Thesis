@@ -27,27 +27,27 @@
 \contentsline {subsubsection}{\numberline {3.1.5}Prototype Validation}{19}{subsubsection.3.1.5}
 \contentsline {subsection}{\numberline {3.2}Configurator Design}{20}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Ideation Process}{21}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Prototype Validation}{22}{subsubsection.3.2.2}
-\contentsline {section}{\numberline {4}Implementation}{24}{section.4}
-\contentsline {subsection}{\numberline {4.1}Requirements}{24}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Technology}{24}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Architecture}{24}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Configurator}{24}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Sculpture Manipulation}{24}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Sculpture Generation \& Rendering}{24}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Backend}{24}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Withings API Integration}{24}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Data Processing}{24}{subsubsection.4.5.2}
-\contentsline {subsection}{\numberline {4.6}Challenges}{24}{subsection.4.6}
-\contentsline {section}{\numberline {5}User Study}{25}{section.5}
-\contentsline {subsection}{\numberline {5.1}Study Design}{25}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Questionnaire}{25}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Participants}{25}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Procedure}{25}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Results}{25}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Limitations}{25}{subsection.5.6}
-\contentsline {section}{\numberline {6}Conclusion}{26}{section.6}
-\contentsline {section}{\numberline {7}Future Work}{27}{section.7}
+\contentsline {subsubsection}{\numberline {3.2.2}Prototype Validation}{23}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}Implementation}{25}{section.4}
+\contentsline {subsection}{\numberline {4.1}Requirements}{25}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Technology}{25}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Architecture}{25}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Configurator}{25}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Sculpture Manipulation}{25}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Sculpture Generation \& Rendering}{25}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Backend}{25}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Withings API Integration}{25}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Data Processing}{25}{subsubsection.4.5.2}
+\contentsline {subsection}{\numberline {4.6}Challenges}{25}{subsection.4.6}
+\contentsline {section}{\numberline {5}User Study}{26}{section.5}
+\contentsline {subsection}{\numberline {5.1}Study Design}{26}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Questionnaire}{26}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Participants}{26}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Procedure}{26}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Results}{26}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Limitations}{26}{subsection.5.6}
+\contentsline {section}{\numberline {6}Conclusion}{27}{section.6}
+\contentsline {section}{\numberline {7}Future Work}{28}{section.7}
 \contentsline {section}{Appendix}{35}{section*.33}
 \contentsline {section}{\numberline {A}Prototype Sketches}{35}{appendix.A}
 \contentsline {subsection}{\numberline {A.1}Sculpture Prototypes}{35}{subsection.A.1}

@@ -188,17 +188,17 @@ The configurator prototypes were ideated in an iterative process where different
 The first prototype was a multi-step based configurator where every steps presents a new set of visual controls. This first prototype welcomed the user with a home screen for the configurator. In this screen the user can login with his tracker account or he can scroll down and see a gallery of sculptures other users have made. If the user keep scrolling down a tutorial section is presented. This section is intended to be only a brief introduction of the workflow of the configurator. After logging in the user lands in the data dashboard. This is the first step of the configurator and serves to get the user acquainted with his data. In this step a line-chart with three tabs at the top displaying different data categories is shown from which the user can chose variables to visualize. The user knows in which step he is at all times with a navigation bar at the top of the screen. The current step number is highlighted. The user can further explore the data with zoom controls and also with an on hover radial chart displaying the value of the variables visualized for the given point in time. The next step is the sculpture selection menu. This step allows the user to select a specific object he can make out of the activity with a short description. Once the user has chosen a sculpture style the sculpture configurator is shown. In this step the user can customize the sculpture by selecting from a variety of materials and colors. The user can also chose between different connection modes, which alters the way the vertices of the sculpture are connected. At the bottom of this view the selected variables are shown in both radial and line chart views. Thinking of the configurator as a commercial product it would be helpful to have an overview of the price and see how different configurations influence it. When the user is happy with the sculpture he may continue to the accessories configurator. In this step labels and other accessories or secondary elements can be customized. In the final step a summary of the used materials and visual styles is offered and the sculpture can be then printed. 
 
 \begin{figure}[h]
-\captionsetup{width=0.9\textwidth}
+\captionsetup{width=0.7\textwidth}
 \begin{center}
-  \includegraphics[width=0.6\textwidth]{Prototype/img/ui_proto1}
+  \includegraphics[width=0.6\textwidth,trim=0mm 24mm 0mm 0mm,clip=true]{Prototype/img/ui_proto1}
   \caption{Sketch of the step based configurator prototype}
 \label{fig:uiproto1}
 \end{center}
 \end{figure}
 
-The next sculpture 
+In the second design iteration it was intended to simplify the interface and move from a multi-step based with step-by-step views to a basic multi-step design. The welcome screen first introduced in the first prototype would also remain for all the design iterations. After the user has logged in to the configurator the workspace view is shown. This view contains all the controls for the configurator. In the left side a panel contains several views that can be navigated. Each view has controls for a specific property. The panel shown in figure \ref{fig:uiproto2} has the variable catalog from which the user can chose variables to map to the sculpture. By selecting a variable the sculpture would be instantly updated. The geometry of the sculpture can be customized in another panel with sliders to manipulate hight and radius parameters. In this same panel a date field can be used to select the data range of the visualized data.
 
-\begin{figure}[h]
+\begin{figure}[hb]
 \centering
 \begin{minipage}{.45\textwidth}
 \centering
@@ -214,15 +214,30 @@ The next sculpture
 \end{minipage}
 \end{figure}
 
+At the right side a panel with material and color options is shown. Again at the bottom a line- and radial-charts visualize the selected variables. After finishing the user is brought to a summary view of the selected materials and variables visualized. A strong inspiration for this concept were 3D modeling software packages like the one shown in figure \ref{fig:cinema}. The normal layout of a modeling software offers users an overview of the scene in different angles and a series of navigation menus and panels with material and assets windows. 
+
+The final design iteration of the configurator was conceived with the goal of further simplify the interface by hiding all panels and instead focus the users attention to the sculpture (see figure \ref{fig:uiproto3}). After logging in the user is taken to the configurator. The sculpture will be surrounded by a circle with floating labels of the selected variables. To edit the visualized variables a button with a plus symbol is placed in the circle around the sculpture. If the user presses this button a panel pop ups displaying the variable list. After selecting a variable the sculpture will update instantly. This prototype has three more buttons. Floating on the right a calendar button can be used to display a slider with which the user can set the data range to be visualized. The other two buttons are used to manipulate geometry and material options. 
+
+In the following section the comparison of the 3 prototypes will be discussed, closing with an argumentation about the chosen prototype. 
+
 \begin{figure}[h]
 \captionsetup{width=0.9\textwidth}
 \begin{center}
   \includegraphics[width=0.6\textwidth]{Prototype/img/ui_proto3}
-  \caption{Sketch of ``freestyle'' configurator prototype}
+  \caption{Sketch of a simplified panel-free configurator prototype}
 \label{fig:uiproto3}
 \end{center}
 \end{figure}
 
 \subsubsection{Prototype Validation}
+The main difference of the 3 prototypes is how the the user is guided through the configuration process. A welcome view in all prototypes will introduce the worklfow to the user allowing him to get comfortable with the system. The first prototype simplifies the available visual controls by dividing the process in steps. Each step is specialized in a single aspect of the configuration process, this has the benefit of allowing the user to concentrate on a single task an move on. The downside of such an implementation is that it requires state persistence functionality to store the configurations made throughout the process. For the amount of controls available for the activity sculpture configurator this option might be an overkill due that the essential steps can be broken down to two steps. 
+
+On the other hand simplifying the interface so much as in prototype 3 where all controls are accessed through buttons could offers not enough information about how they can achieve their goals. Although this prototype encourages exploration as it is the only way the user can figure out how to customize the sculpture, this takes the configurator to a more sculpting like approach. 
+
+Prototype 2 sits somewhere in the middle between prototype 1 and 3. The step clutter is reduced to a single view but through the display of control panels with text the user has visual queues as to what the available tasks are. Through the left panel that accommodates different controls through a cycling tab system the clutter of customization controls is avoided allowing the user to concentrate in the controls that are visible in the panel at the moment. 
+
+In summary the configuration developed configurator prototype offers a simplified workflow through a basic multi-step approach design with a simple layout that displays the controls in a logically organized manner thanks to a tab panel. The available controls will be reduced to buttons, toggles and sliders that easily configurated in the system and most importantly the user can not make any mistakes, liberating the user of frustrating experiences of correcting mistakes. By having only one view the configurator reduces the implementation complexity and does not require a persistence system.
+
+Chapter \ref{ch:configurator} is devoted to the technical implementation of the configurator's prototype discussing technologies used, the overall architecture and the challenges encountered in the developing process. 
 
 \end{document}
