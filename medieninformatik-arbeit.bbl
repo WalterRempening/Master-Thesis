@@ -43,6 +43,11 @@ M.~Computer.
 \newblock {last accessed 27-05-2015},
   \url{http://www.maxon.net/de/products/cinema-4d-studio.html}.
 
+\bibitem{socketio}
+CONTRIBUTORS.
+\newblock socket.io, 2015.
+\newblock {last accessed 30-05-2015}, \url{http://socket.io/}.
+
 \bibitem{multiexposure}
 D.~Coulter.
 \newblock Multiple exposure 28, 2015.
@@ -67,6 +72,12 @@ M.~C. Felice, J.~B. Ferreira~Filho, M.~Acher, A.~Blouin, and O.~Barais.
 \newblock {\em 17th International Software Product Line Conference co-located
   workshops}, 2013.
 
+\bibitem{Fielding:2000:PDM:337180.337228}
+R.~T. Fielding and R.~N. Taylor.
+\newblock Principled design of the modern web architecture.
+\newblock In {\em Proceedings of the 22Nd International Conference on Software
+  Engineering}, ICSE '00, pages 407--416, New York, NY, USA, 2000. ACM.
+
 \bibitem{gantz2012digital}
 J.~Gantz and D.~Reinsel.
 \newblock The digital universe in 2020: Big data, bigger digital shadows, and
@@ -78,6 +89,16 @@ U.~GmbH.
 \newblock Unu embrace urban life, 2014.
 \newblock {last accessed 20-05-2015},
   \url{https://unumotors.com/get-your-unu.html}.
+
+\bibitem{hammer2010oauth}
+E.~Hammer-Lahav.
+\newblock The oauth 1.0 protocol.
+\newblock 2010.
+
+\bibitem{passport}
+J.~Hanson.
+\newblock Passport, 2015.
+\newblock {last accessed 30-05-2015}, \url{http://passportjs.org/}.
 
 \bibitem{hedin1998product}
 G.~Hedin, L.~Ohlsson, and J.~McKenna.
@@ -94,6 +115,22 @@ F.~Inc.
 F.~Inc.
 \newblock Fitbit flex wireless activity \& sleep wristband, 2015.
 \newblock {last accessed 26-05-2015}, \url{https://www.fitbit.com/de/flex}.
+
+\bibitem{webrtc}
+G.~Inc.
+\newblock Webrtc, 2014.
+\newblock {last accessed 30-05-2015}, \url{http://www.webrtc.org/}.
+
+\bibitem{angularmaterial}
+G.~Inc.
+\newblock Angular material, 2015.
+\newblock {last accessed 30-05-2015},
+  \url{https://material.angularjs.org/latest/#/}.
+
+\bibitem{angular}
+G.~Inc.
+\newblock Angularjs, 2015.
+\newblock {last accessed 30-05-2015}, \url{https://angularjs.org/}.
 
 \bibitem{joyent2015node}
 J.~Inc.
@@ -162,6 +199,11 @@ R.~Konstanzer, D.~Koenig, and I.~Andrei.
 \newblock Volkswagen car configurator.
 \newblock Mar 2007.
 
+\bibitem{mongoose}
+LearnBoost.
+\newblock Mongoose, 2015.
+\newblock {last accessed 30-05-2015}, \url{http://mongoosejs.com/}.
+
 \bibitem{mrmaria2015studio}
 M.~Maria.
 \newblock Mr maria shop all sweetness and light, 2015.
@@ -177,6 +219,11 @@ V.~Mayer-Sch{\"o}nberger and K.~Cukier.
 R.~McCarney, J.~Warner, S.~Iliffe, R.~van Haselen, M.~Griffin, and P.~Fisher.
 \newblock The hawthorne effect: a randomised, controlled trial.
 \newblock {\em BMC medical research methodology}, 7(1):30, 2007.
+
+\bibitem{mongodb}
+I.~MongoDB.
+\newblock Mongodb, 2015.
+\newblock {last accessed 30-05-2015}, \url{https://www.mongodb.org/}.
 
 \bibitem{nuero2015sky}
 NeuroSky.
@@ -240,6 +287,11 @@ E.~Rubin.
 \newblock {\em Visuell wahrgenommene figuren}.
 \newblock Ripol Classic, 1921.
 
+\bibitem{express}
+StrongLoop.
+\newblock Express, 2015.
+\newblock {last accessed 30-05-2015}, \url{http://expressjs.com/}.
+
 \bibitem{swaminathan2014supporting}
 S.~Swaminathan, C.~Shi, Y.~Jansen, P.~Dragicevic, L.~A. Oehlberg, and J.-D.
   Fekete.
@@ -268,6 +320,12 @@ Timbuk2.
 Twikit.
 \newblock Twikit, tweak it, make it! 3d customization, 2015.
 \newblock {last accessed 22-05-2015}, \url{https://www.twikit.com/}.
+
+\bibitem{meanstack}
+K.~T. e. a.~M. Valeri~Karpov.
+\newblock The mean stack: Mongodb, expressjs, angularjs and node.js, 2013.
+\newblock {last accessed 29-05-2015},
+  \url{http://blog.mongodb.org/post/49262866911/the-mean-stack-mongodb-expressjs-angularjs-and}.
 
 \bibitem{vande2008beyond}
 A.~Vande~Moere.

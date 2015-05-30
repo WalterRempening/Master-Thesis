@@ -40,6 +40,12 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/upquote/upquote.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/upquote/upquote.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
@@ -109,6 +115,8 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux
 OUTPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
@@ -180,11 +188,12 @@ INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
-INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.toc
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.toc
 OUTPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.toc
@@ -266,6 +275,23 @@ INPUT /Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/ui_proto3.jpeg
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/ui_proto3.jpeg
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/Configurator/conf.tex
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/Configurator/conf.tex
+INPUT /Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/3DGraph_detail.jpeg
+INPUT /Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/3DGraph_detail.jpeg
+INPUT /Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/3DGraph_detail.jpeg
+INPUT /Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/3DGraph_detail.jpeg
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/ectt0900.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmtt.fd
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmtt.fd
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/tctt0900.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/UserStudy/study.tex
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/UserStudy/study.tex
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/Conclusion/content.tex
@@ -277,8 +303,6 @@ INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lof
 OUTPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lof
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.bbl
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.bbl
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
-INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/Appendix/content.tex
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/Appendix/content.tex
@@ -552,9 +576,10 @@ INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.aux
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.out
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.out
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb

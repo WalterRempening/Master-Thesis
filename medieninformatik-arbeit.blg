@@ -67,48 +67,67 @@ Warning--entry type for "fahz" isn't style-file defined
 --line 481 of file ma-thesis.bib
 Warning--entry type for "cinema4d" isn't style-file defined
 --line 490 of file ma-thesis.bib
+Warning--entry type for "meanstack" isn't style-file defined
+--line 519 of file ma-thesis.bib
+Warning--entry type for "mongodb" isn't style-file defined
+--line 534 of file ma-thesis.bib
+Warning--entry type for "express" isn't style-file defined
+--line 552 of file ma-thesis.bib
+Warning--entry type for "passport" isn't style-file defined
+--line 561 of file ma-thesis.bib
+Warning--entry type for "socketio" isn't style-file defined
+--line 570 of file ma-thesis.bib
+Warning--entry type for "webrtc" isn't style-file defined
+--line 579 of file ma-thesis.bib
+Warning--entry type for "angular" isn't style-file defined
+--line 588 of file ma-thesis.bib
+Warning--entry type for "angularmaterial" isn't style-file defined
+--line 597 of file ma-thesis.bib
+Warning--entry type for "mongoose" isn't style-file defined
+--line 615 of file ma-thesis.bib
 Warning--empty booktitle in abbasi2012s
+Warning--empty journal in hammer2010oauth
 Warning--empty note in Konstanzer20078609220
 Warning--empty journal in olsen2004realtime
-You've used 57 entries,
+You've used 68 entries,
             2118 wiz_defined-function locations,
-            773 strings with 12829 characters,
-and the built_in function-call counts, 15348 in all, are:
-= -- 1469
-> -- 648
-< -- 8
-+ -- 270
-- -- 206
-* -- 747
-:= -- 2521
-add.period$ -- 178
-call.type$ -- 57
-change.case$ -- 268
+            819 strings with 14042 characters,
+and the built_in function-call counts, 17877 in all, are:
+= -- 1713
+> -- 731
+< -- 9
++ -- 307
+- -- 230
+* -- 836
+:= -- 2931
+add.period$ -- 212
+call.type$ -- 68
+change.case$ -- 313
 chr.to.int$ -- 0
-cite$ -- 60
-duplicate$ -- 593
-empty$ -- 1378
-format.name$ -- 206
-if$ -- 3312
+cite$ -- 72
+duplicate$ -- 689
+empty$ -- 1632
+format.name$ -- 230
+if$ -- 3868
 int.to.chr$ -- 0
-int.to.str$ -- 57
-missing$ -- 29
-newline$ -- 288
-num.names$ -- 115
-pop$ -- 471
+int.to.str$ -- 68
+missing$ -- 31
+newline$ -- 343
+num.names$ -- 137
+pop$ -- 563
 preamble$ -- 1
-purify$ -- 217
+purify$ -- 251
 quote$ -- 0
-skip$ -- 484
+skip$ -- 574
 stack$ -- 0
-substring$ -- 611
-swap$ -- 133
-text.length$ -- 8
+substring$ -- 700
+swap$ -- 152
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 216
-warning$ -- 3
-while$ -- 144
-width$ -- 59
-write$ -- 591
-(There were 35 warnings)
+type$ -- 260
+warning$ -- 4
+while$ -- 169
+width$ -- 70
+write$ -- 704
+(There were 45 warnings)
