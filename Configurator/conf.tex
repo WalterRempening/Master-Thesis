@@ -28,14 +28,16 @@ Through the analysis of current works described in chapter \ref{ch:related},the 
 
 The required functionality is beyond what it would be needed for a basic working prototype. The developed configurator in this work is a fully functional system that fulfills every requirement specified in this section. The stated requirements involved the implementation of other functionality to ensure the requirement was fulfilled. For example the login functionality implies the implementation of an Oauth authentication solution(explained later in section \ref{sub:ApiIntegration}) in order to integrate with the Withings API. Also because the configurator is dealing with personal data the security of the system is important, as a basic approach to address this, the configurator implements session handling.
 
-In the following section the used technologies to tackle the extensive list of requirements.  
+In the following section the used technologies to tackle the extensive list of requirements will be presented.  
 
 \subsection{Technology}
-MEAN Stack first introduced by Valeri Karpov in his blog\cite{meanstack}
-\textbf{MongoDB}\cite{mongodb}, mongoose\cite{mongoose}
-\textbf{Node}\cite{joyent2015node}  
-\textbf{Express}\cite{express} 
-\textbf{Angular}\cite{angular}, 
+The web configurator was developed with a modern stack of technologies that enable the use of the JavaScript language not only for frontend but also for the backend, the database and graphics programming. The MEAN stack is a collection of technologies that enables developers to write web applications in a single programming language. MEAN is the acronym for the technologies  conforming the stack: \textit{MongoDB}\cite{mongodb}, \textit{Express}\cite{express}, \textit{Angular}\cite{angular} and \textit{Node.js}\cite{joyent2015node}. The acronym was first used by Valeri Karpov, MongoDB engineer, in a blog post\cite{meanstack} where he discussed the benefits of using the same language across all technologies involved. Among the benefits Karpov states their team have experienced an increment in the performance of the developed software and also in the team's productivity.
+
+ MongoDB is a document-oriented database 
+
+
+ 
+
 \textit{Angular Material}\cite{angularmaterial}
 
 Authentication 
@@ -75,7 +77,8 @@ Real time visualization
 
 \subsection{Configurator}
 \subsubsection{Sculpture Manipulation}
-\begin{lstlisting}[style=htmlcssjs]
+
+\begin{lstlisting}[style=htmlcssjs, caption={Example code},label={list:example}]
 // create some nodes
 var head = document.createElement('h1');
 var texto = document.createTextNode("HelloWorld");
@@ -86,7 +89,6 @@ document.getElementsByTagName("body")[0].appendChild(head);
 if(!ganas){
 	console.log('A wevo a echarle ganas');
 }
-
 \end{lstlisting}
 
 

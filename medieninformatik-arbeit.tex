@@ -17,9 +17,6 @@
 \usepackage[official]{eurosym}
 \usepackage{listings} % For displaying js source code
 
-% \usepackage{courier}
-% \lstset{basicstyle=\footnotesize\ttfamily,breaklines=true}
-
 %\usepackage{url} % Cross references
 % Zum Setzen von URLs
 \usepackage{color}
@@ -48,23 +45,10 @@
 \renewcommand{\thefigure}{\thesection.\arabic{figure}}
 \@addtoreset{table}{section}
 \renewcommand{\thetable}{\thesection.\arabic{table}}
-\makeatother
 
-\sloppy % Damit LaTeX nicht so viel über "overfull hbox" u.Ä. meckert
-
-% Ränder
-\addtolength{\topmargin}{-16mm}
-\setlength{\oddsidemargin}{25mm}
-\setlength{\evensidemargin}{35mm}
-\addtolength{\oddsidemargin}{-1in}
-\addtolength{\evensidemargin}{-1in}
-\setlength{\textwidth}{15cm}
-\addtolength{\textheight}{34mm}
 
 
 % JS, HTML and CSS listings
-
-\makeatletter
 \definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
 \definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
 %\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
@@ -77,6 +61,7 @@
 \definecolor{purple}{rgb}{0.38,0.18,0.81}
 \definecolor{lightblue}{rgb}{0.1,0.57,0.7}
 \definecolor{lightred}{rgb}{1,0.4,0.5}
+
 % CSS
 \lstdefinelanguage{CSS}{
   keywords={color,background-image:,margin,padding,font,weight,display,position,top,left,right,bottom,list,style,border,size,white,space,min,width, transition:, transform:, transition-property, transition-duration, transition-timing-function}, 
@@ -141,7 +126,7 @@
   % General design
 %  backgroundcolor=\color{editorGray},
   basicstyle={\footnotesize\ttfamily},   
-  % frame=b,
+  frame=tb,
   % line-numbers
   xleftmargin={0.75cm},
   numbers=left,
@@ -176,6 +161,16 @@
 }
 \makeatother
 
+\sloppy % Damit LaTeX nicht so viel über "overfull hbox" u.Ä. meckert
+
+% Ränder
+\addtolength{\topmargin}{-16mm}
+\setlength{\oddsidemargin}{25mm}
+\setlength{\evensidemargin}{35mm}
+\addtolength{\oddsidemargin}{-1in}
+\addtolength{\evensidemargin}{-1in}
+\setlength{\textwidth}{15cm}
+\addtolength{\textheight}{34mm}
 
 %______________________________________________________________________
 
@@ -183,6 +178,11 @@
 
 \pagestyle{empty} % Vorerst keine Seitenzahlen
 \pagenumbering{alph} % Unsichtbare alphabetische Nummerierung
+
+\makeatletter
+\@addtoreset{lstlisting}{section}
+\renewcommand\thelstlisting{\thesection.\arabic{lstlisting}}
+\makeatother
 
 \begin{center}
 \textsc{University of Munich}\\
@@ -360,9 +360,11 @@ the references and auxiliary means indicated in the thesis.
 \subfile{FutureWork/content}
 %______________________________________________________________________
 %Abbildungsverzeichnis erzeugen - normalerweise nicht nötig
-\cleardoublepage
+\clearpage
 \listoffigures
-
+%______________________________________________________________________
+\clearpage
+\lstlistoflistings
 %______________________________________________________________________
 \cleardoublepage
 \bibliographystyle{abbrv}
@@ -372,18 +374,6 @@ the references and auxiliary means indicated in the thesis.
 \cleardoublepage
 \subfile{Appendix/content}
 
-%--------------------------------------------------------------------------------
-%   IF NEEDED FOR CODE EXAMPLES
-%--------------------------------------------------------------------------------
-%\begin{lstlisting}[language=JavaScript]
-%// create some nodes
-%var headline = document.createElement(¿h1¿);
-%var text = document.createTextNode(¿Dies ist eine Überschrift¿);
-%// "offline" node manipulation
-%headline.appendChild(text);
-%// adding node to DOM
-%document.getElementsByTagName("body")[0].appendChild(headline);
-%\end{lstlisting}
 %________________________________________________________________________________
 
 \fancyhead[LE,RO,LO,RE]{} % Keine Kopfzeile mehr oben auf jeder Seite

@@ -301,6 +301,9 @@ INPUT /Users/wrd/Documents/Master Thesis/Thesis/FutureWork/content.tex
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lof
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lof
 OUTPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lof
+INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lol
+INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lol
+OUTPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lol
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.bbl
 INPUT /Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.bbl
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm

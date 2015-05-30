@@ -83,51 +83,49 @@ Warning--entry type for "angular" isn't style-file defined
 --line 588 of file ma-thesis.bib
 Warning--entry type for "angularmaterial" isn't style-file defined
 --line 597 of file ma-thesis.bib
-Warning--entry type for "mongoose" isn't style-file defined
---line 615 of file ma-thesis.bib
 Warning--empty booktitle in abbasi2012s
 Warning--empty journal in hammer2010oauth
 Warning--empty note in Konstanzer20078609220
 Warning--empty journal in olsen2004realtime
-You've used 68 entries,
+You've used 67 entries,
             2118 wiz_defined-function locations,
-            819 strings with 14042 characters,
-and the built_in function-call counts, 17877 in all, are:
-= -- 1713
-> -- 731
+            815 strings with 13960 characters,
+and the built_in function-call counts, 17671 in all, are:
+= -- 1694
+> -- 724
 < -- 9
-+ -- 307
-- -- 230
-* -- 836
-:= -- 2931
-add.period$ -- 212
-call.type$ -- 68
-change.case$ -- 313
++ -- 304
+- -- 228
+* -- 830
+:= -- 2897
+add.period$ -- 209
+call.type$ -- 67
+change.case$ -- 309
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 689
-empty$ -- 1632
-format.name$ -- 230
-if$ -- 3868
+cite$ -- 71
+duplicate$ -- 682
+empty$ -- 1610
+format.name$ -- 228
+if$ -- 3823
 int.to.chr$ -- 0
-int.to.str$ -- 68
+int.to.str$ -- 67
 missing$ -- 31
-newline$ -- 343
-num.names$ -- 137
-pop$ -- 563
+newline$ -- 338
+num.names$ -- 135
+pop$ -- 554
 preamble$ -- 1
-purify$ -- 251
+purify$ -- 248
 quote$ -- 0
-skip$ -- 574
+skip$ -- 567
 stack$ -- 0
-substring$ -- 700
-swap$ -- 152
+substring$ -- 695
+swap$ -- 151
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 260
+type$ -- 256
 warning$ -- 4
-while$ -- 169
-width$ -- 70
-write$ -- 704
-(There were 45 warnings)
+while$ -- 167
+width$ -- 69
+write$ -- 694
+(There were 44 warnings)
