@@ -74,12 +74,35 @@ var server = app.listen(3000, function () {
 });
 \end{lstlisting}
 
-\textbf{AngularJS}\cite{angular} is the fronted framework in the MEAN stack. \textit{AngularJS} is an opens-source project developed by Google for the development of Single Page Applications (SPAs) where the whole content of a web page is rendered in a single web page and the content is either completely loaded at the beginning or its injected according to user interactions. AngularJS is based on a Model-View-Whatever design pattern (MVW) that allows developers to choose the design pattern that better accommodates their coding style. Whichever design pattern is chosen, AngularJS enforces developers to structure code into modules providing a strong organization in the code base. The functionality provided by AngularJS ranges from bidirectional data-binding, routing, form validation, server communication tools and directives that allow the creation of custom HTML syntax. With frameworks like AngularJS SPA allow to take much of the server workload to the frontend. Another feature of AngularJS is its extensibility. For the purposes of this work the \textit{Angular Material}\cite{angularmaterial} was utilized to implement user interface controls and theming. The \textit{Angular Material} module is also developed by Google and it provides a solid framework for developing user interfaces utilizing the ``Material design'' philosophies. 
+\textbf{AngularJS}\cite{angular} is the fronted framework in the MEAN stack. \textit{AngularJS} is an opens-source project developed by Google for the development of Single Page Applications (SPAs) where the whole content of a web page is rendered in a single web page and the content is either completely loaded at the beginning or its injected according to user interactions. AngularJS is based on a Model-View-Whatever design pattern (MVW) that allows developers to choose the design pattern that better accommodates their coding style. Whichever design pattern is chosen, AngularJS enforces developers to structure code into modules providing a strong organization in the code base. The functionality provided by AngularJS ranges from bidirectional data-binding, routing, form validation, server communication tools and directives that allow the creation of custom HTML syntax. With frameworks like AngularJS SPA allow to take much of the server workload to the frontend. Another feature of AngularJS is its extensibility. For the purposes of this work the \textit{Angular Material}\cite{angularmaterial} was utilized to implement user interface controls and theming. The \textit{Angular-Material} module is also developed by Google and it provides a solid framework for developing user interfaces utilizing the ``Material design'' philosophies. 
+
+The graphic visualization of the sculpture was implemented with the \textit{Threejs}\cite{cabello2010three} library which provides an approachable abstraction of the \textit{WebGL} API. WebGL is a standard that provides hardware accelerated 3D graphics rendering for the web\cite{webgl}. Based on the OpenGL ES 2.0 standard, WebGL allows the development of real time visualizations in JavaScript through the use of the HTML 5 canvas element. \textit{Threejs} offers developer a wide set of tools and abstractions for rapid development of graphic applications in the web. An example of a basic Threejs application is composed of a scene object that contains cameras, lights and mesh objects that will be rendered to the canvas through a WebGL context. Listing \ref{list:threejs-app} provides a basic example of setting up a the renderer and attaching it to the DOM, loading cameras and lights, creating the scene, adding a cube mesh and finally rendering it.
+
+\begin{lstlisting}[style=htmlcssjs, caption={Basic Threejs 3D app example},label=list:threejs-app, float=t]
+var camera, scene, renderer;
+var geometry, material, mesh;
+
+renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
+
+camera = new THREE.PerspectiveCamera( 50, window.innerWidth/window.innerHeight, 1, 10000 );
+camera.position.z = 500;
+
+scene = new THREE.Scene();
+					
+geometry = new THREE.CubeGeometry(200, 200, 200);
+material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading});
+mesh = new THREE.Mesh(geometry, material);
+
+scene.add( mesh );
+renderer.render( scene, camera );
+\end{lstlisting}
 
 In the following sections the utilization the benefits of developing with the MEAN stack with other technologies will be highlighted through examples of modules developed for the web configurator. 
 
 \subsection{Architecture}
-
+By using the MEAN stack to develop the web configurator certain architecture decisions are imposed. One being the use of the backend more as a RESTFul web API (Representational State Transfer) for querying data than for requesting the generation of pages. RESTful APIs define a modern architectural model over the HTTP protocol to perform service operations over a system's data\cite{Fielding:2000:PDM:337180.337228}. A great advantage of utilizing RESTful architectures is that it provides good scalability as the backend can be completely decoupled from the client implementation, meaning one backend can be used to provide data to all sorts of clients from web clients to mobile or desktop applications. The configurator's backend is composed of a web service that implements the Withings API for authentication and requesting sensor data, session handling for assuring only logged in users can access the configurator's backend, the user data API that interacts with the MongoDB database to perform CRUD (Create, Read, Update, Delete) operations on the gathered user data and WebSocket communication support. WebSocket is a protocol based on a TCP connection that provides full-duplex communication to client-server applications\cite{fette2011websocket}. The advantage of WebSockets is that it allows servers to push data to clients without being requested. The configurator makes use of WebSockets through the \textit{Socket.io}\cite{socketio} library which implements the use of WebSockets in an event-driven pattern. Third party libraries utilized in the backend are contained in Node.js modules. Figure \ref{fig:architecture} provides an overview of the modules conforming the backend and frontend sides of the configurator.  
 
 \begin{figure}[h]
 \captionsetup{width=\textwidth}
@@ -90,28 +113,38 @@ In the following sections the utilization the benefits of developing with the ME
 \end{center}
 \end{figure}
 
-\begin{figure}[h]
+The frontend of the configurator is a SPA implemented in AngularJS. As discussed before, the backend is implemented as a Web API, relegating the generation of the HTML content to the AngularJS application. The frontend implementation follows a Model View Controller (MVC) pattern for better separation of concerns. Due to the flexibility of AngularJS this is was implemented through the extensive use of controllers attached to views. In AngularJS views are basic HTML templates that describe the visual aspect of the web site. Controllers implement logic functionality to manipulate the application's data or model. The model part of the MVC pattern is implemented by Angular services. Services in Angular are modules that can interface with databases through web APIs or they can be used to abstract functionality and reuse it across the application. Views can host several controllers who at the same time can access several services. 
+
+Even though views in the configurator are divided in several parts for re-usability across the application, they where separated in three main areas: the core, the configurator and the dashboard. The core comprehends partial views utilized for the welcome page, the consent window and the 404 error page. The configurator's view contains several modules with User Interface (UI) controls and the canvas for the sculpture. The dashboard view is composed of the dashboard view that shows the sculpture gallery and charts visualizing the user's data, and the setup form. 
+
+The attached controllers to these views provide the logic to achieve the intention of each section. Due to the specific requirements of each section in the configurator, the controllers are also organized in modules for the main page, the configurator and the dashboard. The main page controller provides the logic for starting the authentication process. The configurator controller is the most complex as it implements the logic the UI controls and the rendering of the sculpture. The configurator controller makes heavy use of the graphics service module, which manages Threejs scenes, cameras and the generation of the sculpture. Further more the configurator controller reaches to the user data service to load the data for the generation of the sculpture. The user data service contains several modules for data manipulation and transforming and provides a user object that holds all the data received from the Withings API. The user object follows a singleton pattern implementation, making a single instance of the object available throughout the application. This is specially helpful as the dashboard configurator also needs the data provided by the user object in order to visualize generate the charts and load the sculpture gallery. For the generation of charts the dashboard controller makes use of a graph service that implements a JavaScript SVG library called \textit{D3.js}\cite{bostock2015d3js}, which stands for ``Data driven documents''. The \textit{D3.js} library has gained broad popularity in web data visualization as it provides great flexibility through data-driven DOM manipulation and the use of widely supported CSS, SVG and JavaScript technologies. 
+
+The router comes next dude!
+
+
+\begin{figure}[hb!]
 \captionsetup{width=\textwidth}
 \begin{center}
-  \includegraphics[width=0.9\textwidth]{Configurator/img/flowdiagram_1}
+  \includegraphics[width=0.82\textwidth]{Configurator/img/flow_diagram_1}
   \caption{Activity Sculpture web configurator's flow diagram part 1}
-\label{fig:flowdiagram}
+\label{fig:flowdiagram1}
 \end{center}
 \end{figure}
 
-\begin{figure}[h]
+\newpage
+
+\begin{figure}[ht!]
 \captionsetup{width=\textwidth}
 \begin{center}
-  \includegraphics[width=0.86\textwidth]{Configurator/img/flowdiagram}
+  \includegraphics[width=0.82\textwidth]{Configurator/img/flow_diagram_2}
   \caption{Activity Sculpture web configurator's flow diagram part 2}
-\label{fig:flowdiagram}
+\label{fig:flowdiagram2}
 \end{center}
 \end{figure}
 
 \subsection{Configurator}
 \subsubsection{Sculpture Generation \& Rendering}
-Real time visualization
-\textbf{WebGL} \textit{Threejs}\cite{cabello2010three}
+
 
 \subsubsection{Sculpture Manipulation}
 
@@ -126,9 +159,6 @@ Authentication
 
 Querying user data
 \textbf{Withings-API}\cite{withingsApi} 
-\textit{RESTful Web services} \cite{Fielding:2000:PDM:337180.337228}
-\textbf{WebRTC}\cite{webrtc}
-\textbf{SocketIO}\cite{socketio} 
 
 
 

@@ -72,6 +72,11 @@ M.~C. Felice, J.~B. Ferreira~Filho, M.~Acher, A.~Blouin, and O.~Barais.
 \newblock {\em 17th International Software Product Line Conference co-located
   workshops}, 2013.
 
+\bibitem{fette2011websocket}
+I.~Fette and A.~Melnikov.
+\newblock The websocket protocol.
+\newblock 2011.
+
 \bibitem{Fielding:2000:PDM:337180.337228}
 R.~T. Fielding and R.~N. Taylor.
 \newblock Principled design of the modern web architecture.
@@ -89,6 +94,11 @@ U.~GmbH.
 \newblock Unu embrace urban life, 2014.
 \newblock {last accessed 20-05-2015},
   \url{https://unumotors.com/get-your-unu.html}.
+
+\bibitem{webgl}
+K.~Group.
+\newblock Webgl, opengl es 2.0 for the web, 2015.
+\newblock {last accessed 30-05-2015}, \url{https://www.khronos.org/webgl/}.
 
 \bibitem{hammer2010oauth}
 E.~Hammer-Lahav.
@@ -115,11 +125,6 @@ F.~Inc.
 F.~Inc.
 \newblock Fitbit flex wireless activity \& sleep wristband, 2015.
 \newblock {last accessed 26-05-2015}, \url{https://www.fitbit.com/de/flex}.
-
-\bibitem{webrtc}
-G.~Inc.
-\newblock Webrtc, 2014.
-\newblock {last accessed 30-05-2015}, \url{http://www.webrtc.org/}.
 
 \bibitem{angularmaterial}
 G.~Inc.
