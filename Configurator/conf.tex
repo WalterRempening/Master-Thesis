@@ -31,14 +31,94 @@ The required functionality is beyond what it would be needed for a basic working
 In the following section the used technologies to tackle the extensive list of requirements will be presented.  
 
 \subsection{Technology}
-The web configurator was developed with a modern stack of technologies that enable the use of the JavaScript language not only for frontend but also for the backend, the database and graphics programming. The MEAN stack is a collection of technologies that enables developers to write web applications in a single programming language. MEAN is the acronym for the technologies  conforming the stack: \textit{MongoDB}\cite{mongodb}, \textit{Express}\cite{express}, \textit{Angular}\cite{angular} and \textit{Node.js}\cite{joyent2015node}. The acronym was first used by Valeri Karpov, MongoDB engineer, in a blog post\cite{meanstack} where he discussed the benefits of using the same language across all technologies involved. Among the benefits Karpov states their team have experienced an increment in the performance of the developed software and also in the team's productivity.
+The web configurator was developed with a modern stack of technologies that enable the use of the JavaScript language not only for frontend but also for the backend, the database and graphics programming. The MEAN stack is a collection of technologies that enables developers to write web applications in a single programming language. MEAN is the acronym for the technologies  conforming the stack: \textit{MongoDB}\cite{mongodb}, \textit{Express}\cite{express}, \textit{AngularJS}\cite{angular} and \textit{Node.js}\cite{joyent2015node}. The acronym was first used by Valeri Karpov, MongoDB engineer, in a blog post\cite{meanstack} where he discussed the benefits of using the same language across all technologies involved. Among the benefits Karpov states their team have experienced an increment in the performance of the developed software and also in the team's productivity. In short the MEAN stack's frameworks will be introduced. 
 
- MongoDB is a document-oriented database 
+\textbf{MongoDB} is an ``open-source, document database designed for ease of development and scaling''\cite{mongodb}. Document based are conformed of collections (the equivalent of tables) which can contain several documents (rows) that  to any schema are in essence JSON Objects (JavaScript Object Notation). MongoDB does not enforce any schema to the stored data, making it a very flexible environment to work with. In MongoDB queries are performed in JavaScript providing a seamless integration of the JavaScript language, from querying the information to structuring it in JSON objects. The stored JSON objects are encoded to the BSON format which stands for Binary JSON to enhance efficiency and provide additional data types. Even though working with a schema-less database brings great flexibility, it is recommendable to bring some consistency to the MongoDB documents. For this purpose an object modeling library called \textit{mongoose}\cite{mongoose} has found broad adoption in the developer community. Mongoose provides functionality to easily model the application's data with type casting, custom query functions and other niceties. To illustrate how a mongoose schema looks like, listing \ref{list:mongoose-schema} shows an excerpt of the user schema designed for the configurator.
+
+\begin{lstlisting}[style=htmlcssjs, caption={An excerpt of the user mongoose schema},label=list:mongoose-schema]
+// load the mongoose module
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
+var userSchema = new Schema({
+  profile: {
+    name: String, //data type definition
+    gender: Number,
+    age: Number,
+    location: String
+  },
+// more fields... 
+  settings: {
+    startDate: Date,
+    endDate: Date,
+    show: Boolean
+  },
+  sculptures: {type: Array, "default": []}
+});
+\end{lstlisting} 
+
+\textbf{Node.js}\cite{joyent2015node} and \textbf{Express}\cite{express} are the frameworks used to develop the web server of the application. Node.js is backend JavaScript, based on the ``V8'' chrome JavaScript runtime providing an event-driven architecture and non-blocking i/o allowing for high performance real time applications. \textit{Node.js} is conformed of basic modules that provide network functionality but it requires the developer to build everything from the ground up. To address this issue the JavaScript library \textit{Express} was developed. Express provides a rich set of features like routing, middleware support and HTTP utilities that allow rapid development of network applications. Listing \ref{list:node-server} shows how a simple server is implemented with Node.js and Express.
+
+\begin{lstlisting}[style=htmlcssjs, caption={Basic Node.js and Express server example},label=list:node-server]
+var express = require('express');
+var app = express();
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+var server = app.listen(3000, function () {
+  var host = server.address().address;
+  var port = server.address().port;
+  console.log('Example app listening at http://%s:%s', host, port);
+});
+\end{lstlisting}
+
+\textbf{AngularJS}\cite{angular} is the fronted framework in the MEAN stack. \textit{AngularJS} is an opens-source project developed by Google for the development of Single Page Applications (SPAs) where the whole content of a web page is rendered in a single web page and the content is either completely loaded at the beginning or its injected according to user interactions. AngularJS is based on a Model-View-Whatever design pattern (MVW) that allows developers to choose the design pattern that better accommodates their coding style. Whichever design pattern is chosen, AngularJS enforces developers to structure code into modules providing a strong organization in the code base. The functionality provided by AngularJS ranges from bidirectional data-binding, routing, form validation, server communication tools and directives that allow the creation of custom HTML syntax. With frameworks like AngularJS SPA allow to take much of the server workload to the frontend. Another feature of AngularJS is its extensibility. For the purposes of this work the \textit{Angular Material}\cite{angularmaterial} was utilized to implement user interface controls and theming. The \textit{Angular Material} module is also developed by Google and it provides a solid framework for developing user interfaces utilizing the ``Material design'' philosophies. 
+
+In the following sections the utilization the benefits of developing with the MEAN stack with other technologies will be highlighted through examples of modules developed for the web configurator. 
+
+\subsection{Architecture}
 
 
- 
+\begin{figure}[h]
+\captionsetup{width=\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{Configurator/img/Architecture}
+  \caption{Activity Sculpture web configurator's architecture}
+\label{fig:architecture}
+\end{center}
+\end{figure}
 
-\textit{Angular Material}\cite{angularmaterial}
+\begin{figure}[h]
+\captionsetup{width=\textwidth}
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{Configurator/img/flowdiagram_1}
+  \caption{Activity Sculpture web configurator's flow diagram part 1}
+\label{fig:flowdiagram}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\captionsetup{width=\textwidth}
+\begin{center}
+  \includegraphics[width=0.86\textwidth]{Configurator/img/flowdiagram}
+  \caption{Activity Sculpture web configurator's flow diagram part 2}
+\label{fig:flowdiagram}
+\end{center}
+\end{figure}
+
+\subsection{Configurator}
+\subsubsection{Sculpture Generation \& Rendering}
+Real time visualization
+\textbf{WebGL} \textit{Threejs}\cite{cabello2010three}
+
+\subsubsection{Sculpture Manipulation}
+
+\label{sub:sculpturegeneration}
+\subsection{Backend}
+\subsubsection{Withings API Integration}
+\label{sub:ApiIntegration}
 
 Authentication 
 \textbf{Passport}\cite{passport} 
@@ -50,53 +130,8 @@ Querying user data
 \textbf{WebRTC}\cite{webrtc}
 \textbf{SocketIO}\cite{socketio} 
 
-Real time visualization
-\textbf{WebGL} \textit{Threejs}\cite{cabello2010three}
 
 
-\subsection{Architecture}
-
-\begin{figure}[h]
-\captionsetup{width=0.8\textwidth}
-\begin{center}
-  \includegraphics[width=0.8\textwidth]{Prototype/img/3DGraph_detail}
-  \caption{Activity Sculpture web configurator's architecture}
-\label{fig:architecture}
-\end{center}
-\end{figure}
-
-\begin{figure}[h]
-\captionsetup{width=0.8\textwidth}
-\begin{center}
-  \includegraphics[width=0.8\textwidth]{Prototype/img/3DGraph_detail}
-  \caption{Activity Sculpture web configurator's flow diagram}
-\label{fig:flowdiagram}
-\end{center}
-\end{figure}
-
-
-\subsection{Configurator}
-\subsubsection{Sculpture Manipulation}
-
-\begin{lstlisting}[style=htmlcssjs, caption={Example code},label={list:example}]
-// create some nodes
-var head = document.createElement('h1');
-var texto = document.createTextNode("HelloWorld");
-// "offline" node manipulation
-head.appendChild(texto);
-// adding node to DOM
-document.getElementsByTagName("body")[0].appendChild(head);
-if(!ganas){
-	console.log('A wevo a echarle ganas');
-}
-\end{lstlisting}
-
-
-\subsubsection{Sculpture Generation \& Rendering}
-\label{sub:sculpturegeneration}
-\subsection{Backend}
-\subsubsection{Withings API Integration}
-\label{sub:ApiIntegration}
 \subsubsection{Data Processing}
 \subsection{Challenges}
 \end{document}
