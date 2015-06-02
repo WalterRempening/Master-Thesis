@@ -144,10 +144,61 @@ In order to better illustrate how the different parts of the application interac
 \end{figure}
 
 \subsection{Configurator}
+The configurator section of the activity sculpture creator has two main tasks. The first task being offering users a set of controls for selecting the variables to be mapped into the sculpture and for customizing different aspects of the sculpture. The second task consist in generating the activity sculpture based on the parameters set by the user and rendering it. The steps involved in the execution of both of these tasks are performed by the Angular Application and the interaction of the user (see last section of figure \ref{fig:flowdiagram2}).
+
 \subsubsection{Sculpture Generation \& Rendering}
+The generation and rendering of the sculpture is contained in the graphics service module of the application. This service module is composed of 5 submodules: \textit{wcViewport}, \textit{wcScene}, \textit{wcCamera}, \textit{wcModel} and the \textit{WCVaseGeometry} class. 
+
+The \textit{wcScene} is an Angular service that exposes the Threejs scene object. In the same way the \textit{wcCamera} service contains code for configuring the camera and exposing it to the rest of the application. The \textit{wcViewport} submodule is an angular directive, a custom DOM element or attribute attached to an element that extend the element with defined functionality. In the case of the wcViewport it contains setup code for attaching the threejs renderer to the canvas element in the configurator view and it adds the camera from the \textit{wcCamera} service to the \textit{wcScene}  scene object and ultimately renders everything. The \textit{wcModel} service manages the generation of the sculpture by passing the parameters of the UI controllers to the \textit{WCVaseGeometry}, and through the \textit{wcScene} service adds the generated sculpture to the scene object which is rendered every frame. 
+
+The algorithms employed for the generation of the activity vase geometry in the \textit{WCVaseGeometry} class follow the same principles for generating a circular cylinder with equal top and bottom radii. The parameters involved are radius, height and number of height and radial segments. The first two parameters are obvious, radius defines the size of the top and bottom circles and height sets the size in the Y axis. The radial segments define the number of segments that will conform the bottom and top circles. In the same way hight segments are used to define the number of divisions for the sculptures hight. In other words radial and hight segments  With the parameters set, generating the sculpture would require calculating the position vertices of the radial segments for each hight segment. For the activity vase some enhancements where made to this simple principle. As stated in the prototyping phase of the activity sculpture \ref{sub:activtyvase} the idea is to stack radial diagram each with a set of axis representing the activity of one day. In the implementation of \textit{WCVaseGeometry} the radial segments represent the chosen data variables. Each axis will have a different value as the represent different data variables with different magnitudes and units, for example for one day the step count could be 8000 steps and heart-rate 110 bpm. To address this issue all values are normalized to a range that is then added to a ground radius. The hight segments represent the number of days visualized. The algorithm calculates for every day the vertex position of each radial segment from the chosen variables by normalizing the data values and adding that to the base radius. The \textit{WCVaseGeometry} integrates seamlessly with the Threejs. For this in the generation of the sculpture other information had to be generated in order to best integrate with Threejs like calculating vertex and face normals which are needed by some lighting techniques and for mapping textures and materials. Because of the radial diagram concept behind the sculpture does not work well for sculpture visualizing less than 3 variables, further logic had to be implemented in order to always ensure the generation of a 3D sculpture. With one variable the algorithm did not render anything at all, and with two variables the sculpture was a plane with the contours of the axes. This issue was addressed by extruding the same axis over the radius with a predefined number of radial segments. When two variables where chosen, half of the radial segments displayed one variable's values and the second half the other variable's values.  
+
+In order to provide more customization possibilities two more visualization styles where developed. The first is a simple wire-frame visualization that renders only the edges of the faces representing the sculpture. The second style softens each corner's axis by adding more radial segments between each axis, which is achieved through linear interpolation. Figure \ref{fig:sculpture styles} shows the implemented visualization styles for the activity vase. 
+
+\begin{figure}[t!]
+\centering
+\begin{minipage}{.225\textwidth}
+\centering
+\includegraphics[width=\linewidth]{Configurator/img/sculpture-1}
+\end{minipage}
+\begin{minipage}{.225\textwidth}
+\centering
+  \includegraphics[width=\linewidth]{Configurator/img/sculpture-1w}
+\end{minipage}
+\begin{minipage}{.225\textwidth}
+\centering
+  \includegraphics[width=\linewidth]{Configurator/img/sculpture-2}
+\end{minipage}
+\begin{minipage}{.225\textwidth}
+\centering
+  \includegraphics[width=\linewidth]{Configurator/img/sculpture-2w}
+\end{minipage}
+\caption{\protect Normal and interpolated styles with their wire-frame visualization}
+\label{fig:sculpture styles}
+\end{figure}
+
+For further technical details regarding the implementation of the activity vase, the complete source code for the \textit{WCVaseGeometry} class can be found in the Appendix \ref{app:source:vasegeometry} of this work.
 
 \subsubsection{Sculpture Manipulation}
 \label{sub:sculpturegeneration}
+
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{0.45\textwidth}
+\centering
+	\includegraphics[width=\linewidth]{Configurator/img/configurator-ui_1}
+	\caption{Data and material tabs active}
+	\label{fig:configui1}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\centering
+  \includegraphics[width=\linewidth]{Configurator/img/configurator-ui_2}
+  \caption{Geometry and export tabs active}
+  \label{fig:configui2}
+\end{minipage}
+\end{figure}
+
 \subsection{Backend}
 \subsubsection{Withings API Integration}
 \label{sub:ApiIntegration}
