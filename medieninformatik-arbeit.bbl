@@ -310,6 +310,12 @@ M.~Swan.
   biological discovery.
 \newblock {\em Big Data}, 1(2):85--99, 2013.
 
+\bibitem{ui-router}
+A.-U. Team.
+\newblock Angular-ui/ui-router, 2015.
+\newblock {last accessed 1-06-2015},
+  \url{https://github.com/angular-ui/ui-router}.
+
 \bibitem{unity3d:2015:Online}
 U.~Technologies.
 \newblock Unity game engine, 2015.

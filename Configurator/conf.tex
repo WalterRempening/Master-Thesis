@@ -102,7 +102,7 @@ renderer.render( scene, camera );
 In the following sections the utilization the benefits of developing with the MEAN stack with other technologies will be highlighted through examples of modules developed for the web configurator. 
 
 \subsection{Architecture}
-By using the MEAN stack to develop the web configurator certain architecture decisions are imposed. One being the use of the backend more as a RESTFul web API (Representational State Transfer) for querying data than for requesting the generation of pages. RESTful APIs define a modern architectural model over the HTTP protocol to perform service operations over a system's data\cite{Fielding:2000:PDM:337180.337228}. A great advantage of utilizing RESTful architectures is that it provides good scalability as the backend can be completely decoupled from the client implementation, meaning one backend can be used to provide data to all sorts of clients from web clients to mobile or desktop applications. The configurator's backend is composed of a web service that implements the Withings API for authentication and requesting sensor data, session handling for assuring only logged in users can access the configurator's backend, the user data API that interacts with the MongoDB database to perform CRUD (Create, Read, Update, Delete) operations on the gathered user data and WebSocket communication support. WebSocket is a protocol based on a TCP connection that provides full-duplex communication to client-server applications\cite{fette2011websocket}. The advantage of WebSockets is that it allows servers to push data to clients without being requested. The configurator makes use of WebSockets through the \textit{Socket.io}\cite{socketio} library which implements the use of WebSockets in an event-driven pattern. Third party libraries utilized in the backend are contained in Node.js modules. Figure \ref{fig:architecture} provides an overview of the modules conforming the backend and frontend sides of the configurator.  
+By using the MEAN stack to develop the web configurator certain architecture decisions are enforced. One being the use of the backend more as a RESTFul web API (Representational State Transfer) for querying data than for requesting the generation of pages. RESTful APIs define a modern architectural model over the HTTP protocol to perform service operations over a system's data\cite{Fielding:2000:PDM:337180.337228}. A great advantage of utilizing RESTful architectures is that it provides good scalability as the backend can be completely decoupled from the client implementation, meaning one backend can be used to provide data to all sorts of clients from web clients to mobile or desktop applications. The configurator's backend is composed of a web service that implements the Withings API for authentication and requesting sensor data, session handling for assuring only logged in users can access the configurator's backend, the user data API that interacts with the MongoDB database to perform CRUD (Create, Read, Update, Delete) operations on the gathered user data and WebSocket communication support. WebSocket is a protocol based on a TCP connection that provides full-duplex communication to client-server applications\cite{fette2011websocket}. The advantage of WebSockets is that it allows servers to push data to clients without being requested. The configurator makes use of WebSockets through the \textit{Socket.io}\cite{socketio} library which implements the use of WebSockets in an event-driven pattern. Third party libraries utilized in the backend are contained in Node.js modules. Figure \ref{fig:architecture} provides an overview of the modules conforming the backend and frontend sides of the configurator.  
 
 \begin{figure}[h]
 \captionsetup{width=\textwidth}
@@ -119,25 +119,26 @@ Even though views in the configurator are divided in several parts for re-usabil
 
 The attached controllers to these views provide the logic to achieve the intention of each section. Due to the specific requirements of each section in the configurator, the controllers are also organized in modules for the main page, the configurator and the dashboard. The main page controller provides the logic for starting the authentication process. The configurator controller is the most complex as it implements the logic the UI controls and the rendering of the sculpture. The configurator controller makes heavy use of the graphics service module, which manages Threejs scenes, cameras and the generation of the sculpture. Further more the configurator controller reaches to the user data service to load the data for the generation of the sculpture. The user data service contains several modules for data manipulation and transforming and provides a user object that holds all the data received from the Withings API. The user object follows a singleton pattern implementation, making a single instance of the object available throughout the application. This is specially helpful as the dashboard configurator also needs the data provided by the user object in order to visualize generate the charts and load the sculpture gallery. For the generation of charts the dashboard controller makes use of a graph service that implements a JavaScript SVG library called \textit{D3.js}\cite{bostock2015d3js}, which stands for ``Data driven documents''. The \textit{D3.js} library has gained broad popularity in web data visualization as it provides great flexibility through data-driven DOM manipulation and the use of widely supported CSS, SVG and JavaScript technologies. 
 
-The router comes next dude!
+An important part of every AngularJS application is the mapping of views and controllers to routes. In SPAs the rendering of websites is performed client side and not requested from the backend as in other architectures. In order to achieve this the application defines routes that are in essence URL addresses that represent a certain part of the application. When a route is called the application maps the address to a view with controllers presenting to the user the requested site. AngularJS provides a routing module but for this work a third party angular module called UI-Router was utilized. The UI-Router framework developed by the Angular-UI team\cite{ui-router} provides routing functionality by organizing views into a state machine, unlike AngularJS that is based on URLs. Every state can have a controller and a view with child views assigned to it, it is not strictly necessary to map a state to a URL but it can be done. Added to that states can contain nested stated states for complex routing implementations. 
 
+Other secondary functionality is implemented through the use of JavaScript libraries and angular modules. 
+
+In order to better illustrate how the different parts of the application interact with each other a flow diagram of the application can be seen in figure \ref{fig:flowdiagram1} and \ref{fig:flowdiagram2}. The flow diagram explains in a simplified way the tasks the client, the server, the Withings API and the database perform and the actions the user can perform. The diagram also offers information as of which steps are involved in each of the parts of the application going from the very start where the user starts the configurator in the browser, going over the authentication process, setting up user configurations, presenting the dashboard and finally the configuration process. In upcoming sections some of the most important steps are going to be explained more in depth.
 
 \begin{figure}[hb!]
 \captionsetup{width=\textwidth}
 \begin{center}
   \includegraphics[width=0.82\textwidth]{Configurator/img/flow_diagram_1}
-  \caption{Activity Sculpture web configurator's flow diagram part 1}
+  \caption{Flow diagram part 1}
 \label{fig:flowdiagram1}
 \end{center}
 \end{figure}
 
-\newpage
-
-\begin{figure}[ht!]
+\begin{figure}
 \captionsetup{width=\textwidth}
 \begin{center}
   \includegraphics[width=0.82\textwidth]{Configurator/img/flow_diagram_2}
-  \caption{Activity Sculpture web configurator's flow diagram part 2}
+  \caption{Flow diagram part 2}
 \label{fig:flowdiagram2}
 \end{center}
 \end{figure}
@@ -145,9 +146,7 @@ The router comes next dude!
 \subsection{Configurator}
 \subsubsection{Sculpture Generation \& Rendering}
 
-
 \subsubsection{Sculpture Manipulation}
-
 \label{sub:sculpturegeneration}
 \subsection{Backend}
 \subsubsection{Withings API Integration}
