@@ -5,4 +5,5 @@
 \contentsline {lstlisting}{\numberline {4.5}Binded controller data and the called controller function from the view}{34}{lstlisting.4.5}
 \contentsline {lstlisting}{\numberline {4.6}Sculpture update function}{35}{lstlisting.4.6}
 \contentsline {lstlisting}{\numberline {4.7}Passport OAuth authentication implementation}{36}{lstlisting.4.7}
+\contentsline {lstlisting}{\numberline {4.8}Withings API query and response example}{37}{lstlisting.4.8}
 \contentsline {lstlisting}{\numberline {B.1}WCVaseGeometry.js}{62}{lstlisting.B.1}

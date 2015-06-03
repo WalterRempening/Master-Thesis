@@ -289,17 +289,36 @@ app.get('/auth/withings/callback', passport.authenticate('withings',
 	}
 );
 \end{lstlisting}
+After this point the configurator's backend is able to request user's data through the Withings API. The Withings API provides access to all measured information about the user being it activity, body and sleep measures, which can be requested for a single date or for a date range from up to 200 days. As an example listing \ref{list:apireq} shows example code for a query for a single days activity data and the received data in a JSON object. Every Withings API request URL has to contain a series of parameters like the oauth consumer key, signature, token and others, which makes the generation of the requests quite cumbersome. To address this issue a \textit{Passport} extension module called \textbf{Withings-API}\cite{withingsApi} was used. This module abstracts the generation of request URLs to a JavaScript object making it a comfortable way of managing API calls. 
 
+\begin{lstlisting}[style=htmlcssjs, caption={Withings API query and response example},label=list:apireq,float=t]
+// Request URL
+https://wbsapi.withings.net/v2/measure?action=getactivity&userid=29&date=2015-05-15&more_parameters...
+
+// API JSON response
+{
+   "status": 0,
+   "body": {
+       "date":"2015-05-15",
+       "steps":6523,
+       "distance":4600,
+       "calories":408.52
+       "elevation":18.2,
+       "soft": 5880,
+       "moderate": 1080,
+       "intense": 540, 
+       "timezone":"Europe/Berlin"
+    }
+}
+\end{lstlisting}
 
 \subsubsection{Data Processing}
+The JSON objects in which the Withings API packs the response data integrate well with the configurator's architecture because \textit{MongoDB} works seamlessly with JSON objects allowing for direct storage of the received data. The requests performed by the configurator's backend ask always for several days worth of data and unfortunately the received JSON object contains the data not ordered by date but in semi random order. Before storing the data to the database a sorting algorithm is performed on the data and stored ordered by date. 
 
-
-
-
-
-Querying user data
-\textbf{Withings-API}\cite{withingsApi} 
-
+The configurator visualizes the activity data in the charts displayed in the dashboard section and in the activity sculpture in the configurator section. Due that the data visualization in both sections is performed by different frameworks namely D3js and Threejs respectively, each require the data in a unique format. Because the visualizations are rendered by the frontend the formatting and processing of the data is performed by the api module consisting of the \textit{wcUserData} service and a utility class for data transformations called \textit{wcDataUtils}. The \textit{wcUserData} stores a User object that contains all the activity data, stored sculptures for the user and the system settings configured by the user. For other controllers to gain access to the data, they only have to include this service and depending on the visualization to be performed the \textit{wcDataUtils} class contains formatting methods that return the data with the correct format for the needed visualization type. 
 
 \subsection{Challenges}
+
+
+
 \end{document}
