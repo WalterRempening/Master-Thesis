@@ -181,9 +181,13 @@ For further technical details regarding the implementation of the activity vase,
 
 \subsubsection{Sculpture Manipulation}
 \label{sub:sculpturegeneration}
+The customization of the sculpture is implemented in the configurator view and its controller who makes use of the graphic and api service modules. When the user calls starts the configurator for creating a sculpture the configurator view loads two panels filled with UI-controls and the \textit{wcViewport} for setting up the visualization engine. 
 
+The customization possibilities are influenced by the design and the implementation of the activity sculpture. The panels displayed by the configurator's view are placed at each side of the screen leaving the sculpture in the middle. The left panel contains two tabs which can be selected for manipulating different parameters. The first tab is the ``Data'' tab and offers an overview of the data variables categorized in activity, body and sleep. Under activity users can choose the from three levels of activity intensity duration namely intense, moderate and soft, elevation, calories burned, distance walked and step count. The body category offers heart pulse and SPO2 short for peripheral capillary oxygen saturation. The sleep category allows users to visualize the duration to sleep time, wake up count and duration, and the duration of deep and light sleep. The second tab in the left panel provides controls for manipulating the geometry of the sculpture. Through slider widgets users can manipulate the size of the base radius, the height and the days visualized. Through toggle widgets users can toggle the interpolate visualization style. If turned on the sculpture will immediately update and a slider for manipulating the number of segments will appear. For reference purposes the labels for each variable are displayed under the sculpture. The display of the labels can also be toggled on off from the geometry tab. The panel on the right has contains two tabs, one for material configurations and a second one for sculpture saving and export. The material tab allows users to change the color of the sculpture through a color picker widget. A slider for the material shininess is also provided. Lastly a toggle widget for activating the wire-frame visualization style is provided. If activated a slider for adjusting the thickness of the wire-frame lines appears. The export tab provides a summary showing the data range of the visualized data and a list of the visualized variables. Under the summary, the save and export section allows users to save the sculpture or export it to a STL file. 
 
-\begin{figure}[h]
+All user interaction is implemented through data binding from the configurator's view to the controller. Data binding provides a means for synchronizing data from the view to the model's data. When the user manipulates a slider, toggle or the color picker in the panels the data is synchronized in the controller and passed to the \textit{wcModel} service which then updates the sculpture. For selecting the variables the process more complex. When the user selects a variable button the variable's name is stored in an array that is used in the controller for extracting the data from the User object provided by the \textit{wcUserData} service. The controller adds or removes variable's data according to the actions of the user and passes it to the \textit{wcModel} in charge of updating the sculpture. Assigning a controller to the view is as simple as adding the ``ng-controller'' directive in the view and assigning the desired controller (see line 2 of listing \ref{list:ui-binding}). Once the controller is assigned the view can access controller fields and methods. Angular utilizes a double curly braces syntax for reading controller data as seen in line 9 of listing \ref{list:ui-binding} where a span element is displaying the current value of the height segments in the UI geometry parameters objects. For updating the actual value of the height segments the slider widget implemented through the \textit{angular-material} directive ``md-slider'' which contains the ng-model angular directive that is used to update the controller's field as seen line 11 of the same listing. 
+
+\begin{figure}[t]
 \centering
 \begin{minipage}{0.45\textwidth}
 \centering
@@ -199,19 +203,103 @@ For further technical details regarding the implementation of the activity vase,
 \end{minipage}
 \end{figure}
 
+
+\begin{lstlisting}[style=htmlcssjs, caption={Example of bidirectional data binding in AngularJS},label=list:ui-binding]
+<!-- controller-view.html -->
+<div ng-controller="PanelController as pctrl">
+	<!-- ... -->
+	<div flex="10" layout="row" layout-align="space-around center">
+    	<span class="slider-name">Date Range</span>
+		<span class="slider-value">{{ pctrl.uiGeoParams.heightSegments }} days</span>
+  </div>
+	<md-slider flex
+		min="{{ pctrl.sliderParams.heightSegments.min }}"
+		max="{{ pctrl.sliderParams.heightSegments.max }}"
+		ng-model='pctrl.uiGeoParams.heightSegments'
+		ng-change="pctrl.onUiParamsChange()" >
+	</md-slider>
+	<!-- ... -->
+</div>
+\end{lstlisting}
+
+For updating the sculpture every time the user changes a parameter all widgets call the ``onUiParamsChange()'' method through the ng-change angular directive in line 12 of listing \ref{list:ui-binding}, which listens for input events. Listing \ref{list:ui-binding-ctrl} shows an excerpt of the controller's code where the slider parameter object is defined and the ``onUiParamsChange()'' method is called. This code example shows how easily is to bind controller's data into the view, not only for displaying or synchronization purposes but the controller's fields can also be used to set constrains and other attributes for UI-controls. The PanelCotnroller's code in listing \ref{list:ui-binding-ctrl} also exemplifies how other services can be injected to the controller. On lines 2 through 4 the controller injects the \textit{ModelService} from the \textit{wcModel} module. On line 15 the controller calls the ``updateMesh'' method from the \textit{ModelService}. 
+
+\begin{lstlisting}[style=htmlcssjs, caption={Binded controller data and the called controller function from the view},label=list:ui-binding-ctrl]
+// PanelController.js
+var controlls = angular.module( 'wcControlls', [] );
+controlls.controller( 'PanelController', 
+	['ModelService', function ( ModelService ) {
+	// Configuration object 
+	this.sliderParams = {
+	    heightSegments: {
+	    	min: 1,
+	        max: $scope.data.values.length - 1
+	    },    
+	// definition of more fields...        	
+	}
+    
+	this.onUiParamsChange = function () {
+		ModelService.updateMesh( this.uiGeoParams, this.uiMatParams );
+	};
+}]);	
+\end{lstlisting}
+
+The implementation of the ``updateMesh()'' method is described in listing \ref{list:ui-binding-service}. The ``updateMesh()'' method requires two objects containing geometry and material parameters which are then passed to the \textit{WCVaseGeometry} class in the ``makeSculpture()'' method on line 11 for updating the sculpture. This is achieved by looking in the \textit{SceneService} for the old sculpture removing it, creating a new one and adding it to the scene object again (see lines 7 through 12). The \textit{ModelService} exemplifies how Angular encourages strong concern separation through the use of services and modules that can be injected to controllers and services across the whole application taking advantage of reusing code as much as possible. 
+
+\begin{lstlisting}[style=htmlcssjs, caption={Sculpture update function},label=list:ui-binding-service]
+// wcModel.js
+var model = angular.module( 'wcModel', [] )
+model.service( 'ModelService',
+	['SceneService', function ( SceneService ) {
+
+	this.updateMesh = function ( geoArgs, matArgs ) {
+	    var oldSculpture = SceneService.scene.getObjectByName( 'vase' );
+	    if ( oldSculpture !== undefined ) {
+	    	SceneService.scene.remove( oldSculpture );
+	    }
+	    sculpture = makeSculpture( geoArgs, matArgs );
+	    SceneService.scene.add( sculpture );
+	};
+}]);
+\end{lstlisting}
+
+The configurator is an example of how the use of SPA frameworks like AngularJS are a suitable option for the implementation of highly interactive web applications that integrate well with other libraries like Threejs or D3js. As a side note, due to space constraints and the high complexity of the code base, the source code showed in this chapter was simplified for explanation purposes. For the full source code refer to the appendix \ref{app:source:repository}. 
+
 \subsection{Backend}
+The backend of the activity sculpture configurator serves as a web service from which the configurator's front end queries user data that is processed by the web server through the Withings API and some data manipulation modules. The following section attempts to explain how the Withings API integrates with other parts of the web server and the subsequently data manipulation tasks performed. 
+
 \subsubsection{Withings API Integration}
 \label{sub:ApiIntegration}
+The Withings API is used to complete to tasks: user authentication and data import. In order to have access to user's data from third party applications as the configurator, users have to give these applications their approval. The Withings API implements authentication through the \textit{OAuth} 1.0 protocol. \textit{OAuth} is an open standard that provides a process for authorization of third-party applications to server resources or for clients to access server resources using credentials of other web services\cite{hammer2010oauth}. \textit{OAuth} is commonly used in web services where users may login in using their twitter, facebook or google account. The process of authentication is performed through several HTTP calls. The Withings API requires third party developers to create a developer account and register the application. Every application is assigned an API key and secret. These keys are needed for the \textit{OAuth} process as they are have to be present in every HTTP call. The authentication process involves 3 steps. For the Withings API developers first request an end-user token, a successful response from the API provides an oauth token and oauth token secret. With the received tokens developers redirect users to web site where they can login with their credentials and authorize the third-party application the use of their data. If the authorization was granted the developer receives an oauth token and the user id. The final step consists in requesting a user data access token which once received allows third party applications to access data for the specified user. 
 
-Authentication 
-\textbf{Passport}\cite{passport} 
-\textbf{OAuth} \cite{hammer2010oauth}
+In order to simplify the process of generation the URLs for the HTTP calls in the \textit{OAuth} authentication process the web configurator makes use of the \textit{Passport}\cite{passport} framework which supports different authentication methods and also provides session handling. Being also written in JavaScript the framework integrates seamlessly with the backend's Node.js and Express architecture. Through the use of the \textit{Passport} frame work the whole \textit{OAuth} authentication process is reduced to only to two API calls (see listing \ref{list:auth}). The first API call (lines 2 through 5) defines the address the client calls when login in to the configurator. \textit{Passport} uses preconfigured API Keys from and Withings developers account and starts the token interchange process. After clicking the login button the user will be redirected to a Withings website where his credentials are required. After he has granted permission to the configurator to access his data he will be redirected to a predefined callback URL address which is the configruator's webserver's second API call (lines 7 through 13 of listing) that will store the received user data access tokens in a cookie and redirects the user to the Angular frontend. 
+
+\begin{lstlisting}[style=htmlcssjs, caption={Passport OAuth authentication implementation},label=list:auth]
+// routes.js
+app.get('/auth/withings', passport.authenticate('withings'),
+    function(req, res, next) {
+      console.log("Withings OAuth flow started");
+});
+
+app.get('/auth/withings/callback', passport.authenticate('withings',
+	{failureRedirect: '/' }),
+	function(req, res, next) {
+	  res.cookie('user', JSON.stringify(req.user), {maxAge: 2592000000});
+	  res.redirect('/#/user/' + req.user.id);
+	}
+);
+\end{lstlisting}
+
+
+\subsubsection{Data Processing}
+
+
+
+
 
 Querying user data
 \textbf{Withings-API}\cite{withingsApi} 
 
 
-
-\subsubsection{Data Processing}
 \subsection{Challenges}
 \end{document}
