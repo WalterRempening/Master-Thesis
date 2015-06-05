@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{googleforms}
+Google formulare, author={Google Inc.}, year={2015}, note = {{last accessed
+  4-06-2015}, \url{https://www.google.com/forms/about/} }.
+
 \bibitem{cylcing2015maxsmp}
 C.~'74'.
 \newblock Cylcing '74: makers of max', 2015.
@@ -54,6 +58,20 @@ D.~Coulter.
 \newblock {last accessed 27-05-2015},
   \url{http://www.dylancoulter.com/Multiple-Exposure/28}.
 
+\bibitem{qfselfforum}
+W.~R. Diaz.
+\newblock Quantified self forum activity sculpture visualization software,
+  2015.
+\newblock {last accessed 4-06-2015},
+  \url{https://forum.quantifiedself.com/thread-activity-sculpture-visualization-software}.
+
+\bibitem{redditwithings}
+W.~R. Diaz.
+\newblock Withings subreddit i wrote an activity visualizer for the withings
+  api, 2015.
+\newblock {last accessed 4-06-2015},
+  \url{http://www.reddit.com/r/withings/comments/35q0tl/i_wrote_an_activity_visualizer_for_the_withings/}.
+
 \bibitem{fdis20069241}
 I.~FDIS.
 \newblock 9241-110: 2006. ergonomics of human system interaction-part 110:
@@ -82,6 +100,11 @@ R.~T. Fielding and R.~N. Taylor.
 \newblock Principled design of the modern web architecture.
 \newblock In {\em Proceedings of the 22Nd International Conference on Software
   Engineering}, ICSE '00, pages 407--416, New York, NY, USA, 2000. ACM.
+
+\bibitem{qfselfmeetup}
+R.~K.~h. Florian~Schumacher.
+\newblock The munich quantified self meetup group (münchen) - meetup, 2015.
+\newblock {last accessed 4-06-2015}, \url{http://www.meetup.com/QS-Munich/}.
 
 \bibitem{gantz2012digital}
 J.~Gantz and D.~Reinsel.
@@ -171,6 +194,11 @@ N.~S. Inc.
 \newblock Nervous system, 2015.
 \newblock {last accessed 27-05-2015}, \url{http://n-e-r-v-o-u-s.com/}.
 
+\bibitem{inspectlet}
+Inspectlet.
+\newblock Crazy egg- visualize where your visitors click, 2015.
+\newblock {last accessed 3-06-2015}, \url{https://www.crazyegg.com/pricing}.
+
 \bibitem{jansen2013evaluating}
 Y.~Jansen, P.~Dragicevic, and J.-D. Fekete.
 \newblock Evaluating the efficiency of physical visualizations.
@@ -208,6 +236,23 @@ R.~Konstanzer, D.~Koenig, and I.~Andrei.
 LearnBoost.
 \newblock Mongoose, 2015.
 \newblock {last accessed 30-05-2015}, \url{http://mongoosejs.com/}.
+
+\bibitem{lewis1982using}
+C.~Lewis.
+\newblock {\em Using the" thinking-aloud" method in cognitive interface
+  design}.
+\newblock IBM TJ Watson Research Center, 1982.
+
+\bibitem{lewis1993task}
+C.~Lewis and J.~Rieman.
+\newblock Task-centered user interface design.
+\newblock {\em A Practical Introductio}, 1993.
+
+\bibitem{hotjar}
+H.~Ltd.
+\newblock Hotjar - heatmaps, visitor recordings, conversion funnels, form
+  analytics, feedback polls and proactive chat in one platform, 2015.
+\newblock {last accessed 3-06-2015}, \url{https://www.hotjar.com/}.
 
 \bibitem{mrmaria2015studio}
 M.~Maria.
@@ -256,6 +301,12 @@ C.~K. Ogden, I.~A. Richards, B.~Malinowski, and F.~G. Crookshank.
 J.~Olsen.
 \newblock Realtime procedural terrain generation.
 \newblock 2004.
+
+\bibitem{peterson2004web}
+E.~T. Peterson.
+\newblock {\em Web analytics demystified: a marketer's guide to understanding
+  how your web site affects your business}.
+\newblock Ingram, 2004.
 
 \bibitem{piller2006user}
 F.~T. Piller.

@@ -87,50 +87,72 @@ Warning--entry type for "mongoose" isn't style-file defined
 --line 612 of file ma-thesis.bib
 Warning--entry type for "ui-router" isn't style-file defined
 --line 621 of file ma-thesis.bib
+Warning--entry type for "inspectlet" isn't style-file defined
+--line 648 of file ma-thesis.bib
+Repeated entry---line 657 of file ma-thesis.bib
+ : @online{inspectlet
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "hotjar" isn't style-file defined
+--line 666 of file ma-thesis.bib
+Warning--entry type for "qfselfforum" isn't style-file defined
+--line 675 of file ma-thesis.bib
+Warning--entry type for "qfselfmeetup" isn't style-file defined
+--line 684 of file ma-thesis.bib
+Warning--entry type for "redditwithings" isn't style-file defined
+--line 693 of file ma-thesis.bib
+Warning--entry type for "googleforms" isn't style-file defined
+--line 702 of file ma-thesis.bib
+I was expecting a `,' or a `}'---line 711 of file ma-thesis.bib
+ : 
+ : @book{lewis1982using,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in googleforms
 Warning--empty booktitle in abbasi2012s
 Warning--empty journal in fette2011websocket
 Warning--empty journal in hammer2010oauth
 Warning--empty note in Konstanzer20078609220
 Warning--empty journal in olsen2004realtime
-You've used 70 entries,
+You've used 79 entries,
             2118 wiz_defined-function locations,
-            828 strings with 14279 characters,
-and the built_in function-call counts, 18324 in all, are:
-= -- 1754
-> -- 751
+            863 strings with 15715 characters,
+and the built_in function-call counts, 20174 in all, are:
+= -- 1922
+> -- 814
 < -- 9
-+ -- 316
-- -- 236
-* -- 854
-:= -- 3009
-add.period$ -- 218
-call.type$ -- 70
-change.case$ -- 322
++ -- 344
+- -- 254
+* -- 917
+:= -- 3314
+add.period$ -- 243
+call.type$ -- 79
+change.case$ -- 356
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 706
-empty$ -- 1671
-format.name$ -- 236
-if$ -- 3960
+cite$ -- 85
+duplicate$ -- 782
+empty$ -- 1865
+format.name$ -- 254
+if$ -- 4362
 int.to.chr$ -- 0
-int.to.str$ -- 70
-missing$ -- 32
-newline$ -- 353
-num.names$ -- 141
-pop$ -- 579
+int.to.str$ -- 79
+missing$ -- 37
+newline$ -- 396
+num.names$ -- 157
+pop$ -- 653
 preamble$ -- 1
-purify$ -- 258
+purify$ -- 285
 quote$ -- 0
-skip$ -- 589
+skip$ -- 654
 stack$ -- 0
-substring$ -- 711
-swap$ -- 153
+substring$ -- 757
+swap$ -- 162
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 268
-warning$ -- 5
-while$ -- 173
-width$ -- 72
-write$ -- 723
-(There were 47 warnings)
+type$ -- 300
+warning$ -- 6
+while$ -- 189
+width$ -- 81
+write$ -- 808
+(There were 2 error messages)
