@@ -42,27 +42,26 @@
 \contentsline {section}{\numberline {5}User Study}{39}{section.5}
 \contentsline {subsection}{\numberline {5.1}Study Design}{39}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Questionnaire}{40}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Participants}{40}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Procedure}{40}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Results}{41}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Limitations}{41}{subsection.5.6}
-\contentsline {section}{\numberline {6}Conclusion}{42}{section.6}
-\contentsline {section}{\numberline {7}Future Work}{43}{section.7}
-\contentsline {section}{Appendix}{53}{section*.41}
-\contentsline {section}{\numberline {A}Prototype Sketches}{53}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Sculpture Prototypes}{53}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Web Configurator Prototypes}{59}{subsection.A.2}
-\contentsline {section}{\numberline {B}Source Code}{68}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Source Code Repositories}{68}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Activity Vase Sculpture Generation Code}{68}{subsection.B.2}
-\contentsline {section}{\numberline {C}User Study \& Questionnaire}{73}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}Consent}{73}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}Questionnaire}{75}{subsection.C.2}
-\contentsline {subsection}{\numberline {C.3}Questionnaire Results}{81}{subsection.C.3}
-\contentsline {subsection}{\numberline {C.4}User Study Results}{96}{subsection.C.4}
-\contentsline {subsection}{\numberline {C.5}Heat Map Images}{97}{subsection.C.5}
-\contentsline {section}{Contents of the enclosed CD}{99}{figure.caption.59}
-\contentsline {paragraph}{Thesis}{99}{section*.61}
-\contentsline {paragraph}{Activity Sculpture Web Configurator}{99}{section*.62}
-\contentsline {paragraph}{Sculptures}{99}{section*.63}
-\contentsline {paragraph}{User Study}{99}{section*.64}
+\contentsline {subsection}{\numberline {5.3}Participants \& Procedure}{40}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Results}{41}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Limitations}{43}{subsection.5.5}
+\contentsline {section}{\numberline {6}Conclusion}{45}{section.6}
+\contentsline {section}{\numberline {7}Future Work}{46}{section.7}
+\contentsline {section}{Appendix}{55}{section*.42}
+\contentsline {section}{\numberline {A}Prototype Sketches}{55}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Sculpture Prototypes}{55}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Web Configurator Prototypes}{61}{subsection.A.2}
+\contentsline {section}{\numberline {B}Source Code}{70}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Source Code Repositories}{70}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Activity Vase Sculpture Generation Code}{70}{subsection.B.2}
+\contentsline {section}{\numberline {C}User Study \& Questionnaire}{75}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Consent}{75}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}Questionnaire}{77}{subsection.C.2}
+\contentsline {subsection}{\numberline {C.3}Questionnaire Results}{83}{subsection.C.3}
+\contentsline {subsection}{\numberline {C.4}User Study Results}{98}{subsection.C.4}
+\contentsline {subsection}{\numberline {C.5}Heat Map Images}{99}{subsection.C.5}
+\contentsline {section}{Contents of the enclosed CD}{101}{figure.caption.60}
+\contentsline {paragraph}{Thesis}{101}{section*.62}
+\contentsline {paragraph}{Activity Sculpture Web Configurator}{101}{section*.63}
+\contentsline {paragraph}{Sculptures}{101}{section*.64}
+\contentsline {paragraph}{User Study}{101}{section*.65}
