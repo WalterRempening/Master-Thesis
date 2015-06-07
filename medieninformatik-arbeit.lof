@@ -2,31 +2,31 @@
 \select@language {english}
 \select@language {ngerman}
 \select@language {english}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces UNU electric scooter web configurator\cite {unu:2015:Online}\relax }}{4}{figure.caption.9}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Timbuk2 bag web configurator\cite {timbuk2:2015:Online}\relax }}{4}{figure.caption.9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Groupe Maine's gates configurator\cite {rolland2012commerce} \relax }}{5}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The MakerVis fabrication tool\cite {swaminathan2014supporting} \relax }}{6}{figure.caption.11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Twikit powered 3D Trophy Factory web configurator\cite {trophy2015factory}\relax }}{7}{figure.caption.12}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Twikit powered MrMaria Studio lamp web configurator\cite {mrmaria2015studio}\relax }}{7}{figure.caption.12}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces SweatAtmos activity sculptures\cite {khot2014understanding}\relax }}{9}{figure.caption.13}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Mental Fabrication's brain activity landscapes\cite {mental2014fabrications}\relax }}{10}{figure.caption.14}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Fitness Tracker Wristbands. From left to right: Nike+ Fuel Band SE\cite {nikePlusFuelBand}, Misfit Shine\cite {misfitShine}, Jawbone UP 3\cite {jawboneUpProduct}, Fitbit Flex\cite {fitbitProduct} and the Withings Pulse Ox\cite {withingsProduct}\relax }}{12}{figure.caption.20}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Athlete's movements captured in a multiple exposure image\cite {multiexposure}\relax }}{15}{figure.caption.22}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D Graph sketch\relax }}{15}{figure.caption.23}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Procedurally generated landscape \cite {olsen2004realtime}\relax }}{16}{figure.caption.24}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Activity Landscape sketch\relax }}{16}{figure.caption.24}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Activity Flora sketch\relax }}{17}{figure.caption.25}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sculptures made with generative algorithms based on hyphae growth as seen on leave and coral structures\cite {nervousHyphae}\relax }}{18}{figure.caption.26}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Fhaz: Procedurally generated vase based on facial profiles\cite {fahz}\relax }}{19}{figure.caption.27}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Activity Vase sketch\relax }}{19}{figure.caption.27}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Sketch of the step based configurator prototype\relax }}{22}{figure.caption.29}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 3D modeling software Cinema 4D graphical user interface\cite {cinema4d}\relax }}{22}{figure.caption.30}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Sketch of 3D modeling software inspired configurator prototype\relax }}{22}{figure.caption.30}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Sketch of a simplified panel-free configurator prototype\relax }}{23}{figure.caption.31}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Activity Sculpture web configurator's architecture\relax }}{29}{figure.caption.33}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Flow diagram part 1\relax }}{30}{figure.caption.34}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Flow diagram part 2\relax }}{31}{figure.caption.35}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Normal and interpolated styles with their wire-frame visualization\relax }}{33}{figure.caption.36}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Data and material tabs active\relax }}{34}{figure.caption.37}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Geometry and export tabs active\relax }}{34}{figure.caption.37}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Inspelect analytics generated click heatmap\relax }}{43}{figure.caption.39}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces UNU electric scooter web configurator \cite {unu:2015:Online}\relax }}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Timbuk2 bag web configurator \cite {timbuk2:2015:Online}\relax }}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Groupe Maine's gates configurator \cite {rolland2012commerce} \relax }}{5}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The MakerVis fabrication tool \cite {swaminathan2014supporting} \relax }}{6}{figure.caption.11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Twikit powered 3D Trophy Factory web configurator \cite {trophy2015factory}\relax }}{7}{figure.caption.12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Twikit powered MrMaria Studio lamp web configurator \cite {mrmaria2015studio}\relax }}{7}{figure.caption.12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces SweatAtmos activity sculptures \cite {khot2014understanding}\relax }}{9}{figure.caption.13}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Mental Fabrication's brain activity landscapes \cite {mental2014fabrications}\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Fitness Tracker Wristbands. From left to right: Nike+ Fuel Band SE \cite {nikePlusFuelBand}, Misfit Shine \cite {misfitShine}, Jawbone UP 3 \cite {jawboneUpProduct}, Fitbit Flex \cite {fitbitProduct} and the Withings Pulse Ox \cite {withingsProduct}\relax }}{12}{figure.caption.20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Athlete's movements captured in a multiple exposure image\cite {multiexposure}\relax }}{16}{figure.caption.22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D Graph sketch\relax }}{16}{figure.caption.23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Procedurally generated landscape \cite {olsen2004realtime}\relax }}{17}{figure.caption.24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Activity Landscape sketch\relax }}{17}{figure.caption.24}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Activity Flora sketch\relax }}{18}{figure.caption.25}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sculptures made with generative algorithms based on hyphae growth as seen on leave and coral structures\cite {nervousHyphae}\relax }}{19}{figure.caption.26}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Fhaz: Procedurally generated vase based on facial profiles\cite {fahz}\relax }}{20}{figure.caption.27}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Activity Vase sketch\relax }}{20}{figure.caption.27}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sketch of the step based configurator prototype\relax }}{23}{figure.caption.29}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 3D modeling software Cinema 4D graphical user interface\cite {cinema4d}\relax }}{23}{figure.caption.30}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sketch of 3D modeling software inspired configurator prototype\relax }}{23}{figure.caption.30}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sketch of a simplified panel-free configurator prototype\relax }}{24}{figure.caption.31}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Activity Sculpture web configurator's architecture\relax }}{30}{figure.caption.33}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Flow diagram part 1\relax }}{31}{figure.caption.34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Flow diagram part 2\relax }}{32}{figure.caption.35}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Normal and interpolated styles with their wire-frame visualization\relax }}{34}{figure.caption.36}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Data and material tabs active\relax }}{35}{figure.caption.37}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Geometry and export tabs active\relax }}{35}{figure.caption.37}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Inspelect analytics generated click heatmap\relax }}{44}{figure.caption.39}

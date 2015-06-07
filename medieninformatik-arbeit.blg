@@ -114,45 +114,46 @@ Warning--empty journal in fette2011websocket
 Warning--empty journal in hammer2010oauth
 Warning--empty note in Konstanzer20078609220
 Warning--empty journal in olsen2004realtime
-You've used 79 entries,
+Warning--empty journal in stusak2014activity
+You've used 80 entries,
             2118 wiz_defined-function locations,
-            863 strings with 15715 characters,
-and the built_in function-call counts, 20174 in all, are:
-= -- 1922
-> -- 814
+            866 strings with 15910 characters,
+and the built_in function-call counts, 20506 in all, are:
+= -- 1950
+> -- 842
 < -- 9
-+ -- 344
-- -- 254
-* -- 917
-:= -- 3314
-add.period$ -- 243
-call.type$ -- 79
-change.case$ -- 356
++ -- 355
+- -- 264
+* -- 942
+:= -- 3376
+add.period$ -- 246
+call.type$ -- 80
+change.case$ -- 364
 chr.to.int$ -- 0
-cite$ -- 85
-duplicate$ -- 782
-empty$ -- 1865
-format.name$ -- 254
-if$ -- 4362
+cite$ -- 87
+duplicate$ -- 792
+empty$ -- 1882
+format.name$ -- 264
+if$ -- 4424
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 37
-newline$ -- 396
-num.names$ -- 157
-pop$ -- 653
+int.to.str$ -- 80
+missing$ -- 38
+newline$ -- 401
+num.names$ -- 159
+pop$ -- 663
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 292
 quote$ -- 0
-skip$ -- 654
+skip$ -- 661
 stack$ -- 0
-substring$ -- 757
+substring$ -- 762
 swap$ -- 162
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 300
-warning$ -- 6
-while$ -- 189
-width$ -- 81
-write$ -- 808
+type$ -- 304
+warning$ -- 7
+while$ -- 191
+width$ -- 82
+write$ -- 817
 (There were 2 error messages)
