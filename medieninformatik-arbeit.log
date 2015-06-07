@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  7 JUN 2015 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  7 JUN 2015 13:14
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -647,14 +647,14 @@ File: Prototype/img/ActivityFlora_detail.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Prototype/img/ActivityFlora_detail.jpeg used on input 
 line 89.
 (pdftex.def)             Requested size: 256.0774pt x 165.95642pt.
-<Prototype/img/nervous.png, id=643, 631.86885pt x 315.93443pt>
+[18 </Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/ActivityFlora_deta
+il.jpeg>] <Prototype/img/nervous.png, id=650, 631.86885pt x 315.93443pt>
 File: Prototype/img/nervous.png Graphic file (type png)
 <use Prototype/img/nervous.png>
 Package pdftex.def Info: Prototype/img/nervous.png used on input line 100.
 (pdftex.def)             Requested size: 298.75262pt x 149.38104pt.
-[18 </Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/ActivityFlora_deta
-il.jpeg>] [19 </Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/nervous.
-png>] <Prototype/img/fhaz.png, id=664, 686.565pt x 512.91624pt>
+[19 </Users/wrd/Documents/Master Thesis/Thesis/Prototype/img/nervous.png>] <Pro
+totype/img/fhaz.png, id=664, 686.565pt x 512.91624pt>
 File: Prototype/img/fhaz.png Graphic file (type png)
 <use Prototype/img/fhaz.png>
 Package pdftex.def Info: Prototype/img/fhaz.png used on input line 125.
@@ -1752,7 +1752,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 414.
 Here is how much of TeX's memory you used:
  12265 strings out of 493117
  191072 string characters out of 6135432
- 482073 words of memory out of 5000000
+ 482078 words of memory out of 5000000
  14739 multiletter control sequences out of 15000+600000
  45921 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1767,7 +1767,7 @@ ive/2014/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
 Output written on "/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-a
-rbeit.pdf" (115 pages, 15214591 bytes).
+rbeit.pdf" (115 pages, 15214753 bytes).
 PDF statistics:
  2879 PDF objects out of 2984 (max. 8388607)
  2215 compressed objects within 23 object streams
