@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  7 JUN 2015 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.10)  8 JUN 2015 00:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -544,13 +544,13 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 edWork/img/unu-config.png, id=401, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/unu-config.png Graphic file (type png)
 <use RelatedWork/img/unu-config.png>
-Package pdftex.def Info: RelatedWork/img/unu-config.png used on input line 39.
+Package pdftex.def Info: RelatedWork/img/unu-config.png used on input line 36.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
 <RelatedWork/img/timbuk2-config.png, id=405, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/timbuk2-config.png Graphic file (type png)
 <use RelatedWork/img/timbuk2-config.png>
 Package pdftex.def Info: RelatedWork/img/timbuk2-config.png used on input line 
-45.
+42.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
 [4
 
@@ -559,27 +559,27 @@ sers/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/timbuk2-config.png>] <R
 elatedWork/img/gates-config.png, id=426, 842.14626pt x 492.84125pt>
 File: RelatedWork/img/gates-config.png Graphic file (type png)
 <use RelatedWork/img/gates-config.png>
-Package pdftex.def Info: RelatedWork/img/gates-config.png used on input line 67
+Package pdftex.def Info: RelatedWork/img/gates-config.png used on input line 64
 .
 (pdftex.def)             Requested size: 256.0774pt x 149.86139pt.
 [5 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/gates-config.png>
 ] <RelatedWork/img/MakerVis.png, id=443, 967.615pt x 580.1675pt>
 File: RelatedWork/img/MakerVis.png Graphic file (type png)
 <use RelatedWork/img/MakerVis.png>
-Package pdftex.def Info: RelatedWork/img/MakerVis.png used on input line 84.
+Package pdftex.def Info: RelatedWork/img/MakerVis.png used on input line 81.
 (pdftex.def)             Requested size: 298.75262pt x 179.12415pt.
 [6 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/MakerVis.png>] <R
 elatedWork/img/trophy-config.png, id=461, 1441.385pt x 808.01875pt>
 File: RelatedWork/img/trophy-config.png Graphic file (type png)
 <use RelatedWork/img/trophy-config.png>
 Package pdftex.def Info: RelatedWork/img/trophy-config.png used on input line 1
-05.
+02.
 (pdftex.def)             Requested size: 192.0548pt x 107.65994pt.
 <RelatedWork/img/mrmaria-config.png, id=464, 1440.38126pt x 808.01875pt>
 File: RelatedWork/img/mrmaria-config.png Graphic file (type png)
 <use RelatedWork/img/mrmaria-config.png>
 Package pdftex.def Info: RelatedWork/img/mrmaria-config.png used on input line 
-111.
+108.
 (pdftex.def)             Requested size: 192.0548pt x 107.73392pt.
 [7 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/trophy-config.png
 > </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mrmaria-config.png
@@ -587,27 +587,27 @@ Package pdftex.def Info: RelatedWork/img/mrmaria-config.png used on input line
 File: RelatedWork/img/sweatatoms-as.png Graphic file (type png)
 <use RelatedWork/img/sweatatoms-as.png>
 Package pdftex.def Info: RelatedWork/img/sweatatoms-as.png used on input line 1
-35.
+32.
 (pdftex.def)             Requested size: 298.75262pt x 200.41331pt.
 [8] [9 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/sweatatoms-as
 .png>] <RelatedWork/img/mentalfab1-as.png, id=512, 605.26125pt x 666.49pt>
 File: RelatedWork/img/mentalfab1-as.png Graphic file (type png)
 <use RelatedWork/img/mentalfab1-as.png>
 Package pdftex.def Info: RelatedWork/img/mentalfab1-as.png used on input line 1
-60.
+57.
 (pdftex.def)             Requested size: 192.0548pt x 143.76942pt.
 <RelatedWork/img/mentalfab-as.png, id=514, 643.40375pt x 481.8pt>
 File: RelatedWork/img/mentalfab-as.png Graphic file (type png)
 <use RelatedWork/img/mentalfab-as.png>
 Package pdftex.def Info: RelatedWork/img/mentalfab-as.png used on input line 16
-4.
+1.
 (pdftex.def)             Requested size: 192.0548pt x 143.8133pt.
 [10 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab1-as.pn
 g> </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/mentalfab-as.png>
 ] [11] <RelatedWork/img/bracelets.jpg, id=558, 1003.75pt x 401.5pt>
 File: RelatedWork/img/bracelets.jpg Graphic file (type jpg)
 <use RelatedWork/img/bracelets.jpg>
-Package pdftex.def Info: RelatedWork/img/bracelets.jpg used on input line 191.
+Package pdftex.def Info: RelatedWork/img/bracelets.jpg used on input line 188.
 (pdftex.def)             Requested size: 384.10959pt x 153.64369pt.
 [12 </Users/wrd/Documents/Master Thesis/Thesis/RelatedWork/img/bracelets.jpg>])
 [13] (/Users/wrd/Documents/Master Thesis/Thesis/Prototype/proto.tex [14
@@ -860,23 +860,21 @@ Package pdftex.def Info: Appendix/questionnaire/click_heatmap.jpg used on input
 (pdftex.def)             Requested size: 298.75262pt x 197.7747pt.
 [44 </Users/wrd/Documents/Master Thesis/Thesis/Appendix/questionnaire/click_hea
 tmap.jpg>]) [45] (/Users/wrd/Documents/Master Thesis/Thesis/Conclusion/content.
-tex) [46
+tex [46
 
-] (/Users/wrd/Documents/Master Thesis/Thesis/FutureWork/content.tex) [47
+]) [47] (/Users/wrd/Documents/Master Thesis/Thesis/FutureWork/content.tex) [48
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lof)
 \tf@lof=\write5
 \openout5 = `medieninformatik-arbeit.lof'.
 
-[48
+[49
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.lol)
 \tf@lol=\write6
 \openout6 = `medieninformatik-arbeit.lol'.
 
-[49
-
-] [50
+[50
 
 ] (/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-arbeit.bbl
 Underfull \hbox (badness 3815) in paragraph at lines 29--33
@@ -896,7 +894,9 @@ Underfull \hbox (badness 6559) in paragraph at lines 62--67
 5 https : / / forum . quantifiedself . com /
  []
 
-[51]
+[51
+
+]
 Underfull \hbox (badness 1215) in paragraph at lines 153--157
 []\T1/ptm/m/n/10.95 G. Inc.  An-gu-lar ma-te-rial, 2015.  last ac-cessed 30-05-
 2015, [][]$\T1/cmtt/m/n/10.95 https : / / material .
@@ -1756,7 +1756,7 @@ Here is how much of TeX's memory you used:
  14739 multiletter control sequences out of 15000+600000
  45921 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,20n,68p,3359b,2106s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,20n,68p,3341b,2106s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
 /usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
@@ -1767,7 +1767,7 @@ ive/2014/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
 Output written on "/Users/wrd/Documents/Master Thesis/Thesis/medieninformatik-a
-rbeit.pdf" (115 pages, 15214753 bytes).
+rbeit.pdf" (115 pages, 15215394 bytes).
 PDF statistics:
  2879 PDF objects out of 2984 (max. 8388607)
  2215 compressed objects within 23 object streams
