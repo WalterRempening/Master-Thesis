@@ -1,5 +1,5 @@
 \contentsline {lstlisting}{\numberline {4.1}An excerpt of the user mongoose schema}{27}{lstlisting.4.1}
-\contentsline {lstlisting}{\numberline {4.2}Basic Node.js and Express server example}{28}{lstlisting.4.2}
+\contentsline {lstlisting}{\numberline {4.2}Basic \textit {Node.js} and \textit {Express} server example}{28}{lstlisting.4.2}
 \contentsline {lstlisting}{\numberline {4.3}Basic Threejs 3D app example}{29}{lstlisting.4.3}
 \contentsline {lstlisting}{\numberline {4.4}Example of bidirectional data binding in AngularJS}{35}{lstlisting.4.4}
 \contentsline {lstlisting}{\numberline {4.5}Binded controller data and the called controller function from the view}{35}{lstlisting.4.5}
